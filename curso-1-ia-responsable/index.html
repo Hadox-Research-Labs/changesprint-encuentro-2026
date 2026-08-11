@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA responsable en lo público — ChangeSprint 2026</title>
+  <meta name="author" content="Edgar Valdés">
+  <meta name="description" content="Presentación narrada del Taller 1 de ChangeSprint 2026 sobre IA responsable en lo público.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <div class="narration-controls" aria-label="Controles de narración">
+    <button type="button" data-narration-current>Narrar</button>
+    <button type="button" data-narration-auto>Auto</button>
+    <button type="button" data-narration-pause>Pausa</button>
+    <button type="button" data-narration-stop>Detener</button>
+    <select data-narration-voice aria-label="Voz de narración"></select>
+    <label>
+      Velocidad
+      <button type="button" data-narration-slower aria-label="Más lento">−</button>
+      <input type="range" data-narration-rate min="0.75" max="2" step="0.05" value="0.95">
+      <button type="button" data-narration-faster aria-label="Más rápido">+</button>
+      <output data-narration-rate-value>0.95x</output>
+    </label>
+    <span data-narration-status>Cargando</span>
+  </div>
+
+  <div class="narration-captions" aria-live="polite" aria-label="Subtítulos de narración" hidden>
+    <div class="caption-label">Narración</div>
+    <div data-narration-caption></div>
+  </div>
+
+  <div class="reveal">
+    <div class="slides">
+      <section data-background-image="assets/slides/slide-01.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="IA responsable en lo público">
+        <aside class="notes">
+          Bienvenidas y bienvenidos. Soy Edgar Valdés y en este primer taller de ChangeSprint vamos a trabajar una pregunta central: ¿cómo diseñamos decisiones apoyadas por inteligencia artificial que se puedan explicar, supervisar y corregir? En el sector público no basta con que una herramienta sea rápida o técnicamente impresionante. Las decisiones afectan derechos, beneficios, oportunidades y la relación de confianza entre una institución y la ciudadanía. Por eso hablaremos de inteligencia artificial responsable como una capacidad institucional. Una capacidad para prevenir daños, detectar errores, explicar cómo se llegó a un resultado y corregir cuando algo falla. No buscamos frenar la innovación. Buscamos que pueda sostenerse, aprender y generar valor público sin trasladar riesgos innecesarios a las personas.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-02.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Dos postulantes similares, dos resultados distintos">
+        <aside class="notes">
+          Imaginemos a dos postulantes con perfiles muy similares. Una persona es seleccionada y la otra no. Si un sistema de inteligencia artificial participó en la evaluación, la pregunta no es solamente si produjo un resultado. La pregunta es qué tendría que existir para que ambas personas puedan confiar en el proceso, incluso cuando una de ellas no esté de acuerdo con la decisión. Necesitamos criterios comprensibles, datos pertinentes, un registro de cómo se evaluó cada caso y una persona con autoridad para revisar el resultado. También necesitamos una vía real para pedir una explicación o señalar un error. Este ejemplo muestra la diferencia entre automatizar una tarea y construir una decisión legítima. La confianza no depende de que todas las personas reciban el mismo resultado. Depende de que el proceso pueda justificarse y corregirse.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-03.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Una IA responsable responde institucionalmente">
+        <aside class="notes">
+          Una inteligencia artificial responsable no es la que nunca se equivoca. Ningún sistema humano o tecnológico puede prometer eso. Es la que opera dentro de una institución capaz de responder. Esa capacidad tiene cuatro movimientos. Primero, prevenir daños antes de implementar. Segundo, detectar errores mediante monitoreo y evidencia. Tercero, explicar decisiones a quienes las toman y a quienes resultan afectados. Cuarto, corregir resultados y modificar o detener el sistema cuando sea necesario. Esta definición cambia el foco. Dejamos de preguntar solamente qué tan bueno es el modelo y comenzamos a preguntar qué tan preparado está el sistema institucional que lo rodea. La responsabilidad aparece en los procedimientos, en los roles, en la documentación y en la posibilidad de reparación.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-04.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Automatizar desplaza la discrecionalidad">
+        <aside class="notes">
+          Automatizar no elimina la discrecionalidad; la desplaza. Alguien decide qué datos entran, qué objetivo se optimiza, qué resultado se considera aceptable y cuándo una persona puede intervenir. Para evaluar el riesgo propongo observar cuatro factores. Impacto: ¿la decisión afecta derechos, beneficios u oportunidades esenciales? Escala: ¿cuántas personas pueden verse afectadas al mismo tiempo? Irreversibilidad: ¿qué tan difícil es reparar la decisión después? Vulnerabilidad: ¿qué posición tiene la persona frente a la autoridad y qué capacidad real tiene para defenderse? Cuanto mayores sean estos cuatro factores, menos razonable es depender de automatización sin controles. La tecnología no elimina la decisión política o administrativa; muchas veces la vuelve menos visible. Nuestro trabajo es volver a hacerla explícita.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-05.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="El sistema institucional es el verdadero algoritmo">
+        <aside class="notes">
+          El verdadero algoritmo no termina en el modelo. Empieza con los datos, pasa por el proveedor o la interfaz, llega a una decisión institucional, se comunica y finalmente se revisa. En cada punto puede aparecer una falla. Los datos pueden ser incompletos. El modelo puede producir una recomendación incorrecta. La institución puede tratarla como si fuera una orden. La comunicación puede ocultar que existió automatización. Y la revisión puede ser demasiado lenta o inexistente. Por eso la responsabilidad no puede delegarse al proveedor. La institución que utiliza el sistema conserva la obligación de justificar la decisión y atender a la persona afectada. El ciclo tampoco termina cuando se entrega un resultado. Termina cuando existe la posibilidad de cuestionarlo, revisarlo y corregirlo.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-06.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Condición 1: empezar por el problema">
+        <aside class="notes">
+          La primera condición es empezar por el problema y no por la tecnología. Antes de preguntar qué modelo podemos usar, debemos preguntar qué fricción concreta queremos resolver y qué evidencia justifica incorporar inteligencia artificial. Después comparamos el valor público esperado con los riesgos de automatización, exclusión, opacidad o dependencia de un proveedor. Tres preguntas ayudan a disciplinar la idea. Primera: ¿qué evidencia demuestra que este problema necesita inteligencia artificial? Segunda: ¿existe una alternativa más simple y verificable? Tercera: ¿podemos realizar un piloto controlado con criterios claros de salida? Una buena decisión puede ser usar IA, limitar su función o no utilizarla. Innovar no significa elegir siempre la herramienta más compleja, sino encontrar una intervención que produzca mejor evidencia y pueda controlarse.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-07.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Condición 2: medir la equidad en resultados">
+        <aside class="notes">
+          La segunda condición es medir la equidad en resultados y no solamente en intenciones. Podemos diseñar una regla que parezca neutral y aun así obtener resultados muy distintos entre grupos. Esto puede ocurrir por datos históricos, variables indirectas, diferencias de acceso o condiciones que el modelo no comprende. Por eso necesitamos pruebas desagregadas antes y durante la operación. También debemos revisar variables que puedan funcionar como sustitutos de origen, nivel socioeconómico u otras características sensibles. Finalmente, debe existir un canal para reportar patrones inesperados de rechazo o exclusión. La pregunta no es si el equipo tuvo una intención justa. La pregunta es qué está ocurriendo realmente y qué evidencia tenemos para demostrarlo. La equidad se vigila de manera continua.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-08.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Explicar para cuestionar; supervisar para corregir">
+        <aside class="notes">
+          Explicar sirve para cuestionar y supervisar sirve para corregir. Para que la revisión humana sea real necesita tres columnas. La primera es capacidad: la persona revisora debe comprender el sistema, detectar un error y reconocer cuándo la explicación no es suficiente. La segunda es tiempo: debe contar con condiciones operativas para revisar casos, no solamente con una responsabilidad escrita en un manual. La tercera es autoridad: debe poder modificar el resultado, escalar el caso o suspender el proceso. Hay una precisión técnica importante: una explicación generada por un modelo de lenguaje no demuestra por sí misma la causa real de la decisión. Puede ser una reconstrucción convincente pero incorrecta. Explicar responsablemente requiere trazabilidad, criterios documentados y evidencia verificable.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-09.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Condición 5: defensas por capas">
+        <aside class="notes">
+          La innovación responsable necesita defensas por capas. En privacidad, retirar un nombre no siempre vuelve anónimo un texto. Fechas, referencias familiares, ubicación o detalles narrativos pueden volver a identificar a una persona. En robustez, reducir la creatividad del modelo no elimina las alucinaciones ni garantiza validez. En seguridad, todo texto ingresado por un usuario debe tratarse como una entrada potencialmente riesgosa, especialmente cuando el sistema puede consultar datos o ejecutar acciones. Ninguna defensa aislada es suficiente. Combinamos minimización de datos, controles de acceso, validación, límites funcionales, registros, pruebas, revisión humana y monitoreo. Aunque el procesamiento ocurra en una plataforma externa, la institución nunca delega completamente su responsabilidad.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-10.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Referentes globales de diseño institucional">
+        <aside class="notes">
+          No necesitamos inventar todos los mecanismos desde cero. Existen referentes útiles. Canadá utiliza evaluaciones de impacto algorítmico para ajustar los controles al nivel de riesgo. El Reino Unido promueve registros públicos de transparencia para hacer visible dónde y cómo se utilizan algoritmos. Nueva Zelanda desarrolló una carta de algoritmos que incorpora compromisos sobre transparencia, datos y participación de comunidades. La lección no es copiar formularios. Es entender el principio institucional detrás de cada mecanismo. A mayor riesgo, mayores controles. Cuando la automatización afecta a personas, su existencia debe hacerse visible. Y cuando se definen categorías sensibles o criterios de justicia, las comunidades afectadas deben participar. Para FONABE, estos referentes pueden convertirse en componentes de un diseño propio y proporcional.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-11.png" data-background-size="contain" data-background-color="#0c3747" data-slide-title="Cuando falla el sistema completo">
+        <aside class="notes">
+          Dos casos muestran que el daño ocurre cuando falla el sistema completo. En el caso DUO, en Países Bajos, se utilizaron criterios de riesgo difíciles de justificar que afectaron la manera de investigar a estudiantes. La lección es directa: todo criterio que clasifique personas debe poder justificarse antes de operar y evaluarse después. En Robodebt, Australia automatizó masivamente cálculos de deuda sin una ruta adecuada de revisión ni intervención humana. Los errores técnicos se transformaron en una crisis institucional porque las personas tuvieron dificultades para cuestionar el resultado. Ambos casos muestran que el problema no fue solamente un modelo. Fallaron las reglas, la supervisión, la comunicación, los mecanismos de recurso y la responsabilidad pública.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-12.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Guatemala 2026: una ventana de oportunidad">
+        <aside class="notes">
+          Guatemala se encuentra en una ventana de oportunidad. El diagnóstico de preparación realizado con UNESCO, la construcción de una estrategia nacional de inteligencia artificial y la discusión sobre protección de datos muestran que el marco institucional está evolucionando. Para FONABE, la ausencia de una ley específica no elimina la responsabilidad. Al contrario, abre la oportunidad de diseñar desde ahora salvaguardas que puedan convertirse en referencia. La institución puede documentar decisiones, limitar usos de alto riesgo, proteger datos, crear mecanismos de revisión y evaluar pilotos antes de escalar. El objetivo no es esperar a que exista una norma perfecta. Es construir capacidades que sean defendibles hoy y compatibles con el estándar que el país necesitará mañana.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-13.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Tres retos, tres oportunidades de diseño">
+        <aside class="notes">
+          Ahora llevaremos estos principios a tres retos de diseño. El equipo uno trabajará discrecionalidad: un postulante percibe arbitrariedad si no comprende su puntaje. Su pregunta será qué información y evidencia harían defendible la preselección. El equipo dos trabajará expediente: la inteligencia artificial puede reducir tiempos, pero también crear nuevas barreras mediante rechazos automáticos, formatos inválidos o información incompleta. Su pregunta será qué debe revisar una persona antes de descartar un documento. El equipo tres trabajará gobernanza: un sistema dinámico necesita reglas claras. Su pregunta será qué controles, métricas y contratos deben existir antes, durante y después de una convocatoria. Los tres retos comparten una meta: convertir principios abstractos en decisiones concretas.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-14.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="De los principios a salvaguardas accionables">
+        <aside class="notes">
+          Cada equipo utilizará este lienzo. Primero definan el problema o la fricción que realmente quieren resolver. Segundo, identifiquen a las personas beneficiarias y a quienes podrían resultar afectadas. Tercero, describan el funcionamiento de la solución en tres pasos simples. Cuarto, expliquen qué mejora de valor público esperan: tiempo, equidad, confianza, acceso o calidad. Quinto, nombren el riesgo principal y cómo podría manifestarse. Sexto, diseñen una salvaguarda concreta que reduzca ese riesgo. Séptimo, definan qué evidencia demostraría que la propuesta funcionó. Una buena salvaguarda debe tener responsable, momento de aplicación y una consecuencia si la evidencia indica que el sistema no es seguro o no mejora el resultado.
+        </aside>
+      </section>
+
+      <section data-background-image="assets/slides/slide-15.png" data-background-size="contain" data-background-color="#f7f4ea" data-slide-title="Innovar es mejorar la evidencia">
+        <aside class="notes">
+          Cerramos con una idea: innovar es mejorar la exigencia de la evidencia. Durante los próximos cuarenta minutos, cada equipo preparará su mejor propuesta en noventa segundos. El filtro será sencillo: elijan la idea que mejor combine valor para la persona, viabilidad institucional y riesgo controlable. No gana la propuesta que use más inteligencia artificial. Gana la que resuelva mejor el problema y pueda explicar cómo prevendrá, detectará y corregirá errores. Este ejercicio será también la base para el siguiente taller, donde convertiremos las ideas en listas de verificación y prototipos funcionales. La inteligencia artificial responsable no es una promesa de perfección. Es una manera disciplinada de aprender, responder y corregir. Comencemos.
+        </aside>
+      </section>
+    </div>
+  </div>
+
+  <div class="keyboard-help" aria-hidden="true">N narrar · A automático · P pausa · X detener · F pantalla completa</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+  <script src="deck.js"></script>
+  <script src="narration.js"></script>
+</body>
+</html>
