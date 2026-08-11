@@ -2,9 +2,13 @@
 
 Presentaciones web narradas de Edgar Valdés para ChangeSprint Encuentro 2026.
 
+Sitio público: <https://hadox-research-labs.github.io/changesprint-encuentro-2026/>
+
 ## Curso 1
 
 [IA responsable en lo público](curso-1-ia-responsable/)
+
+Presentación directa: <https://hadox-research-labs.github.io/changesprint-encuentro-2026/curso-1-ia-responsable/>
 
 La presentación conserva las 15 láminas visuales aprobadas y agrega navegación con Reveal.js, subtítulos y narración mediante la Web Speech API del navegador.
 
