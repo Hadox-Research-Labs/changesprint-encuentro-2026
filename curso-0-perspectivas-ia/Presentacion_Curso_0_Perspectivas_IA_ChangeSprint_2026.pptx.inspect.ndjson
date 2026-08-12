@@ -1,0 +1,418 @@
+{"kind":"deck","id":"pr/ovdoba","name":"Deck"}
+{"kind":"layout","layoutId":"7120a8a4-e58c-45fa-9bb8-8cfd1a9997c8","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"6faa5fd3-4819-4e15-961c-6750c3e3d28e","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/2u04zy","slide":1,"title":"CHANGESPRINT · ENCUENTRO 2026","textShapes":7}
+{"kind":"shape","id":"sh/md4fq5kb","slide":1,"bbox":[74,70,330,38]}
+{"kind":"textbox","id":"sh/9gfy10j2","slide":1,"text":"CHANGESPRINT · ENCUENTRO 2026","textPreview":"CHANGESPRINT · ENCUENTRO 2026","textChars":29,"textLines":1,"bbox":[86,71,306,36]}
+{"kind":"textbox","id":"sh/8f6xsv2h","slide":1,"text":"Perspectivas de IA\ny Machine Learning","textPreview":"Perspectivas de IA | y Machine Learning","textChars":37,"textLines":2,"bbox":[74,175,1030,250]}
+{"kind":"textbox","id":"sh/zadgvq1k","slide":1,"text":"en la transformación digital","textPreview":"en la transformación digital","textChars":28,"textLines":1,"bbox":[80,445,990,70]}
+{"kind":"shape","id":"sh/y94fmlkf","slide":1,"bbox":[80,565,880,8]}
+{"kind":"textbox","id":"sh/lcvyx0jq","slide":1,"text":"Curso 00 · Edgar Valdés","textPreview":"Curso 00 · Edgar Valdés","textChars":23,"textLines":1,"bbox":[82,615,500,42]}
+{"kind":"textbox","id":"sh/0bmxov25","slide":1,"text":"De modelos que predicen\na sistemas que pueden actuar.","textPreview":"De modelos que predicen | a sistemas que pueden actuar.","textChars":53,"textLines":2,"bbox":[1120,520,390,142]}
+{"kind":"shape","id":"sh/j6xg7u14","slide":1,"bbox":[1225,155,190,190]}
+{"kind":"shape","id":"sh/i5ofypkj","slide":1,"bbox":[1280,210,80,80]}
+{"kind":"textbox","id":"sh/wbaxwvmt","slide":1,"text":"IA","textPreview":"IA","textChars":2,"textLines":1,"bbox":[1260,206,120,80]}
+{"kind":"textbox","id":"sh/xcjyp0ne","slide":1,"text":"00","textPreview":"00","textChars":2,"textLines":1,"bbox":[1420,800,90,40]}
+{"kind":"notes","id":"nt/2u04zy","slide":1,"text":"Bienvenidas y bienvenidos. Soy Edgar Valdés. Esta presentación cero construye el lenguaje común que necesitamos antes de hablar de inteligencia artificial responsable. Partiremos de una idea que ha guiado estas perspectivas durante años: la transformación digital comienza cuando las interacciones se convierten en datos y esos datos empiezan a influir en decisiones. Pero el panorama cambió. Ya no hablamos solamente de modelos que clasifican o predicen. También tenemos sistemas que generan contenido y arquitecturas agénticas capaces de planear y ejecutar acciones. Nuestro objetivo es entender qué cambió, qué permanece y qué capacidades necesita una organización o un país para aprovechar la inteligencia artificial con sentido.\n\n[Sources]\n- https://cloud.google.com/learn/what-is-artificial-intelligence\n- https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025"}
+{"kind":"slide","id":"sl/p3tlsu","slide":2,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":20}
+{"kind":"shape","id":"sh/dkfex0je","slide":2,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/qhofmlkn","slide":2,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/rixwvq18","slide":2,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/4f6xkb2x","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/pgfetg3i","slide":2,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/2t4filkr","slide":2,"text":"La transformación comienza cuando una interacción deja evidencia","textPreview":"La transformación comienza cuando una interacción deja evidencia","textChars":64,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/3exwr6lc","slide":2,"bbox":[110,355,130,130]}
+{"kind":"textbox","id":"sh/obqxwf21","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[135,382,80,70]}
+{"kind":"textbox","id":"sh/9czy5kjm","slide":2,"text":"INTERACCIÓN","textPreview":"INTERACCIÓN","textChars":11,"textLines":1,"bbox":[90,510,170,34]}
+{"kind":"textbox","id":"sh/9gzypwbe","slide":2,"text":"Una persona actúa","textPreview":"Una persona actúa","textChars":17,"textLines":1,"bbox":[68,555,215,82]}
+{"kind":"shape","id":"sh/ofqhgrut","slide":2,"bbox":[248,416,144,6]}
+{"kind":"shape","id":"sh/nehgnmto","slide":2,"bbox":[372,400,38,38]}
+{"kind":"shape","id":"sh/md8zehc3","slide":2,"bbox":[420,355,130,130]}
+{"kind":"textbox","id":"sh/1szylcbi","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[445,382,80,70]}
+{"kind":"textbox","id":"sh/0r6hc7ux","slide":2,"text":"REGISTRO","textPreview":"REGISTRO","textChars":8,"textLines":1,"bbox":[400,510,170,34]}
+{"kind":"textbox","id":"sh/zqxgj2dc","slide":2,"text":"La plataforma deja rastro","textPreview":"La plataforma deja rastro","textChars":25,"textLines":1,"bbox":[378,555,215,82]}
+{"kind":"shape","id":"sh/epozaxcr","slide":2,"bbox":[558,416,144,6]}
+{"kind":"shape","id":"sh/l8jixgbm","slide":2,"bbox":[682,400,38,38]}
+{"kind":"shape","id":"sh/knahobu1","slide":2,"bbox":[730,355,130,130]}
+{"kind":"textbox","id":"sh/4ri1kf2d","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[755,382,80,70]}
+{"kind":"textbox","id":"sh/5sr2tkjy","slide":2,"text":"DATOS","textPreview":"DATOS","textChars":5,"textLines":1,"bbox":[710,510,170,34]}
+{"kind":"textbox","id":"sh/ip0ji5k7","slide":2,"text":"El rastro adquiere estructura","textPreview":"El rastro adquiere estructura","textChars":29,"textLines":1,"bbox":[688,555,215,82]}
+{"kind":"shape","id":"sh/jq9kra1s","slide":2,"bbox":[868,416,144,6]}
+{"kind":"shape","id":"sh/wny1gf2h","slide":2,"bbox":[992,400,38,38]}
+{"kind":"shape","id":"sh/hor2p0jm","slide":2,"bbox":[1040,355,130,130]}
+{"kind":"textbox","id":"sh/ulgje5kb","slide":2,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1065,382,80,70]}
+{"kind":"textbox","id":"sh/vmp0na1w","slide":2,"text":"MODELO","textPreview":"MODELO","textChars":6,"textLines":1,"bbox":[1020,510,170,34]}
+{"kind":"textbox","id":"sh/8zy1cv25","slide":2,"text":"Aparecen patrones","textPreview":"Aparecen patrones","textChars":17,"textLines":1,"bbox":[998,555,215,82]}
+{"kind":"shape","id":"sh/9k7il0jq","slide":2,"bbox":[1178,416,144,6]}
+{"kind":"shape","id":"sh/bu5kvq5c","slide":2,"bbox":[1302,400,38,38]}
+{"kind":"shape","id":"sh/atwj2l47","slide":2,"bbox":[1350,355,130,130]}
+{"kind":"textbox","id":"sh/xwn2x03i","slide":2,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1375,382,80,70]}
+{"kind":"textbox","id":"sh/cvel4vmx","slide":2,"text":"DECISIÓN","textPreview":"DECISIÓN","textChars":8,"textLines":1,"bbox":[1330,510,170,34]}
+{"kind":"textbox","id":"sh/zipkzalo","slide":2,"text":"El patrón cambia el proceso","textPreview":"El patrón cambia el proceso","textChars":27,"textLines":1,"bbox":[1308,555,215,82]}
+{"kind":"shape","id":"sh/yxg36543","slide":2,"bbox":[108,690,1295,78]}
+{"kind":"textbox","id":"sh/lk72103u","slide":2,"text":"La IA entra cuando los datos empiezan a influir en una decisión.","textPreview":"La IA entra cuando los datos empiezan a influir en una decisión.","textChars":64,"textLines":1,"bbox":[142,706,1220,47]}
+{"kind":"notes","id":"nt/p3tlsu","slide":2,"text":"La tesis original sigue siendo válida. Una plataforma digital no transforma una organización simplemente porque tenga una aplicación. La transforma porque registra interacciones, convierte esas interacciones en datos y utiliza esos datos para coordinar recursos, anticipar necesidades o tomar decisiones. Uber conecta viajes, Airbnb coordina disponibilidad y Visa observa transacciones. La lógica común es una infraestructura de datos alrededor de una actividad humana. La inteligencia artificial entra después. Aprende de patrones existentes y produce una clasificación, una predicción, una recomendación, contenido nuevo o una acción. Por eso, antes de preguntar qué modelo vamos a utilizar, debemos entender qué proceso estamos observando, qué evidencia produce y qué decisión queremos mejorar.\n\n[Sources]\n- https://cloud.google.com/learn/what-is-artificial-intelligence"}
+{"kind":"slide","id":"sl/dm5pw9","slide":3,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":14}
+{"kind":"textbox","id":"sh/sfap4zi1","slide":3,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/7e18bu1w","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/6ts72p0b","slide":3,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/hk3qhojy","slide":3,"text":"En cuatro años, la IA pasó de predecir a generar y actuar","textPreview":"En cuatro años, la IA pasó de predecir a generar y actuar","textChars":57,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"textbox","id":"sh/gju98jid","slide":3,"text":"AYER","textPreview":"AYER","textChars":4,"textLines":1,"bbox":[95,300,380,34]}
+{"kind":"textbox","id":"sh/fil8fe1s","slide":3,"text":"PREDECIR","textPreview":"PREDECIR","textChars":8,"textLines":1,"bbox":[95,350,410,100]}
+{"kind":"shape","id":"sh/uhcr6907","slide":3,"bbox":[95,470,350,5]}
+{"kind":"textbox","id":"sh/po3qloju","slide":3,"text":"Clasificar · detectar · pronosticar","textPreview":"Clasificar · detectar · pronosticar","textChars":35,"textLines":1,"bbox":[95,500,360,80]}
+{"kind":"shape","id":"sh/4nu9cji9","slide":3,"bbox":[460,411,64,6]}
+{"kind":"shape","id":"sh/uxon2t8b","slide":3,"bbox":[504,395,38,38]}
+{"kind":"textbox","id":"sh/vyxoby9g","slide":3,"text":"AHORA","textPreview":"AHORA","textChars":5,"textLines":1,"bbox":[560,300,380,34]}
+{"kind":"textbox","id":"sh/wz6543q1","slide":3,"text":"GENERAR","textPreview":"GENERAR","textChars":7,"textLines":1,"bbox":[560,350,410,100]}
+{"kind":"shape","id":"sh/h0f6dorm","slide":3,"bbox":[560,470,350,5]}
+{"kind":"textbox","id":"sh/i18n6t87","slide":3,"text":"Texto · imagen · código · audio","textPreview":"Texto · imagen · código · audio","textChars":31,"textLines":1,"bbox":[560,500,360,80]}
+{"kind":"shape","id":"sh/j2hofy9s","slide":3,"bbox":[925,411,64,6]}
+{"kind":"shape","id":"sh/43q583qd","slide":3,"bbox":[969,395,38,38]}
+{"kind":"textbox","id":"sh/5oz6h8ry","slide":3,"text":"SIGUIENTE MOVIMIENTO","textPreview":"SIGUIENTE MOVIMIENTO","textChars":20,"textLines":1,"bbox":[1025,300,380,34]}
+{"kind":"textbox","id":"sh/y54nu9s3","slide":3,"text":"ACTUAR","textPreview":"ACTUAR","textChars":6,"textLines":1,"bbox":[1025,350,410,100]}
+{"kind":"shape","id":"sh/z6d43e9o","slide":3,"bbox":[1025,470,350,5]}
+{"kind":"textbox","id":"sh/natkvapg","slide":3,"text":"Planear · usar herramientas · ejecutar","textPreview":"Planear · usar herramientas · ejecutar","textChars":38,"textLines":1,"bbox":[1025,500,360,80]}
+{"kind":"textbox","id":"sh/2903258v","slide":3,"text":"El cambio no elimina lo anterior: amplía el alcance operativo.","textPreview":"El cambio no elimina lo anterior: amplía el alcance operativo.","textChars":62,"textLines":1,"bbox":[95,690,1250,72]}
+{"kind":"notes","id":"nt/dm5pw9","slide":3,"text":"La inteligencia artificial predictiva continúa siendo esencial. Clasifica imágenes, detecta fraude, pronostica demanda y recomienda opciones. La gran expansión reciente fue la inteligencia artificial generativa, capaz de producir texto, imágenes, audio, video y código. El siguiente movimiento es la inteligencia artificial agéntica. Aquí el sistema no se limita a responder una pregunta: interpreta una meta, planea pasos, consulta información, utiliza herramientas y puede ejecutar acciones. No son tres mundos separados. La IA generativa suele utilizar modelos construidos mediante aprendizaje profundo, y los agentes utilizan esos modelos como motor de razonamiento. Lo que cambia es el alcance operativo: de producir una salida a intervenir en un flujo de trabajo.\n\n[Sources]\n- https://cloud.google.com/learn/what-is-artificial-intelligence\n- https://cloud.google.com/discover/what-is-agentic-ai"}
+{"kind":"slide","id":"sl/tzqps5","slide":4,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":11}
+{"kind":"shape","id":"sh/nad8na1w","slide":4,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/8b69gvih","slide":4,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/9cfqp0j2","slide":4,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/adori50n","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/vex8ra18","slide":4,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/wf69kfid","slide":4,"text":"IA es la familia; machine learning es una de sus formas de aprender","textPreview":"IA es la familia; machine learning es una de sus formas de aprender","textChars":67,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/xgfqtkjy","slide":4,"bbox":[110,275,930,460]}
+{"kind":"textbox","id":"sh/qhk76l03","slide":4,"text":"INTELIGENCIA ARTIFICIAL","textPreview":"INTELIGENCIA ARTIFICIAL","textChars":23,"textLines":1,"bbox":[145,295,830,58]}
+{"kind":"shape","id":"sh/bit8fq1o","slide":4,"bbox":[190,380,760,300]}
+{"kind":"textbox","id":"sh/ny14rmxo","slide":4,"text":"MACHINE LEARNING","textPreview":"MACHINE LEARNING","textChars":16,"textLines":1,"bbox":[225,395,650,55]}
+{"kind":"shape","id":"sh/2xs3ihw3","slide":4,"bbox":[295,485,550,145]}
+{"kind":"textbox","id":"sh/p0jmtwfu","slide":4,"text":"DEEP LEARNING","textPreview":"DEEP LEARNING","textChars":13,"textLines":1,"bbox":[330,500,480,45]}
+{"kind":"shape","id":"sh/ozalkre9","slide":4,"bbox":[430,555,300,52]}
+{"kind":"textbox","id":"sh/fu1kn2xc","slide":4,"text":"IA GENERATIVA","textPreview":"IA GENERATIVA","textChars":13,"textLines":1,"bbox":[445,558,270,45]}
+{"kind":"shape","id":"sh/et83exw7","slide":4,"bbox":[1120,310,350,350]}
+{"kind":"textbox","id":"sh/1wj2pcfi","slide":4,"text":"IA AGÉNTICA","textPreview":"IA AGÉNTICA","textChars":11,"textLines":1,"bbox":[1155,340,280,50]}
+{"kind":"textbox","id":"sh/0valg7ex","slide":4,"text":"No es otra rama de aprendizaje.","textPreview":"No es otra rama de aprendizaje.","textChars":31,"textLines":1,"bbox":[1160,420,270,70]}
+{"kind":"textbox","id":"sh/r6hkj2xg","slide":4,"text":"Es un sistema que orquesta modelos, memoria, conocimiento y herramientas para perseguir una meta.","textPreview":"Es un sistema que orquesta modelos, memoria, conocimiento y herramientas para perseguir una meta.","textChars":97,"textLines":1,"bbox":[1160,505,270,112]}
+{"kind":"shape","id":"sh/q583axwv","slide":4,"bbox":[1030,466,62,6]}
+{"kind":"shape","id":"sh/u1o3mx0n","slide":4,"bbox":[1072,450,38,38]}
+{"kind":"notes","id":"nt/tzqps5","slide":4,"text":"Conviene ordenar los conceptos. Inteligencia artificial es el término amplio para sistemas que realizan tareas asociadas con percepción, lenguaje, razonamiento o decisión. Machine learning es un subconjunto: permite aprender patrones a partir de datos. Dentro de machine learning, el aprendizaje profundo utiliza redes neuronales con múltiples capas. Muchos modelos generativos actuales se construyen con aprendizaje profundo. La IA agéntica no encaja como otra caja dentro de esta genealogía. Es una arquitectura de sistema. Puede combinar un modelo generativo con instrucciones, memoria, datos y herramientas para perseguir una meta. Esta diferencia entre modelo y sistema nos ayudará a entender tanto las posibilidades como los riesgos.\n\n[Sources]\n- https://cloud.google.com/learn/what-is-artificial-intelligence\n- https://cloud.google.com/learn/what-is-machine-learning\n- https://cloud.google.com/resources/core-concepts-ai-agents"}
+{"kind":"slide","id":"sl/pps0kb","slide":5,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":5}
+{"kind":"shape","id":"sh/gnahwb2t","slide":5,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/f210n6lo","slide":5,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/u1szu1k3","slide":5,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/psjitg3q","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/4rah0v25","slide":5,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/3q10rqlk","slide":5,"text":"El mapa clásico del aprendizaje automático sigue siendo fundamental","textPreview":"El mapa clásico del aprendizaje automático sigue siendo fundamental","textChars":67,"textLines":1,"bbox":[74,96,1450,72]}
+{"kind":"shape","id":"sh/5wzihw36","slide":5,"bbox":[1060,755,360,38]}
+{"kind":"textbox","id":"sh/kvqhorm1","slide":5,"text":"MAPA CLÁSICO · DINH Y THAI, 2018","textPreview":"MAPA CLÁSICO · DINH Y THAI, 2018","textChars":32,"textLines":1,"bbox":[1072,756,336,36]}
+{"kind":"image","id":"im/nyhgz2l8","slide":5,"name":"","alt":"Mapa clásico de las ramas del aprendizaje automático: aprendizaje supervisado, no supervisado y por refuerzo.","bbox":[160,180,1280,620]}
+{"kind":"notes","id":"nt/pps0kb","slide":5,"text":"Esta es una de las láminas más importantes de la presentación original. Organiza el aprendizaje automático en tres grandes familias. En el aprendizaje supervisado contamos con ejemplos etiquetados y aprendemos a clasificar o estimar valores. En el no supervisado buscamos estructura sin una respuesta previamente marcada: grupos, reducciones de dimensión o patrones. En el aprendizaje por refuerzo, un sistema aprende mediante acciones, recompensas y retroalimentación. Estas familias siguen vigentes. La aparición de modelos generativos y agentes no las reemplaza. De hecho, las tecnologías actuales combinan técnicas provenientes de varias ramas. Por eso conservamos este mapa como una base conceptual, pero necesitamos añadirle una segunda capa que explique cómo se construyen los sistemas agénticos.\n\n[Sources]\n- Lámina original de Edgar Valdés. Referencia visible: Dinh, T. y Thai, M. (2018).\n- https://cloud.google.com/learn/what-is-machine-learning"}
+{"kind":"slide","id":"sl/sb1z1v","slide":6,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":15}
+{"kind":"shape","id":"sh/90jex0fe","slide":6,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/md8vmlw3","slide":6,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/7yhwvqx8","slide":6,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/kbqdkvex","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/lczet0fi","slide":6,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/y98vilwr","slide":6,"text":"La IA agéntica no es una cuarta rama: es una capa de orquestación","textPreview":"La IA agéntica no es una cuarta rama: es una capa de orquestación","textChars":65,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/zahwrqxc","slide":6,"bbox":[120,240,1360,145]}
+{"kind":"textbox","id":"sh/c76dgbel","slide":6,"text":"IA AGÉNTICA","textPreview":"IA AGÉNTICA","textChars":11,"textLines":1,"bbox":[160,258,360,56]}
+{"kind":"textbox","id":"sh/x8fupgf6","slide":6,"text":"objetivo + orquestación + memoria + conocimiento + herramientas + acciones","textPreview":"objetivo + orquestación + memoria + conocimiento + herramientas + acciones","textChars":74,"textLines":1,"bbox":[540,255,880,70]}
+{"kind":"textbox","id":"sh/58jmt4ju","slide":6,"text":"coordina","textPreview":"coordina","textChars":8,"textLines":1,"bbox":[685,337,210,28]}
+{"kind":"shape","id":"sh/47a5kz29","slide":6,"bbox":[765,396,52,6]}
+{"kind":"shape","id":"sh/j614ru1o","slide":6,"bbox":[797,380,38,38]}
+{"kind":"shape","id":"sh/i5snipk3","slide":6,"bbox":[555,430,490,96]}
+{"kind":"textbox","id":"sh/h4zmpkji","slide":6,"text":"MODELO GENERATIVO / MOTOR DE RAZONAMIENTO","textPreview":"MODELO GENERATIVO / MOTOR DE RAZONAMIENTO","textChars":41,"textLines":1,"bbox":[580,443,440,68]}
+{"kind":"shape","id":"sh/w3q5gf2x","slide":6,"bbox":[798,526,4,55]}
+{"kind":"shape","id":"sh/vih4nals","slide":6,"bbox":[340,579,920,4]}
+{"kind":"shape","id":"sh/uh8ne5k7","slide":6,"bbox":[340,579,4,46]}
+{"kind":"shape","id":"sh/9gzmlk3m","slide":6,"bbox":[745,579,4,46]}
+{"kind":"shape","id":"sh/8fqlcf21","slide":6,"bbox":[1150,579,4,46]}
+{"kind":"shape","id":"sh/0ju58fax","slide":6,"bbox":[170,625,340,110]}
+{"kind":"textbox","id":"sh/1k3m1kbi","slide":6,"text":"SUPERVISADO","textPreview":"SUPERVISADO","textChars":11,"textLines":1,"bbox":[192,640,296,36]}
+{"kind":"textbox","id":"sh/exsn65sr","slide":6,"text":"clasifica · estima","textPreview":"clasifica · estima","textChars":18,"textLines":1,"bbox":[192,683,296,28]}
+{"kind":"shape","id":"sh/zil4zatc","slide":6,"bbox":[575,625,340,110]}
+{"kind":"textbox","id":"sh/cva54val","slide":6,"text":"NO SUPERVISADO","textPreview":"NO SUPERVISADO","textChars":14,"textLines":1,"bbox":[597,640,296,36]}
+{"kind":"textbox","id":"sh/dwjmx0b6","slide":6,"text":"descubre estructura","textPreview":"descubre estructura","textChars":19,"textLines":1,"bbox":[597,683,296,28]}
+{"kind":"shape","id":"sh/qtsn25sv","slide":6,"bbox":[980,625,340,110]}
+{"kind":"textbox","id":"sh/ru14vqtg","slide":6,"text":"REFUERZO","textPreview":"REFUERZO","textChars":8,"textLines":1,"bbox":[1002,640,296,36]}
+{"kind":"textbox","id":"sh/wre50za5","slide":6,"text":"aprende por recompensa","textPreview":"aprende por recompensa","textChars":22,"textLines":1,"bbox":[1002,683,296,28]}
+{"kind":"textbox","id":"sh/xsn694rq","slide":6,"text":"formas de aprender que sostienen los modelos","textPreview":"formas de aprender que sostienen los modelos","textChars":44,"textLines":1,"bbox":[550,755,500,34]}
+{"kind":"notes","id":"nt/sb1z1v","slide":6,"text":"Aquí está la respuesta concreta. La IA agéntica no se coloca junto a aprendizaje supervisado, no supervisado o por refuerzo. Esas categorías describen maneras de aprender. Un agente, en cambio, describe cómo se organiza un sistema para alcanzar una meta. El agente puede utilizar un modelo generativo como motor de razonamiento, consultar memoria y conocimiento, seleccionar herramientas, llamar servicios y ejecutar acciones. Debajo de ese sistema siguen existiendo modelos entrenados con aprendizaje supervisado, auto supervisado, por refuerzo y otras técnicas. La mejor manera de dibujarlo es como una capa que atraviesa y coordina componentes, no como una nueva burbuja del mismo nivel.\n\n[Sources]\n- https://cloud.google.com/discover/what-are-ai-agents\n- https://cloud.google.com/discover/what-is-agentic-ai\n- https://cloud.google.com/resources/core-concepts-ai-agents"}
+{"kind":"slide","id":"sl/lj0pgb","slide":7,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":11}
+{"kind":"textbox","id":"sh/3qxg36hk","slide":7,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/4r6xwby5","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/psfy5gzq","slide":7,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/qtofylgb","slide":7,"text":"Un agente observa, razona, planea, actúa y revisa","textPreview":"Un agente observa, razona, planea, actúa y revisa","textChars":49,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/ruxg76hw","slide":7,"bbox":[95,330,170,170]}
+{"kind":"textbox","id":"sh/cv6x0by1","slide":7,"text":"OBSERVA","textPreview":"OBSERVA","textChars":7,"textLines":1,"bbox":[109,382,142,58]}
+{"kind":"shape","id":"sh/dwzy9gzm","slide":7,"bbox":[273,411,77,6]}
+{"kind":"shape","id":"sh/eh8f2lg7","slide":7,"bbox":[330,395,38,38]}
+{"kind":"shape","id":"sh/zihgbqxs","slide":7,"bbox":[390,330,170,170]}
+{"kind":"textbox","id":"sh/z6xk7mdc","slide":7,"text":"RAZONA","textPreview":"RAZONA","textChars":6,"textLines":1,"bbox":[404,382,142,58]}
+{"kind":"shape","id":"sh/e5ojehwr","slide":7,"bbox":[568,411,77,6]}
+{"kind":"shape","id":"sh/18f29wv2","slide":7,"bbox":[625,395,38,38]}
+{"kind":"shape","id":"sh/0761greh","slide":7,"bbox":[685,330,170,170]}
+{"kind":"textbox","id":"sh/rid032d0","slide":7,"text":"PLANEA","textPreview":"PLANEA","textChars":6,"textLines":1,"bbox":[699,382,142,58]}
+{"kind":"shape","id":"sh/qh4jahwf","slide":7,"bbox":[863,411,77,6]}
+{"kind":"shape","id":"sh/d4v25cv6","slide":7,"bbox":[920,395,38,38]}
+{"kind":"shape","id":"sh/cjm1c7el","slide":7,"bbox":[980,330,170,170]}
+{"kind":"textbox","id":"sh/behkf6dk","slide":7,"text":"ACTÚA","textPreview":"ACTÚA","textChars":5,"textLines":1,"bbox":[994,382,142,58]}
+{"kind":"shape","id":"sh/ad8jm1wz","slide":7,"bbox":[1158,411,77,6]}
+{"kind":"shape","id":"sh/6tsne5g7","slide":7,"bbox":[1215,395,38,38]}
+{"kind":"shape","id":"sh/7u147axs","slide":7,"bbox":[1275,330,170,170]}
+{"kind":"textbox","id":"sh/8va5gfyx","slide":7,"text":"REVISA","textPreview":"REVISA","textChars":6,"textLines":1,"bbox":[1289,382,142,58]}
+{"kind":"shape","id":"sh/tw3m9kfi","slide":7,"bbox":[180,620,1235,4]}
+{"kind":"shape","id":"sh/uxcni5g3","slide":7,"bbox":[475,588,650,68]}
+{"kind":"textbox","id":"sh/vyl4baxo","slide":7,"text":"MEMORIA + CONOCIMIENTO + ESTADO","textPreview":"MEMORIA + CONOCIMIENTO + ESTADO","textChars":31,"textLines":1,"bbox":[505,598,590,48]}
+{"kind":"shape","id":"sh/gzu5kfy9","slide":7,"bbox":[555,705,490,56]}
+{"kind":"textbox","id":"sh/h03mdkfu","slide":7,"text":"FRONTERA DE AUTORIZACIÓN HUMANA","textPreview":"FRONTERA DE AUTORIZACIÓN HUMANA","textChars":31,"textLines":1,"bbox":[575,710,450,44]}
+{"kind":"notes","id":"nt/lj0pgb","slide":7,"text":"Un agente trabaja como un ciclo. Primero observa el contexto y reúne información. Después razona sobre la meta y el estado actual. Luego construye un plan y selecciona herramientas. Actúa sobre un sistema y revisa el resultado para decidir si terminó o necesita ajustar el plan. Memoria y conocimiento acompañan todo el proceso. También debe existir una frontera humana: qué acciones requieren autorización, cuáles pueden ejecutarse automáticamente y cuándo se debe detener el sistema. Esta autonomía es gradual. No todo agente opera sin supervisión, y más autonomía no siempre significa una mejor solución. El diseño responsable consiste en otorgar únicamente la autonomía necesaria para el problema.\n\n[Sources]\n- https://cloud.google.com/discover/what-are-ai-agents\n- https://cloud.google.com/discover/what-is-agentic-ai"}
+{"kind":"slide","id":"sl/7cbhfa","slide":8,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":24}
+{"kind":"shape","id":"sh/9gbe90ny","slide":8,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/mt0fyl47","slide":8,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/7etw7q5s","slide":8,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/krixwbmh","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/lsre5gnm","slide":8,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/yp0fu14b","slide":8,"text":"Cinco capacidades explican la mayor parte del valor de la IA","textPreview":"Cinco capacidades explican la mayor parte del valor de la IA","textChars":60,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"textbox","id":"sh/zq9w365w","slide":8,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[100,250,70,60]}
+{"kind":"textbox","id":"sh/4nmx8fml","slide":8,"text":"CLASIFICAR","textPreview":"CLASIFICAR","textChars":10,"textLines":1,"bbox":[190,246,350,64]}
+{"kind":"shape","id":"sh/5ovyhkn6","slide":8,"bbox":[545,279,230,3]}
+{"kind":"textbox","id":"sh/9wra18vi","slide":8,"text":"¿Qué es?","textPreview":"¿Qué es?","textChars":8,"textLines":1,"bbox":[820,250,360,50]}
+{"kind":"textbox","id":"sh/8vyt83ex","slide":8,"text":"categoría","textPreview":"categoría","textChars":9,"textLines":1,"bbox":[1240,250,210,50]}
+{"kind":"textbox","id":"sh/nupszydc","slide":8,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[100,355,70,60]}
+{"kind":"textbox","id":"sh/mtgr6tw7","slide":8,"text":"PREDECIR","textPreview":"PREDECIR","textChars":8,"textLines":1,"bbox":[190,351,350,64]}
+{"kind":"shape","id":"sh/ls7axovm","slide":8,"bbox":[545,384,230,3]}
+{"kind":"textbox","id":"sh/07y94je1","slide":8,"text":"¿Qué ocurrirá?","textPreview":"¿Qué ocurrirá?","textChars":14,"textLines":1,"bbox":[820,355,360,50]}
+{"kind":"textbox","id":"sh/z6psvedg","slide":8,"text":"estimación","textPreview":"estimación","textChars":10,"textLines":1,"bbox":[1240,355,210,50]}
+{"kind":"textbox","id":"sh/y5gr29wv","slide":8,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[100,460,70,60]}
+{"kind":"textbox","id":"sh/5oba9svq","slide":8,"text":"GENERAR","textPreview":"GENERAR","textChars":7,"textLines":1,"bbox":[190,456,350,64]}
+{"kind":"shape","id":"sh/k32tgne5","slide":8,"bbox":[545,489,230,3]}
+{"kind":"textbox","id":"sh/47adcr2h","slide":8,"text":"¿Qué podemos crear?","textPreview":"¿Qué podemos crear?","textChars":19,"textLines":1,"bbox":[820,460,360,50]}
+{"kind":"textbox","id":"sh/p8ju5w32","slide":8,"text":"contenido","textPreview":"contenido","textChars":9,"textLines":1,"bbox":[1240,460,210,50]}
+{"kind":"textbox","id":"sh/258vahkb","slide":8,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[100,565,70,60]}
+{"kind":"textbox","id":"sh/36hc3mlw","slide":8,"text":"RECOMENDAR","textPreview":"RECOMENDAR","textChars":10,"textLines":1,"bbox":[190,561,350,64]}
+{"kind":"shape","id":"sh/g3qd8r25","slide":8,"bbox":[545,594,230,3]}
+{"kind":"textbox","id":"sh/h4zu1c3q","slide":8,"text":"¿Qué conviene?","textPreview":"¿Qué conviene?","textChars":14,"textLines":1,"bbox":[820,565,360,50]}
+{"kind":"textbox","id":"sh/u18v6hkf","slide":8,"text":"prioridad","textPreview":"prioridad","textChars":9,"textLines":1,"bbox":[1240,565,210,50]}
+{"kind":"textbox","id":"sh/f2hczml0","slide":8,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[100,670,70,60]}
+{"kind":"textbox","id":"sh/sz6t47m9","slide":8,"text":"ACTUAR","textPreview":"ACTUAR","textChars":6,"textLines":1,"bbox":[190,666,350,64]}
+{"kind":"shape","id":"sh/t0zuxc3u","slide":8,"bbox":[545,699,230,3]}
+{"kind":"textbox","id":"sh/baxwn25g","slide":8,"text":"¿Qué debe hacerse?","textPreview":"¿Qué debe hacerse?","textChars":18,"textLines":1,"bbox":[820,670,360,50]}
+{"kind":"textbox","id":"sh/a9ovexob","slide":8,"text":"ejecución","textPreview":"ejecución","textChars":9,"textLines":1,"bbox":[1240,670,210,50]}
+{"kind":"notes","id":"nt/7cbhfa","slide":8,"text":"Para una conversación no técnica podemos dejar de memorizar nombres de algoritmos y preguntar qué capacidad aporta el sistema. Clasificar significa asignar una categoría. Predecir significa estimar un resultado futuro o desconocido. Generar significa producir contenido nuevo. Recomendar significa ordenar alternativas de acuerdo con un criterio. Actuar significa modificar un sistema o completar una tarea utilizando herramientas. Un mismo producto puede combinar varias capacidades. Por ejemplo, puede clasificar una solicitud, predecir su urgencia, generar un resumen, recomendar una ruta y crear una tarea. Cada paso introduce evidencia y riesgos distintos. Este vocabulario permite describir una solución con mucha más precisión que decir simplemente que usa inteligencia artificial.\n\n[Sources]\n- https://cloud.google.com/learn/what-is-artificial-intelligence\n- https://cloud.google.com/discover/what-are-ai-agents"}
+{"kind":"slide","id":"sl/q3imv4","slide":9,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":14}
+{"kind":"shape","id":"sh/epkfmlcb","slide":9,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/1cbex0bm","slide":9,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/0b2xovah","slide":9,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/nedgzqts","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/md4fqls7","slide":9,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/9gvy10by","slide":9,"text":"Entrenar un modelo y utilizarlo son momentos diferentes","textPreview":"Entrenar un modelo y utilizarlo son momentos diferentes","textChars":55,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/ofmxsvad","slide":9,"bbox":[120,245,230,38]}
+{"kind":"textbox","id":"sh/3i9wn6to","slide":9,"text":"ENTRENAMIENTO","textPreview":"ENTRENAMIENTO","textChars":13,"textLines":1,"bbox":[132,246,206,36]}
+{"kind":"textbox","id":"sh/ih0fu1c3","slide":9,"text":"DATOS","textPreview":"DATOS","textChars":5,"textLines":1,"bbox":[120,330,190,55]}
+{"kind":"shape","id":"sh/k365ore1","slide":9,"bbox":[310,358,102,6]}
+{"kind":"shape","id":"sh/l4zmxwvm","slide":9,"bbox":[392,342,38,38]}
+{"kind":"textbox","id":"sh/y1onmhwv","slide":9,"text":"OBJETIVO","textPreview":"OBJETIVO","textChars":8,"textLines":1,"bbox":[455,330,210,55]}
+{"kind":"shape","id":"sh/j2x4vmdg","slide":9,"bbox":[655,358,102,6]}
+{"kind":"shape","id":"sh/87q5sred","slide":9,"bbox":[737,342,38,38]}
+{"kind":"shape","id":"sh/t8zm1wvi","slide":9,"bbox":[800,300,260,120]}
+{"kind":"textbox","id":"sh/658nqhw7","slide":9,"text":"MODELO","textPreview":"MODELO","textChars":6,"textLines":1,"bbox":[825,322,210,70]}
+{"kind":"shape","id":"sh/76h4zmds","slide":9,"bbox":[120,505,190,38]}
+{"kind":"textbox","id":"sh/obmlg7et","slide":9,"text":"INFERENCIA","textPreview":"INFERENCIA","textChars":10,"textLines":1,"bbox":[132,506,166,36]}
+{"kind":"textbox","id":"sh/9cfmpcfe","slide":9,"text":"ENTRADA NUEVA","textPreview":"ENTRADA NUEVA","textChars":13,"textLines":1,"bbox":[120,590,255,55]}
+{"kind":"shape","id":"sh/ps72to72","slide":9,"bbox":[375,618,102,6]}
+{"kind":"shape","id":"sh/o7elkj6x","slide":9,"bbox":[457,602,38,38]}
+{"kind":"shape","id":"sh/365krypc","slide":9,"bbox":[520,560,260,120]}
+{"kind":"textbox","id":"sh/25wjitor","slide":9,"text":"MODELO","textPreview":"MODELO","textChars":6,"textLines":1,"bbox":[545,582,210,70]}
+{"kind":"shape","id":"sh/dw72x87e","slide":9,"bbox":[785,618,102,6]}
+{"kind":"shape","id":"sh/cvylo36t","slide":9,"bbox":[867,602,38,38]}
+{"kind":"textbox","id":"sh/bupkvyp8","slide":9,"text":"SALIDA","textPreview":"SALIDA","textChars":6,"textLines":1,"bbox":[925,590,190,55]}
+{"kind":"shape","id":"sh/qtg3mton","slide":9,"bbox":[1110,618,102,6]}
+{"kind":"shape","id":"sh/l0r2187a","slide":9,"bbox":[1192,602,38,38]}
+{"kind":"shape","id":"sh/0zyls36p","slide":9,"bbox":[1250,550,220,140]}
+{"kind":"textbox","id":"sh/i5szm547","slide":9,"text":"VERIFICAR\nY APRENDER","textPreview":"VERIFICAR | Y APRENDER","textChars":20,"textLines":2,"bbox":[1270,575,180,90]}
+{"kind":"textbox","id":"sh/j610va5s","slide":9,"text":"En un agente, la inferencia puede repetirse varias veces mientras utiliza herramientas.","textPreview":"En un agente, la inferencia puede repetirse varias veces mientras utiliza herramientas.","textChars":87,"textLines":1,"bbox":[1110,300,340,120]}
+{"kind":"notes","id":"nt/q3imv4","slide":9,"text":"Durante el entrenamiento, el sistema ajusta sus parámetros utilizando grandes conjuntos de datos y un objetivo de aprendizaje. El resultado es un modelo. Durante la inferencia, ese modelo recibe una entrada nueva y produce una salida. En un agente, la inferencia puede repetirse varias veces mientras el sistema consulta herramientas y actualiza su plan. Esta distinción importa porque los controles son diferentes. En entrenamiento preguntamos por calidad, representatividad, licencias y sesgos de los datos. En inferencia preguntamos por el contexto, la seguridad de la entrada, la verificación de la salida y las acciones permitidas. Finalmente necesitamos retroalimentación y monitoreo para saber si el desempeño cambia con el tiempo.\n\n[Sources]\n- https://cloud.google.com/learn/what-is-machine-learning\n- https://cloud.google.com/resources/core-concepts-ai-agents"}
+{"kind":"slide","id":"sl/y6covk","slide":10,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":16}
+{"kind":"shape","id":"sh/4jqp8fap","slide":10,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/3ih8fatk","slide":10,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/2h876psz","slide":10,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/hgzqdkbe","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/gfqp4fat","slide":10,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/vuh8bat8","slide":10,"text":"Una respuesta convincente todavía puede estar equivocada","textPreview":"Una respuesta convincente todavía puede estar equivocada","textChars":56,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"textbox","id":"sh/ut8725sn","slide":10,"text":"FLUIDEZ","textPreview":"FLUIDEZ","textChars":7,"textLines":1,"bbox":[130,275,480,100]}
+{"kind":"textbox","id":"sh/1c3qp4bi","slide":10,"text":"≠","textPreview":"≠","textChars":1,"textLines":1,"bbox":[690,274,150,100]}
+{"kind":"textbox","id":"sh/0ba9gzax","slide":10,"text":"EVIDENCIA","textPreview":"EVIDENCIA","textChars":9,"textLines":1,"bbox":[900,275,540,100]}
+{"kind":"shape","id":"sh/qd8zu1kr","slide":10,"bbox":[130,405,1310,5]}
+{"kind":"textbox","id":"sh/byhg36lc","slide":10,"text":"ALUCINACIÓN","textPreview":"ALUCINACIÓN","textChars":11,"textLines":1,"bbox":[130,495,285,45]}
+{"kind":"textbox","id":"sh/czqhwb2x","slide":10,"text":"Información plausible, pero inventada.","textPreview":"Información plausible, pero inventada.","textChars":38,"textLines":1,"bbox":[130,548,280,95]}
+{"kind":"textbox","id":"sh/d0zy5gji","slide":10,"text":"SESGO","textPreview":"SESGO","textChars":5,"textLines":1,"bbox":[465,495,285,45]}
+{"kind":"textbox","id":"sh/298fq1kv","slide":10,"text":"Patrones históricos que producen desigualdad.","textPreview":"Patrones históricos que producen desigualdad.","textChars":45,"textLines":1,"bbox":[465,548,280,95]}
+{"kind":"textbox","id":"sh/3ahgzml0","slide":10,"text":"DERIVA","textPreview":"DERIVA","textChars":6,"textLines":1,"bbox":[800,495,285,45]}
+{"kind":"textbox","id":"sh/obqhsr2l","slide":10,"text":"El contexto cambia y el desempeño cae.","textPreview":"El contexto cambia y el desempeño cae.","textChars":38,"textLines":1,"bbox":[800,548,280,95]}
+{"kind":"textbox","id":"sh/pczy1w36","slide":10,"text":"INYECCIÓN","textPreview":"INYECCIÓN","textChars":9,"textLines":1,"bbox":[1135,495,285,45]}
+{"kind":"textbox","id":"sh/m5sz2lkz","slide":10,"text":"Una entrada intenta alterar instrucciones o acciones.","textPreview":"Una entrada intenta alterar instrucciones o acciones.","textChars":53,"textLines":1,"bbox":[1135,548,280,95]}
+{"kind":"shape","id":"sh/761gbq1k","slide":10,"bbox":[130,690,1310,70]}
+{"kind":"textbox","id":"sh/jyt47yxk","slide":10,"text":"A mayor impacto, mayor necesidad de fuentes, validación, límites y revisión humana.","textPreview":"A mayor impacto, mayor necesidad de fuentes, validación, límites y revisión humana.","textChars":83,"textLines":1,"bbox":[160,702,1250,48]}
+{"kind":"notes","id":"nt/y6covk","slide":10,"text":"Los modelos actuales producen resultados probabilísticos. Esto significa que generan una salida plausible de acuerdo con patrones aprendidos, pero no garantizan que esa salida sea verdadera, justa o apropiada para el caso. Pueden inventar información, reproducir sesgos, perder precisión cuando cambia el contexto o seguir instrucciones maliciosas. La fluidez no es evidencia. Para utilizar estas herramientas necesitamos fuentes, validación, límites funcionales y una persona capaz de cuestionar el resultado. Mientras más impacto tenga una decisión, más fuerte debe ser la verificación. Esta idea prepara el paso hacia inteligencia artificial responsable: la calidad del modelo importa, pero también importa la capacidad institucional para detectar y corregir errores.\n\n[Sources]\n- https://cloud.google.com/learn/what-is-artificial-intelligence\n- https://cloud.google.com/discover/what-is-agentic-ai"}
+{"kind":"slide","id":"sl/fmr1oi","slide":11,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":14}
+{"kind":"shape","id":"sh/elgfylwj","slide":11,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/1o7y90vu","slide":11,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/0nyh0ve9","slide":11,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/nq9gbad0","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/mp0z25wf","slide":11,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/9srydkv6","slide":11,"text":"Transformar no es automatizar todo: es rediseñar el flujo de decisión","textPreview":"Transformar no es automatizar todo: es rediseñar el flujo de decisión","textChars":69,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/8rih4fel","slide":11,"bbox":[120,545,360,180]}
+{"kind":"textbox","id":"sh/3u5gz6dw","slide":11,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[145,563,70,35]}
+{"kind":"textbox","id":"sh/2twfq1wb","slide":11,"text":"ASISTIR","textPreview":"ASISTIR","textChars":7,"textLines":1,"bbox":[145,605,310,58]}
+{"kind":"textbox","id":"sh/kfi58j6l","slide":11,"text":"La IA propone; una persona decide.","textPreview":"La IA propone; una persona decide.","textChars":34,"textLines":1,"bbox":[145,670,310,35]}
+{"kind":"shape","id":"sh/5grm1on6","slide":11,"bbox":[535,430,420,295]}
+{"kind":"textbox","id":"sh/id0n69ov","slide":11,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[560,448,70,35]}
+{"kind":"textbox","id":"sh/je94ze5g","slide":11,"text":"AUTOMATIZAR","textPreview":"AUTOMATIZAR","textChars":11,"textLines":1,"bbox":[560,490,370,58]}
+{"kind":"textbox","id":"sh/sj25cjmx","slide":11,"text":"Una tarea delimitada opera bajo reglas y controles.","textPreview":"Una tarea delimitada opera bajo reglas y controles.","textChars":51,"textLines":1,"bbox":[560,555,370,150]}
+{"kind":"shape","id":"sh/tkb65oni","slide":11,"bbox":[1010,290,470,435]}
+{"kind":"textbox","id":"sh/6h0nat4r","slide":11,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1035,308,70,35]}
+{"kind":"textbox","id":"sh/7it43y5c","slide":11,"text":"DELEGAR","textPreview":"DELEGAR","textChars":7,"textLines":1,"bbox":[1035,350,420,58]}
+{"kind":"textbox","id":"sh/ony50z6t","slide":11,"text":"Un agente coordina pasos y actúa sobre sistemas.","textPreview":"Un agente coordina pasos y actúa sobre sistemas.","textChars":48,"textLines":1,"bbox":[1035,415,420,290]}
+{"kind":"textbox","id":"sh/9o7mt4ny","slide":11,"text":"↑ autonomía · impacto · trazabilidad · seguridad · capacidad de reversión","textPreview":"↑ autonomía · impacto · trazabilidad · seguridad · capacidad de reversión","textChars":73,"textLines":1,"bbox":[950,755,530,35]}
+{"kind":"notes","id":"nt/fmr1oi","slide":11,"text":"La automatización puede organizarse como una escalera. En el primer nivel, la IA asiste: resume, busca o propone, pero una persona decide. En el segundo, automatiza una tarea delimitada bajo reglas y controles. En el tercero, un agente coordina varios pasos y puede actuar sobre sistemas. Al subir aumenta el alcance, pero también la necesidad de trazabilidad, seguridad, supervisión y mecanismos de reversión. La pregunta correcta no es cuánto podemos automatizar. Es qué nivel de autonomía produce valor sin exceder la capacidad institucional para supervisarlo. En muchos servicios públicos, una solución asistida y bien documentada será superior a una autonomía completa difícil de explicar o corregir.\n\n[Sources]\n- https://cloud.google.com/discover/what-is-agentic-ai\n- https://cloud.google.com/discover/what-are-ai-agents"}
+{"kind":"slide","id":"sl/fp36sb","slide":12,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":14}
+{"kind":"textbox","id":"sh/onup4nm5","slide":12,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/nml8vi5k","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/2lc72x4z","slide":12,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/xs3q1cnm","slide":12,"text":"ILIA mide un ecosistema, no la popularidad de una herramienta","textPreview":"ILIA mide un ecosistema, no la popularidad de una herramienta","textChars":61,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/wru987m1","slide":12,"bbox":[110,290,390,380]}
+{"kind":"textbox","id":"sh/bql8z25g","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[138,318,70,35]}
+{"kind":"textbox","id":"sh/apc76x4v","slide":12,"text":"FACTORES\nHABILITANTES","textPreview":"FACTORES | HABILITANTES","textChars":21,"textLines":2,"bbox":[138,385,334,112]}
+{"kind":"shape","id":"sh/lgnq5cni","slide":12,"bbox":[138,520,334,4]}
+{"kind":"textbox","id":"sh/kfe9c7mx","slide":12,"text":"Infraestructura · datos · talento","textPreview":"Infraestructura · datos · talento","textChars":33,"textLines":1,"bbox":[138,555,334,78]}
+{"kind":"shape","id":"sh/mh476h07","slide":12,"bbox":[575,290,390,380]}
+{"kind":"textbox","id":"sh/nidofm1s","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[603,318,70,35]}
+{"kind":"textbox","id":"sh/8jmp8rix","slide":12,"text":"INVESTIGACIÓN,\nDESARROLLO Y ADOPCIÓN","textPreview":"INVESTIGACIÓN, | DESARROLLO Y ADOPCIÓN","textChars":36,"textLines":2,"bbox":[603,385,334,112]}
+{"kind":"shape","id":"sh/9kv6hwji","slide":12,"bbox":[603,520,334,4]}
+{"kind":"textbox","id":"sh/al47a103","slide":12,"text":"Conocimiento · innovación · uso real","textPreview":"Conocimiento · innovación · uso real","textChars":36,"textLines":1,"bbox":[603,555,334,78]}
+{"kind":"shape","id":"sh/vmdoj61o","slide":12,"bbox":[1040,290,390,380]}
+{"kind":"textbox","id":"sh/wnmpcbi9","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1068,318,70,35]}
+{"kind":"textbox","id":"sh/x8f6lgju","slide":12,"text":"GOBERNANZA","textPreview":"GOBERNANZA","textChars":10,"textLines":1,"bbox":[1068,385,334,112]}
+{"kind":"shape","id":"sh/qpknyxkz","slide":12,"bbox":[1068,520,334,4]}
+{"kind":"textbox","id":"sh/bqto721k","slide":12,"text":"Dirección · instituciones · reglas","textPreview":"Dirección · instituciones · reglas","textChars":34,"textLines":1,"bbox":[1068,555,334,78]}
+{"kind":"textbox","id":"sh/fi5cjed0","slide":12,"text":"La madurez aparece cuando las tres dimensiones avanzan juntas.","textPreview":"La madurez aparece cuando las tres dimensiones avanzan juntas.","textChars":62,"textLines":1,"bbox":[110,710,1250,55]}
+{"kind":"notes","id":"nt/fp36sb","slide":12,"text":"El Índice Latinoamericano de Inteligencia Artificial ofrece una idea muy útil: la capacidad de un país no se mide por cuántas personas abrieron una cuenta en una herramienta. Se mide como un ecosistema. ILIA 2025 organiza ese ecosistema en tres dimensiones. Los factores habilitantes permiten acceder y utilizar inteligencia artificial. La investigación, el desarrollo y la adopción muestran si el conocimiento se convierte en soluciones y uso real. La gobernanza determina si existe dirección estratégica, institucionalidad, regulación y colaboración. Esta estructura también funciona para analizar una organización. Podemos tener una herramienta potente y, sin embargo, carecer de datos, talento, procesos o reglas para utilizarla de manera sostenible.\n\n[Sources]\n- https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025\n- https://www.cepal.org/en/node/72703"}
+{"kind":"slide","id":"sl/faiji3","slide":13,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":16}
+{"kind":"shape","id":"sh/kj6p83u1","slide":13,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/jyxozydg","slide":13,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/ixo76tcb","slide":13,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/xwf6xovq","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/wv6p43u5","slide":13,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/vuxovydk","slide":13,"text":"Infraestructura, datos y talento sostienen cualquier iniciativa de IA","textPreview":"Infraestructura, datos y talento sostienen cualquier iniciativa de IA","textChars":69,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"textbox","id":"sh/at472tcz","slide":13,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[110,270,80,45]}
+{"kind":"textbox","id":"sh/1szq9svu","slide":13,"text":"INFRAESTRUCTURA","textPreview":"INFRAESTRUCTURA","textChars":15,"textLines":1,"bbox":[110,330,390,52]}
+{"kind":"shape","id":"sh/grqpgnu9","slide":13,"bbox":[110,400,390,4]}
+{"kind":"textbox","id":"sh/ixg7m1gb","slide":13,"text":"Conectividad\nDispositivos\nCapacidad de cómputo","textPreview":"Conectividad | Dispositivos | Capacidad de cómputo","textChars":46,"textLines":3,"bbox":[110,435,390,160]}
+{"kind":"shape","id":"sh/3ypov6xw","slide":13,"bbox":[110,640,390,74]}
+{"kind":"textbox","id":"sh/4zypobyh","slide":13,"text":"¿Podemos operar?","textPreview":"¿Podemos operar?","textChars":16,"textLines":1,"bbox":[128,649,354,55]}
+{"kind":"textbox","id":"sh/5076xgf2","slide":13,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[590,270,80,45]}
+{"kind":"textbox","id":"sh/u9wni1gf","slide":13,"text":"DATOS","textPreview":"DATOS","textChars":5,"textLines":1,"bbox":[590,330,390,52]}
+{"kind":"shape","id":"sh/va5or6h0","slide":13,"bbox":[590,400,390,4]}
+{"kind":"textbox","id":"sh/gvepkbyl","slide":13,"text":"Disponibilidad\nCapacidad de uso\nGobernanza","textPreview":"Disponibilidad | Capacidad de uso | Gobernanza","textChars":42,"textLines":3,"bbox":[590,435,390,160]}
+{"kind":"shape","id":"sh/hwn6twfq","slide":13,"bbox":[590,640,390,74]}
+{"kind":"textbox","id":"sh/e507ulgj","slide":13,"text":"¿Tenemos evidencia?","textPreview":"¿Tenemos evidencia?","textChars":19,"textLines":1,"bbox":[608,649,354,55]}
+{"kind":"textbox","id":"sh/f69o3qx4","slide":13,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1070,270,80,45]}
+{"kind":"textbox","id":"sh/ba14vixg","slide":13,"text":"TALENTO","textPreview":"TALENTO","textChars":7,"textLines":1,"bbox":[1070,330,390,52]}
+{"kind":"shape","id":"sh/a9s3mdwv","slide":13,"bbox":[1070,400,390,4]}
+{"kind":"textbox","id":"sh/xcjmxsvm","slide":13,"text":"Alfabetización\nFormación profesional\nCapacidad avanzada","textPreview":"Alfabetización | Formación profesional | Capacidad avanzada","textChars":55,"textLines":3,"bbox":[1070,435,390,160]}
+{"kind":"shape","id":"sh/cbalone1","slide":13,"bbox":[1070,640,390,74]}
+{"kind":"textbox","id":"sh/jel4z2ds","slide":13,"text":"¿Sabemos hacerlo?","textPreview":"¿Sabemos hacerlo?","textChars":17,"textLines":1,"bbox":[1088,649,354,55]}
+{"kind":"notes","id":"nt/faiji3","slide":13,"text":"La primera dimensión de ILIA reúne los factores habilitantes. Infraestructura incluye conectividad, dispositivos y capacidad de cómputo. Datos incluye disponibilidad, calidad, capacidad de uso y gobernanza. Talento humano abarca alfabetización en inteligencia artificial, formación profesional y capacidades avanzadas. Estos componentes se refuerzan entre sí. La conectividad sin datos utilizables no produce soluciones. Los datos sin personas capaces de interpretarlos no se convierten en decisiones. Y el talento sin infraestructura encuentra límites para experimentar y escalar. Una estrategia de inteligencia artificial debe mirar las tres bases al mismo tiempo y reconocer cuál es el cuello de botella concreto del contexto.\n\n[Sources]\n- https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025\n- https://www.cepal.org/en/node/72703"}
+{"kind":"slide","id":"sl/pwhsxi","slide":14,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":14}
+{"kind":"shape","id":"sh/jelwvqlc","slide":14,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/kfux4bmx","slide":14,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/5g3exg3i","slide":14,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/61cf6l43","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/72lgzqlo","slide":14,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/s3ux8vm9","slide":14,"text":"El conocimiento genera impacto cuando llega a la adopción","textPreview":"El conocimiento genera impacto cuando llega a la adopción","textChars":57,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/t43y103u","slide":14,"bbox":[205,300,220,220]}
+{"kind":"textbox","id":"sh/ml8fu14z","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[270,340,90,50]}
+{"kind":"textbox","id":"sh/n61wn6lk","slide":14,"text":"INVESTIGACIÓN","textPreview":"INVESTIGACIÓN","textChars":13,"textLines":1,"bbox":[120,555,390,50]}
+{"kind":"textbox","id":"sh/fulc7ul0","slide":14,"text":"Conocimiento, publicaciones y capacidades científicas.","textPreview":"Conocimiento, publicaciones y capacidades científicas.","textChars":54,"textLines":1,"bbox":[140,620,350,100]}
+{"kind":"shape","id":"sh/e9cbep4f","slide":14,"bbox":[465,401,92,6]}
+{"kind":"shape","id":"sh/1wnu9436","slide":14,"bbox":[537,385,38,38]}
+{"kind":"shape","id":"sh/0vutgzml","slide":14,"bbox":[690,300,220,220]}
+{"kind":"textbox","id":"sh/r6lc3ul4","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[755,340,90,50]}
+{"kind":"textbox","id":"sh/q5cbap4j","slide":14,"text":"I + D","textPreview":"I + D","textChars":5,"textLines":1,"bbox":[605,555,390,50]}
+{"kind":"textbox","id":"sh/d83u5k3u","slide":14,"text":"Innovación, software, emprendimiento y desarrollo.","textPreview":"Innovación, software, emprendimiento y desarrollo.","textChars":50,"textLines":1,"bbox":[625,620,350,100]}
+{"kind":"shape","id":"sh/s7utczm9","slide":14,"bbox":[950,401,92,6]}
+{"kind":"shape","id":"sh/321czals","slide":14,"bbox":[1022,385,38,38]}
+{"kind":"shape","id":"sh/i1sb6547","slide":14,"bbox":[1175,300,220,220]}
+{"kind":"textbox","id":"sh/6xsvi5oz","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1240,340,90,50]}
+{"kind":"textbox","id":"sh/7y1cbapk","slide":14,"text":"ADOPCIÓN","textPreview":"ADOPCIÓN","textChars":8,"textLines":1,"bbox":[1090,555,390,50]}
+{"kind":"textbox","id":"sh/8zadkf65","slide":14,"text":"Uso real en industria, gobierno y sociedad.","textPreview":"Uso real en industria, gobierno y sociedad.","textChars":43,"textLines":1,"bbox":[1110,620,350,100]}
+{"kind":"shape","id":"sh/t0judk7q","slide":14,"bbox":[440,745,720,48]}
+{"kind":"textbox","id":"sh/u1svmpob","slide":14,"text":"Comprar una herramienta no equivale a desarrollar capacidad.","textPreview":"Comprar una herramienta no equivale a desarrollar capacidad.","textChars":60,"textLines":1,"bbox":[465,750,670,38]}
+{"kind":"notes","id":"nt/pwhsxi","slide":14,"text":"La segunda dimensión conecta investigación, desarrollo y adopción. La investigación produce conocimiento y capacidades científicas. La innovación y el desarrollo convierten ese conocimiento en software, productos, procesos y emprendimientos. La adopción muestra si las soluciones realmente se utilizan en industria, gobierno y sociedad. ILIA 2025 incorpora señales de adopción de inteligencia artificial generativa y uso de servicios de IA en la web. Esta secuencia evita dos errores: creer que publicar investigación garantiza impacto o creer que comprar una herramienta equivale a desarrollar capacidades. El valor aparece cuando conocimiento, implementación, aprendizaje organizacional y uso real se conectan.\n\n[Sources]\n- https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025\n- https://www.cepal.org/en/node/72703"}
+{"kind":"slide","id":"sl/ugpvtd","slide":15,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":12}
+{"kind":"shape","id":"sh/0bixsfil","slide":15,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/fapwzuh0","slide":15,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/e9gfqp0f","slide":15,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/t87exkzu","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/s7yxofi9","slide":15,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/r6pwvah4","slide":15,"text":"La gobernanza convierte capacidad tecnológica en dirección pública","textPreview":"La gobernanza convierte capacidad tecnológica en dirección pública","textChars":66,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"shape","id":"sh/6lgfm50j","slide":15,"bbox":[590,290,420,420]}
+{"kind":"shape","id":"sh/5k7et0zy","slide":15,"bbox":[690,390,220,220]}
+{"kind":"textbox","id":"sh/4jedkvid","slide":15,"text":"DIRECCIÓN\nPÚBLICA","textPreview":"DIRECCIÓN | PÚBLICA","textChars":17,"textLines":2,"bbox":[715,445,170,100]}
+{"kind":"shape","id":"sh/6lgvuhk3","slide":15,"bbox":[120,295,420,122]}
+{"kind":"textbox","id":"sh/rmpwnmlo","slide":15,"text":"VISIÓN E INSTITUCIONALIDAD","textPreview":"VISIÓN E INSTITUCIONALIDAD","textChars":26,"textLines":1,"bbox":[140,309,380,38]}
+{"kind":"textbox","id":"sh/snydwr29","slide":15,"text":"Estrategia · participación social · responsables","textPreview":"Estrategia · participación social · responsables","textChars":48,"textLines":1,"bbox":[144,354,372,50]}
+{"kind":"shape","id":"sh/to7epc3u","slide":15,"bbox":[1055,295,420,122]}
+{"kind":"textbox","id":"sh/ihwvqxk7","slide":15,"text":"VINCULACIÓN INTERNACIONAL","textPreview":"VINCULACIÓN INTERNACIONAL","textChars":25,"textLines":1,"bbox":[1075,309,380,38]}
+{"kind":"textbox","id":"sh/ji5cj2ls","slide":15,"text":"Organismos · estándares · cooperación","textPreview":"Organismos · estándares · cooperación","textChars":37,"textLines":1,"bbox":[1079,354,372,50]}
+{"kind":"shape","id":"sh/4jeds72d","slide":15,"bbox":[510,690,580,122]}
+{"kind":"textbox","id":"sh/5knelc3i","slide":15,"text":"REGULACIÓN","textPreview":"REGULACIÓN","textChars":10,"textLines":1,"bbox":[530,704,540,38]}
+{"kind":"textbox","id":"sh/udwvmx4v","slide":15,"text":"IA · ciberseguridad · ética · sostenibilidad · datos personales","textPreview":"IA · ciberseguridad · ética · sostenibilidad · datos personales","textChars":63,"textLines":1,"bbox":[534,749,532,50]}
+{"kind":"textbox","id":"sh/ve5cf2lg","slide":15,"text":"La autonomía técnica necesita límites, responsables y rendición de cuentas.","textPreview":"La autonomía técnica necesita límites, responsables y rendición de cuentas.","textChars":75,"textLines":1,"bbox":[220,235,1160,38]}
+{"kind":"notes","id":"nt/ugpvtd","slide":15,"text":"La tercera dimensión es gobernanza. ILIA observa si existe una estrategia de inteligencia artificial, si hay instituciones responsables y si la sociedad participa. También considera la vinculación internacional mediante organismos y definición de estándares. Finalmente mide regulación de inteligencia artificial, ciberseguridad, ética, sostenibilidad y protección de datos personales. Gobernar no significa solamente restringir. Significa asignar responsabilidades, definir objetivos, habilitar coordinación y crear condiciones de confianza. La IA agéntica vuelve esta dimensión todavía más importante porque el sistema puede actuar sobre información y procesos. A mayor autonomía técnica, mayor claridad institucional sobre permisos, límites y rendición de cuentas.\n\n[Sources]\n- https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025\n- https://www.cepal.org/en/node/72703\n- https://cloud.google.com/discover/what-is-agentic-ai"}
+{"kind":"slide","id":"sl/apcgat","slide":16,"title":"CURSO 00 · PERSPECTIVAS DE IA","textShapes":14}
+{"kind":"shape","id":"sh/kfylcza1","slide":16,"bbox":[72,78,1456,1]}
+{"kind":"shape","id":"sh/jepkju9g","slide":16,"bbox":[72,822,1456,1]}
+{"kind":"textbox","id":"sh/idg3q9sb","slide":16,"text":"CURSO 00 · PERSPECTIVAS DE IA","textPreview":"CURSO 00 · PERSPECTIVAS DE IA","textChars":29,"textLines":1,"bbox":[74,35,520,26]}
+{"kind":"textbox","id":"sh/tkr2pory","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1450,35,76,26]}
+{"kind":"textbox","id":"sh/sjilgjad","slide":16,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[1215,840,310,24]}
+{"kind":"textbox","id":"sh/7ipkne9s","slide":16,"text":"En Guatemala, el cuello de botella más visible es el talento","textPreview":"En Guatemala, el cuello de botella más visible es el talento","textChars":60,"textLines":1,"bbox":[74,100,1450,92]}
+{"kind":"textbox","id":"sh/6hg3e9s7","slide":16,"text":"26.27","textPreview":"26.27","textChars":5,"textLines":1,"bbox":[100,275,420,115]}
+{"kind":"shape","id":"sh/h8r2toru","slide":16,"bbox":[100,410,410,5]}
+{"kind":"textbox","id":"sh/g7ilkja9","slide":16,"text":"Talento humano","textPreview":"Talento humano","textChars":14,"textLines":1,"bbox":[100,445,420,45]}
+{"kind":"textbox","id":"sh/e5kb694v","slide":16,"text":"Principal rezago habilitante","textPreview":"Principal rezago habilitante","textChars":28,"textLines":1,"bbox":[100,505,405,90]}
+{"kind":"textbox","id":"sh/f6tcfu5g","slide":16,"text":"42.76","textPreview":"42.76","textChars":5,"textLines":1,"bbox":[600,275,420,115]}
+{"kind":"shape","id":"sh/g72t8zm1","slide":16,"bbox":[600,410,410,5]}
+{"kind":"textbox","id":"sh/18buh4nm","slide":16,"text":"Infraestructura","textPreview":"Infraestructura","textChars":15,"textLines":1,"bbox":[600,445,420,45]}
+{"kind":"textbox","id":"sh/29kba947","slide":16,"text":"Avance todavía bajo la media regional","textPreview":"Avance todavía bajo la media regional","textChars":37,"textLines":1,"bbox":[600,505,405,90]}
+{"kind":"textbox","id":"sh/3utcje5c","slide":16,"text":"≈56%","textPreview":"≈56%","textChars":4,"textLines":1,"bbox":[1100,275,420,115]}
+{"kind":"shape","id":"sh/ovmdcjmx","slide":16,"bbox":[1100,410,410,5]}
+{"kind":"textbox","id":"sh/pwvuloni","slide":16,"text":"Uso de Internet","textPreview":"Uso de Internet","textChars":15,"textLines":1,"bbox":[1100,445,420,45]}
+{"kind":"textbox","id":"sh/id0byp4n","slide":16,"text":"Cerca de un tercio de hogares con acceso","textPreview":"Cerca de un tercio de hogares con acceso","textChars":40,"textLines":1,"bbox":[1100,505,405,90]}
+{"kind":"shape","id":"sh/jy9c7a58","slide":16,"bbox":[100,665,1410,98]}
+{"kind":"textbox","id":"sh/7i58fql0","slide":16,"text":"La oportunidad: proyectos concretos + formación + datos utilizables + capacidades que permanezcan en la institución.","textPreview":"La oportunidad: proyectos concretos + formación + datos utilizables + capacidades que permanezcan en la institución.","textChars":116,"textLines":1,"bbox":[135,680,1340,70]}
+{"kind":"notes","id":"nt/apcgat","slide":16,"text":"La ficha de Guatemala en ILIA 2025 muestra una situación de avance con brechas estructurales. La infraestructura alcanza 42.76 puntos y el talento humano 26.27, señalado como el principal rezago dentro de los factores habilitantes. Aproximadamente 56 por ciento de la población utiliza Internet y cerca de un tercio de los hogares tiene acceso. Estas cifras no significan que Guatemala deba esperar. Significan que la adopción debe acompañarse de formación, datos utilizables, fortalecimiento institucional y proyectos aplicados que generen aprendizaje. Para una organización pública, la oportunidad está en comenzar con problemas concretos, pilotos controlados y capacidades que permanezcan dentro de la institución.\n\n[Sources]\n- https://www.cepal.org/en/node/72703"}
+{"kind":"slide","id":"sl/9401e8","slide":17,"title":"PUENTE AL CURSO 01","textShapes":8}
+{"kind":"shape","id":"sh/ful0bit8","slide":17,"bbox":[74,70,220,38]}
+{"kind":"textbox","id":"sh/gvu14nut","slide":17,"text":"PUENTE AL CURSO 01","textPreview":"PUENTE AL CURSO 01","textChars":18,"textLines":1,"bbox":[86,71,196,36]}
+{"kind":"textbox","id":"sh/hw3idsbe","slide":17,"text":"Si un sistema puede actuar,\nla institución tiene que\npoder responder.","textPreview":"Si un sistema puede actuar, | la institución tiene que | poder responder.","textChars":69,"textLines":3,"bbox":[74,175,980,300]}
+{"kind":"shape","id":"sh/2xcj6xcj","slide":17,"bbox":[80,600,325,92]}
+{"kind":"textbox","id":"sh/3yl0f2t4","slide":17,"text":"PREVENIR","textPreview":"PREVENIR","textChars":8,"textLines":1,"bbox":[98,612,289,66]}
+{"kind":"shape","id":"sh/4ze187up","slide":17,"bbox":[402,641,24,6]}
+{"kind":"shape","id":"sh/p0nihcba","slide":17,"bbox":[406,625,38,38]}
+{"kind":"shape","id":"sh/y1szutcf","slide":17,"bbox":[450,600,325,92]}
+{"kind":"textbox","id":"sh/j2103yt0","slide":17,"text":"DETECTAR","textPreview":"DETECTAR","textChars":8,"textLines":1,"bbox":[468,612,289,66]}
+{"kind":"shape","id":"sh/ve9s729g","slide":17,"bbox":[772,641,24,6]}
+{"kind":"shape","id":"sh/ud0bex8v","slide":17,"bbox":[776,625,38,38]}
+{"kind":"shape","id":"sh/hgra9sr6","slide":17,"bbox":[820,600,325,92]}
+{"kind":"textbox","id":"sh/wfitgnq1","slide":17,"text":"EXPLICAR","textPreview":"EXPLICAR","textChars":8,"textLines":1,"bbox":[838,612,289,66]}
+{"kind":"shape","id":"sh/7q9s3i94","slide":17,"bbox":[1142,641,24,6]}
+{"kind":"shape","id":"sh/mpgradsj","slide":17,"bbox":[1146,625,38,38]}
+{"kind":"shape","id":"sh/9sra5sra","slide":17,"bbox":[1190,600,325,92]}
+{"kind":"textbox","id":"sh/8ritcnap","slide":17,"text":"CORREGIR","textPreview":"CORREGIR","textChars":8,"textLines":1,"bbox":[1208,612,289,66]}
+{"kind":"shape","id":"sh/zmpszi98","slide":17,"bbox":[80,755,1405,6]}
+{"kind":"textbox","id":"sh/ylgr6dsn","slide":17,"text":"IA responsable en lo público →","textPreview":"IA responsable en lo público →","textChars":30,"textLines":1,"bbox":[1050,785,430,44]}
+{"kind":"textbox","id":"sh/2hwbitcf","slide":17,"text":"© ChangeSprint · Edgar Valdés","textPreview":"© ChangeSprint · Edgar Valdés","textChars":29,"textLines":1,"bbox":[80,835,360,25]}
+{"kind":"notes","id":"nt/9401e8","slide":17,"text":"Cerramos con el puente hacia el Curso Uno. La evolución desde machine learning hasta sistemas agénticos amplía lo que podemos hacer, pero también amplía la responsabilidad de la organización. Si una inteligencia artificial puede clasificar, predecir, generar, recomendar o actuar, la institución debe poder prevenir daños, detectar errores, explicar decisiones y corregir resultados. La transformación digital no consiste en delegar nuestra responsabilidad a un modelo. Consiste en construir mejores capacidades para observar, decidir, actuar y aprender. En el siguiente curso veremos cómo convertir esta idea en salvaguardas concretas: supervisión humana real, evaluación de impacto, trazabilidad, privacidad, seguridad y mecanismos de reparación.\n\n[Sources]\n- https://cloud.google.com/discover/what-are-ai-agents\n- https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025"}

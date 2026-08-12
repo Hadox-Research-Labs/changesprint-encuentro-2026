@@ -4,6 +4,14 @@ Presentaciones web narradas de Edgar Valdés para ChangeSprint Encuentro 2026.
 
 Sitio público: <https://hadox-research-labs.github.io/changesprint-encuentro-2026/>
 
+## Curso 0
+
+[Perspectivas de IA y Machine Learning](curso-0-perspectivas-ia/)
+
+Presentación directa: <https://hadox-research-labs.github.io/changesprint-encuentro-2026/curso-0-perspectivas-ia/>
+
+Introduce el mapa conceptual de IA y machine learning, explica dónde se ubica la IA agéntica y conecta las capacidades con las dimensiones de ILIA 2025.
+
 ## Curso 1
 
 [IA responsable en lo público](curso-1-ia-responsable/)

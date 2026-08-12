@@ -1,0 +1,940 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/tzqps5",
+    "id": "tzqps5",
+    "slide": 4,
+    "layoutId": "6faa5fd3-4819-4e15-961c-6750c3e3d28e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7120a8a4-e58c-45fa-9bb8-8cfd1a9997c8",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F4EA",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6faa5fd3-4819-4e15-961c-6750c3e3d28e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7120a8a4-e58c-45fa-9bb8-8cfd1a9997c8",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7120a8a4-e58c-45fa-9bb8-8cfd1a9997c8",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nad8na1w",
+      "id": "1",
+      "bbox": [
+        72,
+        78,
+        1456,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D1DDD8",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8b69gvih",
+      "id": "2",
+      "bbox": [
+        72,
+        822,
+        1456,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D1DDD8",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cfqp0j2",
+      "id": "3",
+      "bbox": [
+        74,
+        35,
+        520,
+        26
+      ],
+      "geometry": "rect",
+      "text": "CURSO 00 · PERSPECTIVAS DE IA",
+      "textPreview": "CURSO 00 · PERSPECTIVAS DE IA",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#58717A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CURSO 00 · PERSPECTIVAS DE IA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CURSO 00 · PERSPECTIVAS DE IA",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#58717A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CURSO 00 · PERSPECTIVAS DE IA",
+              "fontSize": 13,
+              "color": "#58717A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adori50n",
+      "id": "4",
+      "bbox": [
+        1450,
+        35,
+        76,
+        26
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#58717A",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#58717A",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 13,
+              "color": "#58717A",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vex8ra18",
+      "id": "5",
+      "bbox": [
+        1215,
+        840,
+        310,
+        24
+      ],
+      "geometry": "rect",
+      "text": "© ChangeSprint · Edgar Valdés",
+      "textPreview": "© ChangeSprint · Edgar Valdés",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#58717A",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "© ChangeSprint · Edgar Valdés"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "© ChangeSprint · Edgar Valdés",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#58717A",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "© ChangeSprint · Edgar Valdés",
+              "fontSize": 12,
+              "color": "#58717A",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wf69kfid",
+      "id": "6",
+      "bbox": [
+        74,
+        100,
+        1450,
+        92
+      ],
+      "geometry": "rect",
+      "text": "IA es la familia; machine learning es una de sus formas de aprender",
+      "textPreview": "IA es la familia; machine learning es una de sus formas de aprender",
+      "resolvedFontSize": 43,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 43,
+        "typeface": "+mn-lt",
+        "color": "#07394B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IA es la familia; machine learning es una de sus formas de aprender"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IA es la familia; machine learning es una de sus formas de aprender",
+          "resolvedTextStyle": {
+            "fontSize": 43,
+            "color": "#07394B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IA es la familia; machine learning es una de sus formas de aprender",
+              "fontSize": 43,
+              "color": "#07394B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgfqtkjy",
+      "id": "7",
+      "bbox": [
+        110,
+        275,
+        930,
+        460
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EFF3EE",
+      "lineColor": "#07394B",
+      "lineWidth": 3
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qhk76l03",
+      "id": "8",
+      "bbox": [
+        145,
+        295,
+        830,
+        58
+      ],
+      "geometry": "rect",
+      "text": "INTELIGENCIA ARTIFICIAL",
+      "textPreview": "INTELIGENCIA ARTIFICIAL",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#07394B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INTELIGENCIA ARTIFICIAL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INTELIGENCIA ARTIFICIAL",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#07394B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INTELIGENCIA ARTIFICIAL",
+              "fontSize": 25,
+              "color": "#07394B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bit8fq1o",
+      "id": "9",
+      "bbox": [
+        190,
+        380,
+        760,
+        300
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#DDE9E5",
+      "lineColor": "#90AAA9",
+      "lineWidth": 2
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ny14rmxo",
+      "id": "10",
+      "bbox": [
+        225,
+        395,
+        650,
+        55
+      ],
+      "geometry": "rect",
+      "text": "MACHINE LEARNING",
+      "textPreview": "MACHINE LEARNING",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#07394B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MACHINE LEARNING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MACHINE LEARNING",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#07394B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MACHINE LEARNING",
+              "fontSize": 24,
+              "color": "#07394B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2xs3ihw3",
+      "id": "11",
+      "bbox": [
+        295,
+        485,
+        550,
+        145
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#07394B",
+      "lineColor": "#07394B",
+      "lineWidth": 2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0jmtwfu",
+      "id": "12",
+      "bbox": [
+        330,
+        500,
+        480,
+        45
+      ],
+      "geometry": "rect",
+      "text": "DEEP LEARNING",
+      "textPreview": "DEEP LEARNING",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DEEP LEARNING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DEEP LEARNING",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DEEP LEARNING",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozalkre9",
+      "id": "13",
+      "bbox": [
+        430,
+        555,
+        300,
+        52
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#00E875",
+      "lineColor": "#00E875",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu1kn2xc",
+      "id": "14",
+      "bbox": [
+        445,
+        558,
+        270,
+        45
+      ],
+      "geometry": "rect",
+      "text": "IA GENERATIVA",
+      "textPreview": "IA GENERATIVA",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#07394B",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IA GENERATIVA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IA GENERATIVA",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#07394B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IA GENERATIVA",
+              "fontSize": 20,
+              "color": "#07394B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/et83exw7",
+      "id": "15",
+      "bbox": [
+        1120,
+        310,
+        350,
+        350
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#00E875",
+      "lineWidth": 4
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wj2pcfi",
+      "id": "16",
+      "bbox": [
+        1155,
+        340,
+        280,
+        50
+      ],
+      "geometry": "rect",
+      "text": "IA AGÉNTICA",
+      "textPreview": "IA AGÉNTICA",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#07394B",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IA AGÉNTICA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IA AGÉNTICA",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#07394B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IA AGÉNTICA",
+              "fontSize": 27,
+              "color": "#07394B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0valg7ex",
+      "id": "17",
+      "bbox": [
+        1160,
+        420,
+        270,
+        70
+      ],
+      "geometry": "rect",
+      "text": "No es otra rama de aprendizaje.",
+      "textPreview": "No es otra rama de aprendizaje.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#07394B",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "No es otra rama de"
+          },
+          {
+            "index": 2,
+            "text": "aprendizaje."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "No es otra rama de aprendizaje.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#07394B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No es otra rama de aprendizaje.",
+              "fontSize": 21,
+              "color": "#07394B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6hkj2xg",
+      "id": "18",
+      "bbox": [
+        1160,
+        505,
+        270,
+        112
+      ],
+      "geometry": "rect",
+      "text": "Es un sistema que orquesta modelos, memoria, conocimiento y herramientas para perseguir una meta.",
+      "textPreview": "Es un sistema que orquesta modelos, memoria, conocimiento y herramientas para perseguir una meta.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#58717A",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Es un sistema que orquesta"
+          },
+          {
+            "index": 2,
+            "text": "modelos, memoria, conocimiento"
+          },
+          {
+            "index": 3,
+            "text": "y herramientas para perseguir"
+          },
+          {
+            "index": 4,
+            "text": "una meta."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Es un sistema que orquesta modelos, memoria, conocimiento y herramientas para perseguir una meta.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#58717A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Es un sistema que orquesta modelos, memoria, conocimiento y herramientas para perseguir una meta.",
+              "fontSize": 18,
+              "color": "#58717A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q583axwv",
+      "id": "19",
+      "bbox": [
+        1030,
+        466,
+        62,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#00E875",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u1o3mx0n",
+      "id": "20",
+      "bbox": [
+        1072,
+        450,
+        38,
+        38
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#00E875",
+      "lineColor": "#00E875",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

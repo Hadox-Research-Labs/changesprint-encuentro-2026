@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Perspectivas de IA y Machine Learning en la transformación digital",
+    "narration": "Bienvenidas y bienvenidos. Soy Edgar Valdés. Esta presentación cero construye el lenguaje común que necesitamos antes de hablar de inteligencia artificial responsable. Partiremos de una idea que ha guiado estas perspectivas durante años: la transformación digital comienza cuando las interacciones se convierten en datos y esos datos empiezan a influir en decisiones. Pero el panorama cambió. Ya no hablamos solamente de modelos que clasifican o predicen. También tenemos sistemas que generan contenido y arquitecturas agénticas capaces de planear y ejecutar acciones. Nuestro objetivo es entender qué cambió, qué permanece y qué capacidades necesita una organización o un país para aprovechar la inteligencia artificial con sentido.",
+    "sources": [
+      "https://cloud.google.com/learn/what-is-artificial-intelligence",
+      "https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025"
+    ]
+  },
+  {
+    "title": "La transformación comienza cuando una interacción deja evidencia",
+    "narration": "La tesis original sigue siendo válida. Una plataforma digital no transforma una organización simplemente porque tenga una aplicación. La transforma porque registra interacciones, convierte esas interacciones en datos y utiliza esos datos para coordinar recursos, anticipar necesidades o tomar decisiones. Uber conecta viajes, Airbnb coordina disponibilidad y Visa observa transacciones. La lógica común es una infraestructura de datos alrededor de una actividad humana. La inteligencia artificial entra después. Aprende de patrones existentes y produce una clasificación, una predicción, una recomendación, contenido nuevo o una acción. Por eso, antes de preguntar qué modelo vamos a utilizar, debemos entender qué proceso estamos observando, qué evidencia produce y qué decisión queremos mejorar.",
+    "sources": [
+      "https://cloud.google.com/learn/what-is-artificial-intelligence"
+    ]
+  },
+  {
+    "title": "En cuatro años, la IA pasó de predecir a generar y actuar",
+    "narration": "La inteligencia artificial predictiva continúa siendo esencial. Clasifica imágenes, detecta fraude, pronostica demanda y recomienda opciones. La gran expansión reciente fue la inteligencia artificial generativa, capaz de producir texto, imágenes, audio, video y código. El siguiente movimiento es la inteligencia artificial agéntica. Aquí el sistema no se limita a responder una pregunta: interpreta una meta, planea pasos, consulta información, utiliza herramientas y puede ejecutar acciones. No son tres mundos separados. La IA generativa suele utilizar modelos construidos mediante aprendizaje profundo, y los agentes utilizan esos modelos como motor de razonamiento. Lo que cambia es el alcance operativo: de producir una salida a intervenir en un flujo de trabajo.",
+    "sources": [
+      "https://cloud.google.com/learn/what-is-artificial-intelligence",
+      "https://cloud.google.com/discover/what-is-agentic-ai"
+    ]
+  },
+  {
+    "title": "IA es la familia; machine learning es una de sus formas de aprender",
+    "narration": "Conviene ordenar los conceptos. Inteligencia artificial es el término amplio para sistemas que realizan tareas asociadas con percepción, lenguaje, razonamiento o decisión. Machine learning es un subconjunto: permite aprender patrones a partir de datos. Dentro de machine learning, el aprendizaje profundo utiliza redes neuronales con múltiples capas. Muchos modelos generativos actuales se construyen con aprendizaje profundo. La IA agéntica no encaja como otra caja dentro de esta genealogía. Es una arquitectura de sistema. Puede combinar un modelo generativo con instrucciones, memoria, datos y herramientas para perseguir una meta. Esta diferencia entre modelo y sistema nos ayudará a entender tanto las posibilidades como los riesgos.",
+    "sources": [
+      "https://cloud.google.com/learn/what-is-artificial-intelligence",
+      "https://cloud.google.com/learn/what-is-machine-learning",
+      "https://cloud.google.com/resources/core-concepts-ai-agents"
+    ]
+  },
+  {
+    "title": "El mapa clásico del aprendizaje automático sigue siendo fundamental",
+    "narration": "Esta es una de las láminas más importantes de la presentación original. Organiza el aprendizaje automático en tres grandes familias. En el aprendizaje supervisado contamos con ejemplos etiquetados y aprendemos a clasificar o estimar valores. En el no supervisado buscamos estructura sin una respuesta previamente marcada: grupos, reducciones de dimensión o patrones. En el aprendizaje por refuerzo, un sistema aprende mediante acciones, recompensas y retroalimentación. Estas familias siguen vigentes. La aparición de modelos generativos y agentes no las reemplaza. De hecho, las tecnologías actuales combinan técnicas provenientes de varias ramas. Por eso conservamos este mapa como una base conceptual, pero necesitamos añadirle una segunda capa que explique cómo se construyen los sistemas agénticos.",
+    "sources": [
+      "Lámina original de Edgar Valdés. Referencia visible: Dinh, T. y Thai, M. (2018).",
+      "https://cloud.google.com/learn/what-is-machine-learning"
+    ]
+  },
+  {
+    "title": "La IA agéntica no es una cuarta rama: es una capa de orquestación",
+    "narration": "Aquí está la respuesta concreta. La IA agéntica no se coloca junto a aprendizaje supervisado, no supervisado o por refuerzo. Esas categorías describen maneras de aprender. Un agente, en cambio, describe cómo se organiza un sistema para alcanzar una meta. El agente puede utilizar un modelo generativo como motor de razonamiento, consultar memoria y conocimiento, seleccionar herramientas, llamar servicios y ejecutar acciones. Debajo de ese sistema siguen existiendo modelos entrenados con aprendizaje supervisado, auto supervisado, por refuerzo y otras técnicas. La mejor manera de dibujarlo es como una capa que atraviesa y coordina componentes, no como una nueva burbuja del mismo nivel.",
+    "sources": [
+      "https://cloud.google.com/discover/what-are-ai-agents",
+      "https://cloud.google.com/discover/what-is-agentic-ai",
+      "https://cloud.google.com/resources/core-concepts-ai-agents"
+    ]
+  },
+  {
+    "title": "Un agente observa, razona, planea, actúa y revisa",
+    "narration": "Un agente trabaja como un ciclo. Primero observa el contexto y reúne información. Después razona sobre la meta y el estado actual. Luego construye un plan y selecciona herramientas. Actúa sobre un sistema y revisa el resultado para decidir si terminó o necesita ajustar el plan. Memoria y conocimiento acompañan todo el proceso. También debe existir una frontera humana: qué acciones requieren autorización, cuáles pueden ejecutarse automáticamente y cuándo se debe detener el sistema. Esta autonomía es gradual. No todo agente opera sin supervisión, y más autonomía no siempre significa una mejor solución. El diseño responsable consiste en otorgar únicamente la autonomía necesaria para el problema.",
+    "sources": [
+      "https://cloud.google.com/discover/what-are-ai-agents",
+      "https://cloud.google.com/discover/what-is-agentic-ai"
+    ]
+  },
+  {
+    "title": "Cinco capacidades explican la mayor parte del valor de la IA",
+    "narration": "Para una conversación no técnica podemos dejar de memorizar nombres de algoritmos y preguntar qué capacidad aporta el sistema. Clasificar significa asignar una categoría. Predecir significa estimar un resultado futuro o desconocido. Generar significa producir contenido nuevo. Recomendar significa ordenar alternativas de acuerdo con un criterio. Actuar significa modificar un sistema o completar una tarea utilizando herramientas. Un mismo producto puede combinar varias capacidades. Por ejemplo, puede clasificar una solicitud, predecir su urgencia, generar un resumen, recomendar una ruta y crear una tarea. Cada paso introduce evidencia y riesgos distintos. Este vocabulario permite describir una solución con mucha más precisión que decir simplemente que usa inteligencia artificial.",
+    "sources": [
+      "https://cloud.google.com/learn/what-is-artificial-intelligence",
+      "https://cloud.google.com/discover/what-are-ai-agents"
+    ]
+  },
+  {
+    "title": "Entrenar un modelo y utilizarlo son momentos diferentes",
+    "narration": "Durante el entrenamiento, el sistema ajusta sus parámetros utilizando grandes conjuntos de datos y un objetivo de aprendizaje. El resultado es un modelo. Durante la inferencia, ese modelo recibe una entrada nueva y produce una salida. En un agente, la inferencia puede repetirse varias veces mientras el sistema consulta herramientas y actualiza su plan. Esta distinción importa porque los controles son diferentes. En entrenamiento preguntamos por calidad, representatividad, licencias y sesgos de los datos. En inferencia preguntamos por el contexto, la seguridad de la entrada, la verificación de la salida y las acciones permitidas. Finalmente necesitamos retroalimentación y monitoreo para saber si el desempeño cambia con el tiempo.",
+    "sources": [
+      "https://cloud.google.com/learn/what-is-machine-learning",
+      "https://cloud.google.com/resources/core-concepts-ai-agents"
+    ]
+  },
+  {
+    "title": "Una respuesta convincente todavía puede estar equivocada",
+    "narration": "Los modelos actuales producen resultados probabilísticos. Esto significa que generan una salida plausible de acuerdo con patrones aprendidos, pero no garantizan que esa salida sea verdadera, justa o apropiada para el caso. Pueden inventar información, reproducir sesgos, perder precisión cuando cambia el contexto o seguir instrucciones maliciosas. La fluidez no es evidencia. Para utilizar estas herramientas necesitamos fuentes, validación, límites funcionales y una persona capaz de cuestionar el resultado. Mientras más impacto tenga una decisión, más fuerte debe ser la verificación. Esta idea prepara el paso hacia inteligencia artificial responsable: la calidad del modelo importa, pero también importa la capacidad institucional para detectar y corregir errores.",
+    "sources": [
+      "https://cloud.google.com/learn/what-is-artificial-intelligence",
+      "https://cloud.google.com/discover/what-is-agentic-ai"
+    ]
+  },
+  {
+    "title": "Transformar no es automatizar todo: es rediseñar el flujo de decisión",
+    "narration": "La automatización puede organizarse como una escalera. En el primer nivel, la IA asiste: resume, busca o propone, pero una persona decide. En el segundo, automatiza una tarea delimitada bajo reglas y controles. En el tercero, un agente coordina varios pasos y puede actuar sobre sistemas. Al subir aumenta el alcance, pero también la necesidad de trazabilidad, seguridad, supervisión y mecanismos de reversión. La pregunta correcta no es cuánto podemos automatizar. Es qué nivel de autonomía produce valor sin exceder la capacidad institucional para supervisarlo. En muchos servicios públicos, una solución asistida y bien documentada será superior a una autonomía completa difícil de explicar o corregir.",
+    "sources": [
+      "https://cloud.google.com/discover/what-is-agentic-ai",
+      "https://cloud.google.com/discover/what-are-ai-agents"
+    ]
+  },
+  {
+    "title": "ILIA mide un ecosistema, no la popularidad de una herramienta",
+    "narration": "El Índice Latinoamericano de Inteligencia Artificial ofrece una idea muy útil: la capacidad de un país no se mide por cuántas personas abrieron una cuenta en una herramienta. Se mide como un ecosistema. ILIA 2025 organiza ese ecosistema en tres dimensiones. Los factores habilitantes permiten acceder y utilizar inteligencia artificial. La investigación, el desarrollo y la adopción muestran si el conocimiento se convierte en soluciones y uso real. La gobernanza determina si existe dirección estratégica, institucionalidad, regulación y colaboración. Esta estructura también funciona para analizar una organización. Podemos tener una herramienta potente y, sin embargo, carecer de datos, talento, procesos o reglas para utilizarla de manera sostenible.",
+    "sources": [
+      "https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025",
+      "https://www.cepal.org/en/node/72703"
+    ]
+  },
+  {
+    "title": "Infraestructura, datos y talento sostienen cualquier iniciativa de IA",
+    "narration": "La primera dimensión de ILIA reúne los factores habilitantes. Infraestructura incluye conectividad, dispositivos y capacidad de cómputo. Datos incluye disponibilidad, calidad, capacidad de uso y gobernanza. Talento humano abarca alfabetización en inteligencia artificial, formación profesional y capacidades avanzadas. Estos componentes se refuerzan entre sí. La conectividad sin datos utilizables no produce soluciones. Los datos sin personas capaces de interpretarlos no se convierten en decisiones. Y el talento sin infraestructura encuentra límites para experimentar y escalar. Una estrategia de inteligencia artificial debe mirar las tres bases al mismo tiempo y reconocer cuál es el cuello de botella concreto del contexto.",
+    "sources": [
+      "https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025",
+      "https://www.cepal.org/en/node/72703"
+    ]
+  },
+  {
+    "title": "El conocimiento genera impacto cuando llega a la adopción",
+    "narration": "La segunda dimensión conecta investigación, desarrollo y adopción. La investigación produce conocimiento y capacidades científicas. La innovación y el desarrollo convierten ese conocimiento en software, productos, procesos y emprendimientos. La adopción muestra si las soluciones realmente se utilizan en industria, gobierno y sociedad. ILIA 2025 incorpora señales de adopción de inteligencia artificial generativa y uso de servicios de IA en la web. Esta secuencia evita dos errores: creer que publicar investigación garantiza impacto o creer que comprar una herramienta equivale a desarrollar capacidades. El valor aparece cuando conocimiento, implementación, aprendizaje organizacional y uso real se conectan.",
+    "sources": [
+      "https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025",
+      "https://www.cepal.org/en/node/72703"
+    ]
+  },
+  {
+    "title": "La gobernanza convierte capacidad tecnológica en dirección pública",
+    "narration": "La tercera dimensión es gobernanza. ILIA observa si existe una estrategia de inteligencia artificial, si hay instituciones responsables y si la sociedad participa. También considera la vinculación internacional mediante organismos y definición de estándares. Finalmente mide regulación de inteligencia artificial, ciberseguridad, ética, sostenibilidad y protección de datos personales. Gobernar no significa solamente restringir. Significa asignar responsabilidades, definir objetivos, habilitar coordinación y crear condiciones de confianza. La IA agéntica vuelve esta dimensión todavía más importante porque el sistema puede actuar sobre información y procesos. A mayor autonomía técnica, mayor claridad institucional sobre permisos, límites y rendición de cuentas.",
+    "sources": [
+      "https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025",
+      "https://www.cepal.org/en/node/72703",
+      "https://cloud.google.com/discover/what-is-agentic-ai"
+    ]
+  },
+  {
+    "title": "En Guatemala, el cuello de botella más visible es el talento",
+    "narration": "La ficha de Guatemala en ILIA 2025 muestra una situación de avance con brechas estructurales. La infraestructura alcanza 42.76 puntos y el talento humano 26.27, señalado como el principal rezago dentro de los factores habilitantes. Aproximadamente 56 por ciento de la población utiliza Internet y cerca de un tercio de los hogares tiene acceso. Estas cifras no significan que Guatemala deba esperar. Significan que la adopción debe acompañarse de formación, datos utilizables, fortalecimiento institucional y proyectos aplicados que generen aprendizaje. Para una organización pública, la oportunidad está en comenzar con problemas concretos, pilotos controlados y capacidades que permanezcan dentro de la institución.",
+    "sources": [
+      "https://www.cepal.org/en/node/72703"
+    ]
+  },
+  {
+    "title": "Si un sistema puede actuar, la institución tiene que poder responder",
+    "narration": "Cerramos con el puente hacia el Curso Uno. La evolución desde machine learning hasta sistemas agénticos amplía lo que podemos hacer, pero también amplía la responsabilidad de la organización. Si una inteligencia artificial puede clasificar, predecir, generar, recomendar o actuar, la institución debe poder prevenir daños, detectar errores, explicar decisiones y corregir resultados. La transformación digital no consiste en delegar nuestra responsabilidad a un modelo. Consiste en construir mejores capacidades para observar, decidir, actuar y aprender. En el siguiente curso veremos cómo convertir esta idea en salvaguardas concretas: supervisión humana real, evaluación de impacto, trazabilidad, privacidad, seguridad y mecanismos de reparación.",
+    "sources": [
+      "https://cloud.google.com/discover/what-are-ai-agents",
+      "https://www.cepal.org/es/publicaciones/82514-indice-latinoamericano-inteligencia-artificial-ilia-2025"
+    ]
+  }
+]
