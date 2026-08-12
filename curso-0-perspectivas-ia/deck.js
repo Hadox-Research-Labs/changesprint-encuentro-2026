@@ -7,7 +7,7 @@
   slides.forEach((slide, index) => {
     const section = document.createElement("section");
     const number = String(index + 1).padStart(2, "0");
-    section.dataset.backgroundImage = `assets/slides/slide-${number}.png?v=20260812-2`;
+    section.dataset.backgroundImage = `assets/slides/slide-${number}.png?v=20260812-bootcamp`;
     section.dataset.backgroundSize = "contain";
     section.dataset.backgroundColor = [3, 7, 12].includes(index + 1) ? "#0c3747" : "#f7f4ea";
     section.dataset.slideTitle = slide.title;
