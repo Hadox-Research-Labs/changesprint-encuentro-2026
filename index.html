@@ -3,51 +3,405 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ChangeSprint Encuentro 2026 — Presentaciones</title>
-  <meta name="description" content="Presentaciones narradas de Edgar Valdés para ChangeSprint Encuentro 2026.">
+  <meta name="theme-color" content="#072f3d">
+  <title>ChangeSprint Encuentro 2026 — Programa de IA</title>
+  <meta name="description" content="Programa de Edgar Valdés para ChangeSprint Encuentro 2026: perspectivas de inteligencia artificial e IA responsable en lo público.">
   <style>
-    :root { color-scheme: light; --ink:#07394b; --accent:#00e875; --paper:#f7f4ea; }
-    * { box-sizing:border-box; }
-    body { margin:0; min-height:100vh; color:var(--ink); background:var(--paper); font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
-    main { width:min(1100px,calc(100% - 40px)); margin:0 auto; padding:72px 0 90px; }
-    .eyebrow { margin:0 0 18px; font-size:13px; font-weight:900; letter-spacing:.12em; text-transform:uppercase; }
-    h1 { max-width:850px; margin:0; font-family:Georgia,"Times New Roman",serif; font-size:clamp(52px,9vw,108px); line-height:.88; letter-spacing:-.055em; }
-    .intro { max-width:690px; margin:28px 0 56px; font-size:clamp(18px,2.3vw,25px); line-height:1.35; }
-    .deck-list { display:grid; gap:22px; }
-    .deck { display:grid; grid-template-columns:minmax(0,1.45fr) minmax(260px,.55fr); gap:34px; align-items:end; padding:30px; color:inherit; text-decoration:none; border:1px solid rgba(7,57,75,.25); background:rgba(255,255,255,.38); box-shadow:0 18px 55px rgba(7,57,75,.08); transition:transform .18s ease,box-shadow .18s ease; }
-    .deck:hover { transform:translateY(-4px); box-shadow:0 24px 70px rgba(7,57,75,.14); }
-    .number { color:#00a958; font-size:13px; font-weight:900; letter-spacing:.12em; text-transform:uppercase; }
-    h2 { margin:18px 0 12px; font-family:Georgia,"Times New Roman",serif; font-size:clamp(35px,5vw,63px); line-height:.95; }
-    .deck p { margin:0; max-width:650px; font-size:18px; line-height:1.45; }
-    .action { justify-self:end; padding:16px 20px; color:#032c38; background:var(--accent); border:1px solid #00bd62; font-weight:900; }
-    footer { margin-top:46px; font-size:13px; opacity:.68; }
-    @media(max-width:760px){ main{padding-top:44px}.deck{grid-template-columns:1fr}.action{justify-self:start} }
+    :root {
+      color-scheme: light;
+      --ink: #062f3e;
+      --ink-deep: #031f29;
+      --paper: #f6f3e8;
+      --paper-bright: #fffdf5;
+      --lime: #c9ff00;
+      --green: #00ea78;
+      --violet: #8b73e8;
+      --line: rgba(6, 47, 62, .22);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(rgba(6,47,62,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(6,47,62,.035) 1px, transparent 1px),
+        var(--paper);
+      background-size: 28px 28px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    a { color: inherit; }
+    img { display: block; max-width: 100%; }
+
+    .brandbar {
+      position: relative;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: auto minmax(120px, 190px) 1fr minmax(210px, 330px);
+      align-items: center;
+      gap: 18px;
+      min-height: 78px;
+      padding: 14px clamp(20px, 4vw, 68px);
+      background: var(--paper-bright);
+      border-bottom: 1px solid var(--line);
+    }
+    .year { font: 600 17px/1 "IBM Plex Mono", ui-monospace, monospace; }
+    .brandbar .changesprint { width: 100%; max-height: 34px; object-fit: contain; object-position: left center; image-rendering: auto; }
+    .edition { justify-self: center; font-size: 11px; font-weight: 900; letter-spacing: .2em; text-transform: uppercase; }
+    .brandbar .partners { justify-self: end; width: 100%; max-height: 33px; object-fit: contain; object-position: right center; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 610px;
+      padding: clamp(62px, 9vw, 132px) clamp(20px, 7vw, 112px) 62px;
+      color: var(--paper-bright);
+      background: var(--ink-deep);
+    }
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero::before {
+      width: min(44vw, 680px);
+      aspect-ratio: 1;
+      right: -9vw;
+      top: -37%;
+      border: clamp(36px, 5vw, 74px) solid var(--violet);
+      opacity: .88;
+    }
+    .hero::after {
+      width: min(31vw, 470px);
+      aspect-ratio: 1;
+      right: 13vw;
+      bottom: -37%;
+      border: clamp(22px, 3vw, 46px) solid var(--lime);
+    }
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(250px, .45fr);
+      gap: 42px;
+      align-items: end;
+      max-width: 1480px;
+      margin: 0 auto;
+    }
+    .kicker,
+    .label {
+      margin: 0;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+    }
+    .kicker { color: var(--lime); }
+    h1 {
+      max-width: 980px;
+      margin: 25px 0 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(66px, 9.5vw, 158px);
+      font-weight: 900;
+      line-height: .82;
+      letter-spacing: -.035em;
+      text-transform: uppercase;
+    }
+    h1 span { color: var(--lime); }
+    .hero-note {
+      position: relative;
+      padding: 24px 0 0 26px;
+      border-left: 5px solid var(--green);
+      font-size: clamp(18px, 1.8vw, 25px);
+      line-height: 1.35;
+    }
+    .hero-note strong { color: var(--lime); }
+    .route {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      justify-content: space-between;
+      gap: 16px;
+      max-width: 1480px;
+      margin: 72px auto 0;
+      padding-top: 18px;
+      border-top: 2px solid rgba(255,255,255,.26);
+      font: 700 11px/1.2 "IBM Plex Mono", ui-monospace, monospace;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .route span { position: relative; }
+    .route span::before {
+      content: "";
+      position: absolute;
+      width: 9px;
+      height: 9px;
+      top: -24px;
+      left: 0;
+      background: var(--lime);
+      border-radius: 50%;
+    }
+
+    .program-intro {
+      display: grid;
+      grid-template-columns: auto minmax(0, 770px);
+      gap: clamp(26px, 5vw, 78px);
+      align-items: start;
+      padding: 72px clamp(20px, 7vw, 112px) 42px;
+      max-width: 1480px;
+      margin: 0 auto;
+    }
+    .program-intro .label { padding-top: 8px; }
+    .program-intro h2 {
+      margin: 0;
+      font-size: clamp(34px, 5vw, 68px);
+      line-height: .98;
+      letter-spacing: -.04em;
+      font-weight: 850;
+    }
+
+    .session {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(340px, .82fr);
+      min-height: 590px;
+      border-top: 1px solid var(--line);
+      overflow: hidden;
+    }
+    .session-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(48px, 7vw, 104px) clamp(20px, 7vw, 112px);
+    }
+    .session-01 { color: var(--paper-bright); background: var(--ink); }
+    .session-01 .session-copy { order: 2; }
+    .session-number {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+      font: 800 13px/1 "IBM Plex Mono", ui-monospace, monospace;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+    .session-number::before { content: ""; width: 54px; height: 10px; background: var(--lime); }
+    .session-01 .session-number::before { background: var(--green); }
+    .session h3 {
+      max-width: 760px;
+      margin: 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(52px, 7vw, 108px);
+      line-height: .86;
+      letter-spacing: -.025em;
+      text-transform: uppercase;
+    }
+    .session p {
+      max-width: 670px;
+      margin: 28px 0 0;
+      font-size: clamp(17px, 1.5vw, 22px);
+      line-height: 1.45;
+    }
+    .session-01 p { color: rgba(255,255,255,.78); }
+    .actions { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 42px; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 18px;
+      border: 1px solid currentColor;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .045em;
+      text-transform: uppercase;
+      transition: transform .18s ease, background .18s ease, color .18s ease;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button.primary { color: var(--ink-deep); background: var(--lime); border-color: var(--lime); }
+    .button.secondary:hover { color: var(--paper-bright); background: var(--ink); }
+    .session-01 .button.secondary:hover { color: var(--ink); background: var(--paper-bright); }
+    .button.download { opacity: .75; }
+
+    .session-visual {
+      position: relative;
+      display: grid;
+      place-items: center;
+      min-width: 0;
+      padding: clamp(32px, 5vw, 70px);
+      background: var(--violet);
+    }
+    .session-01 .session-visual { background: var(--green); }
+    .session-visual::before {
+      content: "";
+      position: absolute;
+      inset: 24px;
+      border: 1px solid rgba(3,31,41,.38);
+    }
+    .session-visual img {
+      position: relative;
+      z-index: 1;
+      width: min(100%, 720px);
+      box-shadow: 18px 20px 0 rgba(3,31,41,.9);
+      transform: rotate(-1.5deg);
+    }
+    .session-01 .session-visual img { transform: rotate(1.5deg); box-shadow: -18px 20px 0 rgba(3,31,41,.9); }
+
+    .context {
+      display: grid;
+      grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+      gap: clamp(34px, 8vw, 120px);
+      padding: clamp(70px, 9vw, 130px) clamp(20px, 7vw, 112px);
+      max-width: 1480px;
+      margin: 0 auto;
+    }
+    .context h2 {
+      margin: 14px 0 0;
+      font-size: clamp(40px, 6vw, 84px);
+      line-height: .93;
+      letter-spacing: -.05em;
+    }
+    .context > div > p { margin: 0; font-size: clamp(19px, 2vw, 28px); line-height: 1.42; }
+    .institutions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 52px; }
+    .institution { padding-top: 16px; border-top: 4px solid var(--ink); }
+    .institution strong { display: block; margin-bottom: 8px; font-size: 14px; text-transform: uppercase; }
+    .institution span { font-size: 14px; line-height: 1.45; opacity: .78; }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 28px clamp(20px, 7vw, 112px);
+      color: var(--paper-bright);
+      background: var(--ink-deep);
+      font: 700 12px/1.4 "IBM Plex Mono", ui-monospace, monospace;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 880px) {
+      .brandbar { grid-template-columns: auto 1fr; gap: 10px 16px; }
+      .edition { display: none; }
+      .brandbar .partners { grid-column: 1 / -1; justify-self: start; max-width: 310px; object-position: left center; }
+      .hero { min-height: 560px; }
+      .hero-grid, .program-intro, .context { grid-template-columns: minmax(0, 1fr); }
+      .hero-grid > *, .program-intro > *, .context > * { min-width: 0; }
+      .hero-note { max-width: 560px; }
+      .session { grid-template-columns: 1fr; }
+      .session-copy, .session-01 .session-copy { order: 1; }
+      .session-visual, .session-01 .session-visual { order: 2; min-height: 360px; }
+      .institutions { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 540px) {
+      .brandbar { min-height: 92px; padding-block: 12px; }
+      .year { font-size: 14px; }
+      .brandbar .changesprint { max-width: 160px; }
+      .brandbar .partners { max-width: 280px; }
+      .hero { min-height: auto; padding-top: 64px; }
+      .hero::before { width: 280px; right: -115px; top: -110px; }
+      .hero::after { display: none; }
+      .kicker { font-size: 10px; letter-spacing: .1em; }
+      h1 { font-size: clamp(46px, 14.8vw, 80px); }
+      .route { grid-template-columns: 1fr 1fr; row-gap: 32px; margin-top: 52px; }
+      .program-intro { padding-top: 54px; }
+      .session h3 { font-size: clamp(48px, 15vw, 72px); }
+      .session-visual, .session-01 .session-visual { min-height: 270px; padding: 38px 24px; }
+      .session-visual img, .session-01 .session-visual img { box-shadow: 10px 12px 0 rgba(3,31,41,.9); }
+      .button { width: 100%; }
+      footer { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .button { transition: none; }
+    }
   </style>
 </head>
 <body>
+  <header class="brandbar" aria-label="Organizadores de ChangeSprint">
+    <span class="year">2026</span>
+    <img class="changesprint" src="assets/changesprint-logo.png" alt="ChangeSprint">
+    <span class="edition">Encuentro Guatemala</span>
+    <img class="partners" src="assets/partner-logos.png" alt="Diálogos, Blombos Lab y Universidad del Valle de Guatemala">
+  </header>
+
   <main>
-    <p class="eyebrow">ChangeSprint · Encuentro 2026</p>
-    <h1>Presentaciones narradas</h1>
-    <p class="intro">Material de apoyo para explorar, ensayar y compartir los talleres de Edgar Valdés. Cada presentación puede recorrerse manualmente o escucharse con avance automático.</p>
-    <div class="deck-list">
-      <a class="deck" href="curso-0-perspectivas-ia/">
+    <section class="hero">
+      <div class="hero-grid">
         <div>
-          <span class="number">Curso 00</span>
-          <h2>Perspectivas de IA y Machine Learning</h2>
-          <p>De modelos que predicen a sistemas que pueden actuar: fundamentos, IA agéntica e ILIA 2025.</p>
+          <p class="kicker">Programa de inteligencia artificial · Edgar Valdés</p>
+          <h1>Entender.<br><span>Gobernar.</span><br>Transformar.</h1>
         </div>
-        <span class="action">Abrir presentación →</span>
-      </a>
-      <a class="deck" href="curso-1-ia-responsable/">
-        <div>
-          <span class="number">Curso 01</span>
-          <h2>IA responsable en lo público</h2>
-          <p>Cómo diseñar decisiones que se puedan explicar, supervisar y corregir.</p>
+        <p class="hero-note">Dos sesiones conectadas para pasar de <strong>comprender qué puede hacer la IA</strong> a decidir cómo usarla con responsabilidad en lo público.</p>
+      </div>
+      <div class="route" aria-label="Ruta del programa">
+        <span>Comprender</span>
+        <span>Diseñar</span>
+        <span>Supervisar</span>
+        <span>Corregir</span>
+      </div>
+    </section>
+
+    <section class="program-intro" id="programa">
+      <p class="label">Ruta de aprendizaje</p>
+      <h2>Una conversación en dos movimientos: primero el mapa; después, las decisiones.</h2>
+    </section>
+
+    <section class="session session-00" aria-labelledby="curso-00">
+      <div class="session-copy">
+        <span class="session-number">00 · Entender</span>
+        <h3 id="curso-00">Perspectivas de IA y Machine Learning</h3>
+        <p>De modelos que predicen a sistemas que pueden actuar: fundamentos, ramas de la IA, IA agéntica y las capacidades que América Latina observa mediante ILIA.</p>
+        <nav class="actions" aria-label="Acciones del curso 00">
+          <a class="button primary" href="curso-0-perspectivas-ia/">Ver presentación</a>
+          <a class="button secondary" href="curso-0-perspectivas-ia/?modo=narrar">Abrir para narrar</a>
+          <a class="button download" href="curso-0-perspectivas-ia/Presentacion_Curso_0_Perspectivas_IA_Edgar_Valdes_FINAL.pptx" download>Descargar PPTX</a>
+        </nav>
+      </div>
+      <figure class="session-visual">
+        <img src="curso-0-perspectivas-ia/assets/slides/slide-01.png" alt="Portada del curso Perspectivas de Inteligencia Artificial y Machine Learning">
+      </figure>
+    </section>
+
+    <section class="session session-01" aria-labelledby="curso-01">
+      <div class="session-copy">
+        <span class="session-number">01 · Responder</span>
+        <h3 id="curso-01">IA responsable en lo público</h3>
+        <p>Un taller para diseñar decisiones que se puedan explicar, supervisar y corregir, con controles concretos para pasar de los principios a la práctica.</p>
+        <nav class="actions" aria-label="Acciones del curso 01">
+          <a class="button primary" href="curso-1-ia-responsable/">Ver presentación</a>
+          <a class="button secondary" href="curso-1-ia-responsable/?modo=narrar">Abrir para narrar</a>
+          <a class="button download" href="curso-1-ia-responsable/Presentacion_Taller_1_IA_Responsable_ChangeSprint_FINAL.pptx" download>Descargar PPTX</a>
+        </nav>
+      </div>
+      <figure class="session-visual">
+        <img src="curso-1-ia-responsable/assets/slides/slide-01.png" alt="Portada del taller IA responsable en lo público">
+      </figure>
+    </section>
+
+    <section class="context" aria-labelledby="que-es">
+      <div>
+        <p class="label">El encuentro</p>
+        <h2 id="que-es">Cambio público, en modo sprint.</h2>
+      </div>
+      <div>
+        <p>ChangeSprint reúne aprendizaje aplicado, conversación y diseño para fortalecer la innovación pública. Este programa aporta el lente tecnológico: entender la IA sin simplificarla y convertir la responsabilidad en decisiones de diseño.</p>
+        <div class="institutions">
+          <div class="institution"><strong>Blombos Lab</strong><span>Laboratorio de innovación que articula el encuentro y sus metodologías.</span></div>
+          <div class="institution"><strong>Diálogos</strong><span>Organización guatemalteca que genera evidencia y conversación para lo público.</span></div>
+          <div class="institution"><strong>UVG</strong><span>Universidad del Valle de Guatemala, sede académica y aliada del encuentro.</span></div>
         </div>
-        <span class="action">Abrir presentación →</span>
-      </a>
-    </div>
-    <footer>Edgar Valdés · ChangeSprint 2026</footer>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <span>Edgar Valdés · Nodo Guanajuato A.C. · Red Global MX</span>
+    <span>ChangeSprint Encuentro 2026</span>
+  </footer>
 </body>
 </html>
