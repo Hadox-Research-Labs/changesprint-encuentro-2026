@@ -1,13 +1,7 @@
-# IA responsable en lo público
+# Sesión integrada: IA responsable en lo público
 
-Versión web narrada del Taller 1 de Edgar Valdés para ChangeSprint Encuentro 2026.
+Presentación de 23 láminas para ChangeSprint Encuentro 2026.
 
-## Controles
+Integra una introducción práctica a las capacidades de inteligencia artificial, IA agéntica, gobernanza y uso responsable, además de la recuperación de la tarea previa y las actividades específicas de los tres equipos.
 
-- `Narrar` o `N`: lee el guion de la lámina actual.
-- `Auto` o `A`: narra desde la lámina actual y avanza automáticamente.
-- `Pausa` o `P`: pausa o continúa la voz.
-- `Detener` o `X`: detiene la narración.
-- Selector de voz y velocidad: permite ajustar la experiencia en cada equipo.
-
-La primera reproducción necesita una interacción del usuario porque los navegadores bloquean el audio automático sin consentimiento inicial.
+La versión web utiliza Reveal.js y la Web Speech API del navegador para navegación, subtítulos y narración automática.

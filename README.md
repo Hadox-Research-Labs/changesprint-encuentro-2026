@@ -1,26 +1,13 @@
 # ChangeSprint Encuentro 2026
 
-Presentaciones web narradas de Edgar Valdés para ChangeSprint Encuentro 2026.
-
 Sitio público: <https://hadox-research-labs.github.io/changesprint-encuentro-2026/>
 
-## Curso 0
+El sitio contiene únicamente los dos recursos vigentes del taller de Edgar Valdés:
 
-[Perspectivas de IA y Machine Learning](curso-0-perspectivas-ia/)
+1. [Sesión integrada: IA responsable en lo público](curso-1-ia-responsable/), con 23 láminas, navegación web y narración automática.
+2. [Tarea previa](tarea-previa/Tarea_Previa_IA_Fondo_Nacional_Becas_ChangeSprint_2026.pdf), en formato PDF.
 
-Presentación directa: <https://hadox-research-labs.github.io/changesprint-encuentro-2026/curso-0-perspectivas-ia/>
-
-Introduce el mapa conceptual de IA y machine learning, explica dónde se ubica la IA agéntica y conecta las capacidades con las dimensiones de ILIA 2025.
-
-## Curso 1
-
-[IA responsable en lo público](curso-1-ia-responsable/)
-
-Presentación directa: <https://hadox-research-labs.github.io/changesprint-encuentro-2026/curso-1-ia-responsable/>
-
-La presentación conserva las 15 láminas visuales aprobadas y agrega navegación con Reveal.js, subtítulos y narración mediante la Web Speech API del navegador.
-
-### Controles
+## Controles de la presentación
 
 - `N`: narrar la lámina actual.
 - `A`: narrar automáticamente y avanzar.
@@ -39,4 +26,4 @@ python -m http.server 8088
 
 Abrir `http://localhost:8088/`.
 
-GitHub Pages puede publicar el repositorio directamente desde la raíz de la rama `main`.
+GitHub Pages publica el repositorio desde la raíz de la rama `main`.

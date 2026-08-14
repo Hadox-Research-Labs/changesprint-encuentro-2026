@@ -46,7 +46,9 @@ body {
 }
 
 .narration-controls button,
-.narration-controls select {
+.narration-controls select,
+.narration-controls .home-link,
+.narration-controls .download-link {
   min-height: 29px;
   border: 1px solid rgba(7, 57, 75, 0.18);
   border-radius: 5px;
@@ -55,13 +57,29 @@ body {
   font: inherit;
 }
 
+.narration-controls .home-link,
+.narration-controls .download-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.narration-controls .home-link {
+  color: #f7f4ea;
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
 .narration-controls button {
   padding: 0 10px;
   cursor: pointer;
 }
 
 .narration-controls button:hover,
-.narration-controls button:focus-visible {
+.narration-controls button:focus-visible,
+.narration-controls a:hover,
+.narration-controls a:focus-visible {
   border-color: var(--accent);
   outline: 2px solid rgba(0, 232, 117, 0.3);
 }
@@ -172,6 +190,7 @@ body {
 
   .narration-controls select,
   .narration-controls label,
+  .narration-controls [data-narration-status],
   .keyboard-help {
     display: none;
   }
