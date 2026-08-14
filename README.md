@@ -4,7 +4,7 @@ Sitio público: <https://hadox-research-labs.github.io/changesprint-encuentro-20
 
 El sitio contiene únicamente los dos recursos vigentes del taller de Edgar Valdés:
 
-1. [Sesión integrada: IA responsable en lo público](curso-1-ia-responsable/), con 23 láminas, navegación web y narración automática.
+1. [Primera intervención: IA responsable en lo público](curso-1-ia-responsable/), con 27 láminas, navegación web y narración automática.
 2. [Tarea previa](tarea-previa/Tarea_Previa_IA_Fondo_Nacional_Becas_ChangeSprint_2026.pdf), en formato PDF.
 
 ## Controles de la presentación
