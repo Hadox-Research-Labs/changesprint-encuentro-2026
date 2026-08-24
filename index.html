@@ -122,13 +122,30 @@
     .complete-kit .button { color: var(--deep); background: var(--green); border-color: var(--green); }
     .text-link { padding: 12px 3px; color: var(--white); font-size: 13px; font-weight: 850; text-underline-offset: 4px; }
 
+    .applied { color: var(--deep); background: var(--lime); }
+    .applied-inner { display: grid; grid-template-columns: minmax(210px, .32fr) minmax(0, 1fr); gap: clamp(36px, 8vw, 124px); max-width: 1500px; margin: 0 auto; padding: clamp(70px, 9vw, 126px) clamp(20px, 7vw, 112px); }
+    .applied-marker { display: flex; flex-direction: column; justify-content: space-between; min-height: 340px; padding: 18px 0 0; border-top: 7px solid var(--deep); }
+    .applied-number { font: 900 clamp(92px, 13vw, 190px)/.75 Impact, "Arial Narrow Bold", sans-serif; letter-spacing: -.04em; }
+    .applied-status { max-width: 220px; font: 800 11px/1.55 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .12em; text-transform: uppercase; }
+    .applied-copy .resource-type { color: #5d4dc1; }
+    .applied h2 { max-width: 960px; margin: 18px 0 0; font-size: clamp(46px, 6.4vw, 92px); line-height: .91; letter-spacing: -.055em; }
+    .applied-lead { max-width: 850px; margin: 26px 0 0; font-size: clamp(18px, 1.5vw, 22px); line-height: 1.5; }
+    .applied-sequence { margin: 38px 0 0; padding: 0; list-style: none; border-top: 1px solid rgba(3,40,51,.32); }
+    .applied-sequence li { display: grid; grid-template-columns: 42px 210px 1fr; gap: 18px; align-items: baseline; padding: 17px 0; border-bottom: 1px solid rgba(3,40,51,.32); }
+    .applied-sequence span { font: 900 12px/1 "IBM Plex Mono", ui-monospace, monospace; }
+    .applied-sequence strong { font-size: 17px; }
+    .applied-sequence em { font-style: normal; line-height: 1.45; }
+    .applied .actions { margin-top: 34px; }
+    .applied .button.primary { color: var(--white); background: var(--deep); border-color: var(--deep); }
+    .applied .button.secondary:hover { color: var(--white); background: var(--deep); }
+
     footer { display: flex; justify-content: space-between; gap: 24px; padding: 27px clamp(20px, 7vw, 112px); color: var(--deep); background: var(--lime); font: 800 11px/1.4 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
 
     @media (max-width: 960px) {
       .brandbar { grid-template-columns: auto 1fr; gap: 10px 16px; }
       .edition { display: none; }
       .partners { grid-column: 1 / -1; justify-self: start; max-width: 310px; object-position: left center; }
-      .hero-inner, .route-intro, .session, .session:nth-of-type(even), .assignment, .workbench-head { grid-template-columns: 1fr; }
+      .hero-inner, .route-intro, .session, .session:nth-of-type(even), .assignment, .workbench-head, .applied-inner { grid-template-columns: 1fr; }
       .hero-inner { min-height: 590px; align-content: end; }
       .hero-note { max-width: 600px; }
       .session:nth-of-type(even) .session-visual { order: 0; }
@@ -137,6 +154,8 @@
       .assignment .button { justify-self: start; }
       .team-row { grid-template-columns: 64px 1fr auto; }
       .team-row p { grid-column: 2 / -1; }
+      .applied-marker { min-height: 0; }
+      .applied-status { margin-top: 34px; }
     }
     @media (max-width: 620px) {
       .brandbar { min-height: 92px; padding-block: 12px; }
@@ -154,6 +173,8 @@
       .team-row { grid-template-columns: 52px 1fr; }
       .team-row p, .team-row .button { grid-column: 1 / -1; }
       .team-number { font-size: 40px; }
+      .applied-sequence li { grid-template-columns: 34px 1fr; }
+      .applied-sequence em { grid-column: 2; }
       footer { flex-direction: column; }
     }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
@@ -228,10 +249,10 @@
     <section class="workbench" aria-labelledby="workbench-title">
       <div class="workbench-inner">
         <header class="workbench-head">
-          <p class="eyebrow">Mesa de trabajo · Descargas autocontenidas</p>
+          <p class="eyebrow">Ejercicio 01 · Práctica guiada</p>
           <div>
-            <h2 id="workbench-title">Cada equipo recibe reglas, contexto, cinco casos y formatos de entrega.</h2>
-            <p class="workbench-note">Los casos son ficticios e incluyen entradas normales, incompletas, adversariales, lingüísticamente diversas y limítrofes.</p>
+            <h2 id="workbench-title">Primero aprendemos a operar con las rueditas puestas.</h2>
+            <p class="workbench-note">Cada equipo recibe problema, reglas, contexto, cinco casos ficticios y formatos de entrega. Aquí se aprende a configurar, ejecutar, romper, corregir y volver a probar.</p>
           </div>
         </header>
 
@@ -259,6 +280,29 @@
           <a class="text-link" href="curso-2-agentes-verificables/discurso-edgar.md" download>Descargar discurso completo</a>
           <a class="text-link" href="curso-2-agentes-verificables/guia-facilitador.md" download>Descargar guía del facilitador</a>
         </nav>
+      </div>
+    </section>
+
+    <section class="applied" aria-labelledby="applied-title">
+      <div class="applied-inner">
+        <div class="applied-marker">
+          <span class="applied-number">02</span>
+          <span class="applied-status">Posterior al laboratorio guiado · Aplicación al proyecto propio</span>
+        </div>
+        <div class="applied-copy">
+          <p class="resource-type">Ejercicio 02 · Sin rueditas</p>
+          <h2 id="applied-title">Volver al lienzo. Cuestionar el problema. Diseñar el agente correcto.</h2>
+          <p class="applied-lead">Ahora cada equipo utiliza su trabajo del bootcamp para separar hechos de hipótesis, reconstruir el proceso, elegir una sola tarea y configurar un prototipo verificable con casos diseñados por ellos.</p>
+          <ol class="applied-sequence">
+            <li><span>01</span><strong>Auditar el lienzo</strong><em>Qué sabemos, qué suponemos y qué todavía debemos preguntar.</em></li>
+            <li><span>02</span><strong>Delimitar la tarea</strong><em>Una persona usuaria, una tarea y un artefacto revisable.</em></li>
+            <li><span>03</span><strong>Configurar y probar</strong><em>Reglas, fuentes, límites, skill, casos propios y corrección documentada.</em></li>
+          </ol>
+          <nav class="actions" aria-label="Recursos del ejercicio aplicado">
+            <a class="button primary" href="ejercicio-2-proyecto-propio/">Abrir ejercicio 02</a>
+            <a class="button secondary" href="ejercicio-2-proyecto-propio/materiales/ejercicio-2-proyecto-propio.zip" download>Descargar cuaderno</a>
+          </nav>
+        </div>
       </div>
     </section>
   </main>

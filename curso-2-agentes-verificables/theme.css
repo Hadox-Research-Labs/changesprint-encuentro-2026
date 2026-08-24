@@ -74,6 +74,7 @@ body {
 
 .narration-controls .home-link { color: var(--paper); background: var(--ink); border-color: var(--ink); }
 .narration-controls .resources-link { color: var(--ink); background: #c8ff00; border-color: #9fcf00; }
+.narration-controls .applied-link { color: #fff; background: #604bc4; border-color: #604bc4; }
 .narration-controls [data-narration-auto] { color: #032c38; background: var(--accent); border-color: #00bd62; }
 .narration-controls button { padding: 0 10px; cursor: pointer; }
 .narration-controls button:hover,
