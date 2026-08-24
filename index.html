@@ -107,6 +107,17 @@
     .assignment p { max-width: 800px; margin: 18px 0 0; font-size: clamp(16px, 1.3vw, 20px); line-height: 1.5; }
     .assignment .button { min-width: 190px; color: var(--white); background: var(--deep); }
 
+    .packets { color: var(--deep); background: var(--violet); padding: clamp(66px, 8vw, 112px) clamp(20px, 7vw, 112px); }
+    .packets-inner { max-width: 1320px; margin: 0 auto; }
+    .packets-head { display: grid; grid-template-columns: minmax(210px, .33fr) minmax(0, 1fr); gap: clamp(30px, 7vw, 110px); align-items: start; margin-bottom: 42px; }
+    .packets h2 { max-width: 900px; margin: 0; font-size: clamp(43px, 6.2vw, 88px); line-height: .91; letter-spacing: -.05em; }
+    .packet-row { display: grid; grid-template-columns: 72px minmax(220px, .52fr) minmax(260px, 1fr) auto; gap: clamp(18px, 3vw, 42px); align-items: center; padding: 27px 0; border-top: 1px solid rgba(3,40,51,.34); }
+    .packet-row:last-of-type { border-bottom: 1px solid rgba(3,40,51,.34); }
+    .packet-number { font: 900 48px/.8 Impact, "Arial Narrow Bold", sans-serif; }
+    .packet-row h3 { margin: 0; font-size: clamp(23px, 2.2vw, 34px); line-height: 1; }
+    .packet-row p { margin: 0; font-size: 16px; line-height: 1.45; }
+    .packet-row .button { color: var(--white); background: var(--deep); border-color: var(--deep); }
+
     .workbench { color: var(--white); background: var(--deep); padding: clamp(66px, 8vw, 116px) clamp(20px, 7vw, 112px); }
     .workbench-inner { max-width: 1320px; margin: 0 auto; }
     .workbench-head { display: grid; grid-template-columns: minmax(210px, .35fr) 1fr; gap: clamp(30px, 7vw, 110px); margin-bottom: 46px; }
@@ -145,7 +156,7 @@
       .brandbar { grid-template-columns: auto 1fr; gap: 10px 16px; }
       .edition { display: none; }
       .partners { grid-column: 1 / -1; justify-self: start; max-width: 310px; object-position: left center; }
-      .hero-inner, .route-intro, .session, .session:nth-of-type(even), .assignment, .workbench-head, .applied-inner { grid-template-columns: 1fr; }
+      .hero-inner, .route-intro, .session, .session:nth-of-type(even), .assignment, .packets-head, .workbench-head, .applied-inner { grid-template-columns: 1fr; }
       .hero-inner { min-height: 590px; align-content: end; }
       .hero-note { max-width: 600px; }
       .session:nth-of-type(even) .session-visual { order: 0; }
@@ -154,6 +165,8 @@
       .assignment .button { justify-self: start; }
       .team-row { grid-template-columns: 64px 1fr auto; }
       .team-row p { grid-column: 2 / -1; }
+      .packet-row { grid-template-columns: 64px 1fr auto; }
+      .packet-row p { grid-column: 2 / -1; }
       .applied-marker { min-height: 0; }
       .applied-status { margin-top: 34px; }
     }
@@ -172,6 +185,8 @@
       .assignment .button { width: 100%; }
       .team-row { grid-template-columns: 52px 1fr; }
       .team-row p, .team-row .button { grid-column: 1 / -1; }
+      .packet-row { grid-template-columns: 52px 1fr; }
+      .packet-row p, .packet-row .button { grid-column: 1 / -1; }
       .team-number { font-size: 40px; }
       .applied-sequence li { grid-template-columns: 34px 1fr; }
       .applied-sequence em { grid-column: 2; }
@@ -231,9 +246,41 @@
         <nav class="actions" aria-label="Recursos de la sesión dos">
           <a class="button primary" href="curso-2-agentes-verificables/">Abrir sesión 02</a>
           <a class="button secondary" href="curso-2-agentes-verificables/ChangeSprint_Parte_2_Agentes_Verificables_NOTAS.pptx" download>Descargar PPTX + notas</a>
+          <a class="button secondary" href="output/pdf/Manual_Instalacion_ChatGPT_Codex_Windows_macOS_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Manual de instalación</a>
+          <a class="button secondary" href="output/pdf/Ejercicio_1_Guiado_Agentes_Verificables_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Ejercicio 1 PDF</a>
         </nav>
       </div>
       <figure class="session-visual"><img src="curso-2-agentes-verificables/assets/slides/slide-01.png" alt="Portada de la sesión De principios a agentes verificables"></figure>
+    </section>
+
+    <section class="packets" aria-labelledby="packets-title">
+      <div class="packets-inner">
+        <header class="packets-head">
+          <p class="resource-type">Preparación y cuadernos · PDF</p>
+          <div>
+            <h2 id="packets-title">Instalar. Practicar. Aplicar.</h2>
+            <p>Los tres documentos usan el mismo formato de la tarea previa y forman una sola secuencia: dejar listo el equipo, aprender la mecánica con un kit preparado y después trabajar sobre el proyecto propio.</p>
+          </div>
+        </header>
+        <article class="packet-row">
+          <span class="packet-number">00</span>
+          <h3>Manual de instalación</h3>
+          <p>Instalación oficial de ChatGPT y acceso a Codex en Windows o macOS, permisos recomendados y prueba de preparación.</p>
+          <a class="button" href="output/pdf/Manual_Instalacion_ChatGPT_Codex_Windows_macOS_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+        </article>
+        <article class="packet-row">
+          <span class="packet-number">01</span>
+          <h3>Ejercicio guiado</h3>
+          <p>Carpeta preparada, roles, seis movimientos, cinco pruebas ficticias, corrección y demostración final.</p>
+          <a class="button" href="output/pdf/Ejercicio_1_Guiado_Agentes_Verificables_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+        </article>
+        <article class="packet-row">
+          <span class="packet-number">02</span>
+          <h3>Del lienzo al agente</h3>
+          <p>Auditoría del trabajo de cada equipo, mapa del proceso, contrato, prototipo, pruebas propias y reflexión de madurez.</p>
+          <a class="button" href="output/pdf/Ejercicio_2_Del_Lienzo_Al_Agente_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+        </article>
+      </div>
     </section>
 
     <section class="assignment" aria-labelledby="assignment-title">
@@ -246,7 +293,7 @@
       <a class="button" href="tarea-previa/Tarea_Previa_IA_Fondo_Nacional_Becas_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Abrir tarea previa</a>
     </section>
 
-    <section class="workbench" aria-labelledby="workbench-title">
+    <section class="workbench" id="ejercicio-1" aria-labelledby="workbench-title">
       <div class="workbench-inner">
         <header class="workbench-head">
           <p class="eyebrow">Ejercicio 01 · Práctica guiada</p>

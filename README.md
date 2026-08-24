@@ -8,6 +8,9 @@ El sitio reúne la ruta vigente del taller de Edgar Valdés:
 2. [Segunda intervención: de principios a agentes verificables](curso-2-agentes-verificables/), con presentación narrada y Ejercicio 1 guiado.
 3. [Ejercicio 2: del lienzo al agente](ejercicio-2-proyecto-propio/), aplicación posterior sobre los proyectos de los equipos.
 4. [Tarea previa](tarea-previa/Tarea_Previa_IA_Fondo_Nacional_Becas_ChangeSprint_2026.pdf), en formato PDF.
+5. [Manual de instalación de ChatGPT y Codex](output/pdf/Manual_Instalacion_ChatGPT_Codex_Windows_macOS_ChangeSprint_2026.pdf), para Windows y macOS.
+6. [Instrucciones del Ejercicio 1](output/pdf/Ejercicio_1_Guiado_Agentes_Verificables_ChangeSprint_2026.pdf), práctica guiada con kits ficticios.
+7. [Instrucciones del Ejercicio 2](output/pdf/Ejercicio_2_Del_Lienzo_Al_Agente_ChangeSprint_2026.pdf), aplicación al proyecto de cada equipo.
 
 ## Controles de la presentación
 
