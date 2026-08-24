@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#052f3d">
-  <title>IA responsable en lo público — ChangeSprint 2026</title>
-  <meta name="description" content="Primera intervención y tarea previa de Edgar Valdés para ChangeSprint Encuentro 2026.">
+  <title>Ruta de IA responsable — ChangeSprint Encuentro 2026</title>
+  <meta name="description" content="Presentaciones narradas, tarea previa y kits de trabajo por equipo para la ruta de IA responsable de Edgar Valdés en ChangeSprint Encuentro 2026.">
+  <link rel="icon" href="data:,">
   <style>
     :root {
       color-scheme: light;
@@ -18,15 +19,9 @@
       --violet: #9f8df3;
       --line: rgba(6, 56, 72, .22);
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background: var(--paper);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-    }
+    body { margin: 0; overflow-x: hidden; color: var(--ink); background: var(--paper); font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
     img { display: block; max-width: 100%; }
     a { color: inherit; }
 
@@ -45,210 +40,123 @@
     .edition { justify-self: center; font-size: 11px; font-weight: 900; letter-spacing: .2em; text-transform: uppercase; }
     .partners { justify-self: end; width: 100%; max-height: 34px; object-fit: contain; object-position: right center; }
 
-    .hero {
-      position: relative;
-      overflow: hidden;
-      color: var(--white);
-      background: var(--deep);
-    }
+    .hero { position: relative; overflow: hidden; color: var(--white); background: var(--deep); }
     .hero::after {
       content: "";
       position: absolute;
-      width: 38vw;
-      max-width: 610px;
+      width: 42vw;
+      max-width: 640px;
       aspect-ratio: 1;
-      right: -17vw;
-      bottom: -66%;
+      right: -18vw;
+      bottom: -67%;
       border: clamp(24px, 4vw, 58px) solid var(--violet);
       border-radius: 50%;
-      opacity: .92;
       pointer-events: none;
     }
     .hero-inner {
       position: relative;
       z-index: 1;
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(250px, .36fr);
+      grid-template-columns: minmax(0, 1fr) minmax(270px, .34fr);
       gap: clamp(40px, 8vw, 130px);
       align-items: end;
       max-width: 1500px;
-      min-height: 470px;
+      min-height: 520px;
       margin: 0 auto;
-      padding: clamp(66px, 9vw, 126px) clamp(20px, 7vw, 112px) 64px;
+      padding: clamp(70px, 9vw, 128px) clamp(20px, 7vw, 112px) 68px;
     }
-    .eyebrow,
-    .resource-type {
-      margin: 0;
-      font: 800 11px/1.2 "IBM Plex Mono", ui-monospace, monospace;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-    }
+    .eyebrow, .resource-type { margin: 0; font: 800 11px/1.3 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .16em; text-transform: uppercase; }
     .eyebrow { color: var(--lime); }
-    h1 {
-      max-width: 1020px;
-      margin: 22px 0 0;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: clamp(66px, 9vw, 148px);
-      font-weight: 900;
-      line-height: .83;
-      letter-spacing: -.03em;
-      text-transform: uppercase;
-    }
+    h1 { max-width: 1080px; margin: 22px 0 0; font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; font-size: clamp(62px, 8.8vw, 142px); font-weight: 900; line-height: .84; letter-spacing: -.03em; text-transform: uppercase; }
     h1 span { color: var(--lime); }
-    .hero-note {
-      margin: 0;
-      padding: 22px 0 0 24px;
-      border-left: 5px solid var(--green);
-      font-size: clamp(17px, 1.7vw, 24px);
-      line-height: 1.38;
-    }
+    .hero-note { margin: 0; padding: 22px 0 0 24px; border-left: 5px solid var(--green); font-size: clamp(17px, 1.65vw, 24px); line-height: 1.42; }
+    .hero-inner > *, .route-intro > *, .session > *, .assignment > *, .workbench-head > * { min-width: 0; }
 
-    .session {
-      display: grid;
-      grid-template-columns: minmax(0, .8fr) minmax(440px, 1.2fr);
-      min-height: 650px;
-      color: var(--white);
-      background: var(--ink);
-      border-top: 10px solid var(--lime);
-    }
-    .session-copy {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: clamp(52px, 7vw, 108px) clamp(20px, 7vw, 112px);
-    }
+    .route-intro { display: grid; grid-template-columns: minmax(160px, .25fr) 1fr; gap: clamp(28px, 6vw, 92px); max-width: 1500px; margin: 0 auto; padding: clamp(58px, 8vw, 112px) clamp(20px, 7vw, 112px); border-bottom: 1px solid var(--line); }
+    .route-code { padding-top: 13px; border-top: 5px solid var(--ink); font: 800 12px/1.55 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .13em; text-transform: uppercase; }
+    .route-code strong { display: block; margin-top: 8px; color: var(--violet); font-size: 31px; letter-spacing: -.03em; }
+    .route-intro h2 { max-width: 1000px; margin: 0; font-size: clamp(42px, 6vw, 86px); line-height: .92; letter-spacing: -.055em; }
+    .route-intro p { max-width: 840px; margin: 20px 0 0; font-size: clamp(17px, 1.4vw, 21px); line-height: 1.5; }
+
+    .session { display: grid; grid-template-columns: minmax(0, .78fr) minmax(440px, 1.22fr); min-height: 650px; color: var(--white); background: var(--ink); border-top: 9px solid var(--lime); }
+    .session:nth-of-type(even) { grid-template-columns: minmax(440px, 1.22fr) minmax(0, .78fr); color: var(--ink); background: var(--white); border-top-color: var(--green); }
+    .session:nth-of-type(even) .session-visual { order: -1; background: var(--violet); }
+    .session-copy { display: flex; flex-direction: column; justify-content: center; padding: clamp(52px, 7vw, 108px) clamp(20px, 7vw, 112px); }
     .session .resource-type { color: var(--green); }
-    .session h2 {
-      margin: 22px 0 0;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: clamp(54px, 7vw, 104px);
-      line-height: .87;
-      letter-spacing: -.025em;
-      text-transform: uppercase;
-    }
-    .session p {
-      max-width: 650px;
-      margin: 28px 0 0;
-      color: rgba(255,255,255,.78);
-      font-size: clamp(17px, 1.45vw, 22px);
-      line-height: 1.5;
-    }
-    .metadata {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 22px;
-      margin-top: 28px;
-      font: 700 11px/1.2 "IBM Plex Mono", ui-monospace, monospace;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
+    .session:nth-of-type(even) .resource-type { color: #6b56d7; }
+    .session h2 { margin: 20px 0 0; font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; font-size: clamp(50px, 6.5vw, 96px); line-height: .88; letter-spacing: -.025em; text-transform: uppercase; }
+    .session p { max-width: 650px; margin: 26px 0 0; color: rgba(255,255,255,.78); font-size: clamp(17px, 1.4vw, 21px); line-height: 1.5; }
+    .session:nth-of-type(even) p { color: rgba(6,56,72,.78); }
+    .metadata { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 28px; font: 700 11px/1.2 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
     .metadata span::before { content: "◆"; margin-right: 8px; color: var(--green); }
-    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 40px; }
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 48px;
-      padding: 13px 18px;
-      border: 1px solid currentColor;
-      text-decoration: none;
-      font-size: 12px;
-      font-weight: 900;
-      letter-spacing: .05em;
-      text-transform: uppercase;
-      transition: transform .18s ease, background .18s ease, color .18s ease;
-    }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 38px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 13px 18px; border: 1px solid currentColor; text-decoration: none; font-size: 12px; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; transition: transform .18s ease, background .18s ease, color .18s ease; }
     .button:hover { transform: translateY(-2px); }
     .button.primary { color: var(--deep); background: var(--lime); border-color: var(--lime); }
     .button.secondary:hover { color: var(--deep); background: var(--white); }
-    .session-visual {
-      position: relative;
-      display: grid;
-      place-items: center;
-      min-width: 0;
-      margin: 0;
-      padding: clamp(36px, 6vw, 90px);
-      background: var(--green);
-    }
-    .session-visual::before {
-      content: "";
-      position: absolute;
-      inset: 26px;
-      border: 1px solid rgba(3,40,51,.36);
-    }
-    .session-visual img {
-      position: relative;
-      z-index: 1;
-      width: min(100%, 880px);
-      box-shadow: -20px 22px 0 var(--deep);
-      transform: rotate(1deg);
-    }
+    .session:nth-of-type(even) .button.secondary:hover { color: var(--white); background: var(--deep); }
+    .session-visual { position: relative; display: grid; place-items: center; min-width: 0; overflow: hidden; margin: 0; padding: clamp(36px, 6vw, 90px); background: var(--green); }
+    .session-visual::before { content: ""; position: absolute; inset: 26px; border: 1px solid rgba(3,40,51,.36); }
+    .session-visual img { position: relative; z-index: 1; width: min(100%, 880px); box-shadow: -20px 22px 0 var(--deep); transform: rotate(1deg); }
+    .session:nth-of-type(even) .session-visual img { box-shadow: 20px 22px 0 var(--deep); transform: rotate(-1deg); }
 
-    .assignment {
-      display: grid;
-      grid-template-columns: minmax(170px, .28fr) minmax(0, 1fr) auto;
-      gap: clamp(28px, 5vw, 72px);
-      align-items: center;
-      max-width: 1500px;
-      margin: 0 auto;
-      padding: clamp(58px, 8vw, 112px) clamp(20px, 7vw, 112px);
-    }
-    .assignment-code {
-      padding: 16px 0;
-      border-top: 5px solid var(--ink);
-      border-bottom: 1px solid var(--line);
-      font: 800 12px/1.55 "IBM Plex Mono", ui-monospace, monospace;
-      letter-spacing: .13em;
-      text-transform: uppercase;
-    }
-    .assignment-code strong { display: block; margin-top: 8px; color: var(--violet); font-size: 28px; letter-spacing: -.02em; }
-    .assignment h2 { margin: 0; font-size: clamp(38px, 5.3vw, 76px); line-height: .95; letter-spacing: -.045em; }
+    .assignment { display: grid; grid-template-columns: minmax(170px, .28fr) minmax(0, 1fr) auto; gap: clamp(28px, 5vw, 72px); align-items: center; max-width: 1500px; margin: 0 auto; padding: clamp(56px, 7vw, 92px) clamp(20px, 7vw, 112px); border-bottom: 1px solid var(--line); }
+    .assignment-code { padding: 16px 0; border-top: 5px solid var(--ink); border-bottom: 1px solid var(--line); font: 800 12px/1.55 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .13em; text-transform: uppercase; }
+    .assignment-code strong { display: block; margin-top: 8px; color: var(--violet); font-size: 27px; letter-spacing: -.02em; }
+    .assignment h2 { margin: 0; font-size: clamp(36px, 5vw, 70px); line-height: .96; letter-spacing: -.045em; }
     .assignment p { max-width: 800px; margin: 18px 0 0; font-size: clamp(16px, 1.3vw, 20px); line-height: 1.5; }
     .assignment .button { min-width: 190px; color: var(--white); background: var(--deep); }
-    .assignment .button:hover { background: var(--ink); }
 
-    footer {
-      display: flex;
-      justify-content: space-between;
-      gap: 24px;
-      padding: 27px clamp(20px, 7vw, 112px);
-      color: var(--white);
-      background: var(--deep);
-      font: 700 11px/1.4 "IBM Plex Mono", ui-monospace, monospace;
-      letter-spacing: .09em;
-      text-transform: uppercase;
-    }
+    .workbench { color: var(--white); background: var(--deep); padding: clamp(66px, 8vw, 116px) clamp(20px, 7vw, 112px); }
+    .workbench-inner { max-width: 1320px; margin: 0 auto; }
+    .workbench-head { display: grid; grid-template-columns: minmax(210px, .35fr) 1fr; gap: clamp(30px, 7vw, 110px); margin-bottom: 46px; }
+    .workbench h2 { max-width: 900px; margin: 0; font-size: clamp(43px, 6.2vw, 88px); line-height: .91; letter-spacing: -.05em; }
+    .workbench-note { margin: 5px 0 0; color: rgba(255,255,255,.7); font-size: 18px; line-height: 1.5; }
+    .team-row { display: grid; grid-template-columns: 86px minmax(220px, .55fr) 1fr auto; gap: clamp(18px, 3vw, 42px); align-items: center; padding: 27px 0; border-top: 1px solid rgba(255,255,255,.24); }
+    .team-row:last-of-type { border-bottom: 1px solid rgba(255,255,255,.24); }
+    .team-number { color: var(--green); font: 900 50px/.8 Impact, "Arial Narrow Bold", sans-serif; }
+    .team-row h3 { margin: 0; font-size: clamp(23px, 2.4vw, 36px); line-height: 1; }
+    .team-row p { margin: 0; color: rgba(255,255,255,.69); font-size: 16px; line-height: 1.4; }
+    .team-row .button { color: var(--deep); background: var(--lime); border-color: var(--lime); }
+    .complete-kit { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 42px; }
+    .complete-kit .button { color: var(--deep); background: var(--green); border-color: var(--green); }
+    .text-link { padding: 12px 3px; color: var(--white); font-size: 13px; font-weight: 850; text-underline-offset: 4px; }
 
-    @media (max-width: 900px) {
+    footer { display: flex; justify-content: space-between; gap: 24px; padding: 27px clamp(20px, 7vw, 112px); color: var(--deep); background: var(--lime); font: 800 11px/1.4 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
+
+    @media (max-width: 960px) {
       .brandbar { grid-template-columns: auto 1fr; gap: 10px 16px; }
       .edition { display: none; }
       .partners { grid-column: 1 / -1; justify-self: start; max-width: 310px; object-position: left center; }
-      .hero-inner, .session, .assignment { grid-template-columns: 1fr; }
-      .hero-inner { min-height: 560px; align-content: end; }
-      .hero-note { max-width: 560px; }
+      .hero-inner, .route-intro, .session, .session:nth-of-type(even), .assignment, .workbench-head { grid-template-columns: 1fr; }
+      .hero-inner { min-height: 590px; align-content: end; }
+      .hero-note { max-width: 600px; }
+      .session:nth-of-type(even) .session-visual { order: 0; }
       .session-visual { min-height: 390px; }
       .assignment { align-items: start; }
       .assignment .button { justify-self: start; }
+      .team-row { grid-template-columns: 64px 1fr auto; }
+      .team-row p { grid-column: 2 / -1; }
     }
-    @media (max-width: 540px) {
+    @media (max-width: 620px) {
       .brandbar { min-height: 92px; padding-block: 12px; }
       .year { font-size: 14px; }
       .changesprint { max-width: 160px; }
       .partners { max-width: 280px; }
-      .hero-inner { min-height: 520px; padding-top: 62px; }
+      .hero-inner { min-height: 530px; padding-top: 62px; }
       .hero::after { width: 280px; right: -150px; bottom: -100px; }
-      h1 { font-size: clamp(52px, 16vw, 82px); }
-      .session h2 { font-size: clamp(48px, 14vw, 74px); }
+      h1 { font-size: clamp(49px, 13.2vw, 68px); }
+      .session h2 { font-size: clamp(46px, 13vw, 70px); }
       .session-visual { min-height: 270px; padding: 42px 24px; }
-      .session-visual img { box-shadow: -10px 12px 0 var(--deep); }
+      .session-visual img, .session:nth-of-type(even) .session-visual img { box-shadow: -10px 12px 0 var(--deep); }
       .actions, .button { width: 100%; }
       .assignment .button { width: 100%; }
+      .team-row { grid-template-columns: 52px 1fr; }
+      .team-row p, .team-row .button { grid-column: 1 / -1; }
+      .team-number { font-size: 40px; }
       footer { flex-direction: column; }
     }
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      .button { transition: none; }
-    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
   </style>
 </head>
 <body>
@@ -263,41 +171,95 @@
     <section class="hero">
       <div class="hero-inner">
         <div>
-          <p class="eyebrow">Primera intervención · 18 de agosto · Edgar Valdés</p>
-          <h1>Una sesión.<br><span>Una tarea.</span><br>Una decisión.</h1>
+          <p class="eyebrow">Ruta de aprendizaje · Edgar Valdés · ChangeSprint 2026</p>
+          <h1>Entender.<br><span>Configurar.</span><br>Probar.</h1>
         </div>
-        <p class="hero-note">Todo el material necesario para llegar al taller con una hipótesis y salir con una decisión que pueda explicarse, supervisarse y corregirse.</p>
+        <p class="hero-note">Dos sesiones conectadas: primero reconocer qué exige una IA responsable; después convertir esos principios en reglas, permisos, skills y pruebas verificables.</p>
       </div>
     </section>
 
-    <section class="session" aria-labelledby="sesion-title">
+    <section class="route-intro" aria-labelledby="route-title">
+      <div class="route-code">Secuencia<strong>01 → 02</strong></div>
+      <div>
+        <p class="resource-type">Ruta completa · Presentaciones narradas y taller</p>
+        <h2 id="route-title">De la decisión pública al agente que sabe detenerse.</h2>
+        <p>La primera sesión construye el criterio. La segunda lo vuelve comportamiento observable: contexto delimitado, instrucciones persistentes, especialización, permisos, evidencia y corrección.</p>
+      </div>
+    </section>
+
+    <section class="session" aria-labelledby="session-one-title">
       <div class="session-copy">
-        <p class="resource-type">Recurso principal · Presentación</p>
-        <h2 id="sesion-title">IA responsable en lo público</h2>
-        <p>Integra los fundamentos prácticos de IA con gobernanza, equidad, supervisión y el trabajo específico de los tres equipos del Fondo Nacional de Becas.</p>
-        <div class="metadata" aria-label="Características de la presentación">
-          <span>27 láminas</span>
-          <span>Narración automática</span>
-          <span>Trabajo por equipos</span>
-        </div>
-        <nav class="actions" aria-label="Acciones de la presentación">
-          <a class="button primary" href="curso-1-ia-responsable/">Abrir presentación</a>
+        <p class="resource-type">Sesión 01 · Marco conceptual</p>
+        <h2 id="session-one-title">IA responsable en lo público</h2>
+        <p>Fundamentos, riesgos, gobernanza, equidad, supervisión y el contexto de los tres retos del Fondo Nacional de Becas.</p>
+        <div class="metadata"><span>27 láminas</span><span>Narración automática</span><span>Estado del arte</span></div>
+        <nav class="actions" aria-label="Recursos de la sesión uno">
+          <a class="button primary" href="curso-1-ia-responsable/">Abrir sesión 01</a>
           <a class="button secondary" href="curso-1-ia-responsable/ChangeSprint_Sesion_Integrada_IA_Responsable_2026.pptx" download>Descargar PPTX</a>
         </nav>
       </div>
-      <figure class="session-visual">
-        <img src="curso-1-ia-responsable/assets/slides/slide-01.png" alt="Portada de la sesión integrada IA responsable en lo público">
-      </figure>
+      <figure class="session-visual"><img src="curso-1-ia-responsable/assets/slides/slide-01.png" alt="Portada de la sesión IA responsable en lo público"></figure>
     </section>
 
-    <section class="assignment" aria-labelledby="tarea-title">
-      <div class="assignment-code">Recurso 02<strong>Antes del taller</strong></div>
+    <section class="session" aria-labelledby="session-two-title">
+      <div class="session-copy">
+        <p class="resource-type">Sesión 02 · Laboratorio en Codex</p>
+        <h2 id="session-two-title">De principios a agentes verificables</h2>
+        <p>Recorrido por ChatGPT y Codex en Windows, configuración con AGENTS.md y skills, límites de permisos y un laboratorio de cinco pruebas por equipo.</p>
+        <div class="metadata"><span>12 láminas</span><span>Narración automática</span><span>120 minutos</span></div>
+        <nav class="actions" aria-label="Recursos de la sesión dos">
+          <a class="button primary" href="curso-2-agentes-verificables/">Abrir sesión 02</a>
+          <a class="button secondary" href="curso-2-agentes-verificables/ChangeSprint_Parte_2_Agentes_Verificables_NOTAS.pptx" download>Descargar PPTX + notas</a>
+        </nav>
+      </div>
+      <figure class="session-visual"><img src="curso-2-agentes-verificables/assets/slides/slide-01.png" alt="Portada de la sesión De principios a agentes verificables"></figure>
+    </section>
+
+    <section class="assignment" aria-labelledby="assignment-title">
+      <div class="assignment-code">Recurso previo<strong>Antes de iniciar</strong></div>
       <div>
         <p class="resource-type">Tarea previa · Documento PDF</p>
-        <h2 id="tarea-title">Llegar con una primera decisión de diseño.</h2>
-        <p>Una guía breve para identificar el problema, la aplicación posible de IA, el riesgo principal, el límite de automatización, la protección necesaria y la pregunta que el equipo debe investigar.</p>
+        <h2 id="assignment-title">Llegar con una primera decisión de diseño.</h2>
+        <p>Identificar el problema, la aplicación posible de IA, el riesgo principal, el límite de automatización, la protección necesaria y la pregunta que el equipo debe investigar.</p>
       </div>
       <a class="button" href="tarea-previa/Tarea_Previa_IA_Fondo_Nacional_Becas_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Abrir tarea previa</a>
+    </section>
+
+    <section class="workbench" aria-labelledby="workbench-title">
+      <div class="workbench-inner">
+        <header class="workbench-head">
+          <p class="eyebrow">Mesa de trabajo · Descargas autocontenidas</p>
+          <div>
+            <h2 id="workbench-title">Cada equipo recibe reglas, contexto, cinco casos y formatos de entrega.</h2>
+            <p class="workbench-note">Los casos son ficticios e incluyen entradas normales, incompletas, adversariales, lingüísticamente diversas y limítrofes.</p>
+          </div>
+        </header>
+
+        <article class="team-row">
+          <span class="team-number">01</span>
+          <h3>Revisor de ensayos</h3>
+          <p>Aplicar una rúbrica, citar evidencia y escalar; nunca decidir el otorgamiento.</p>
+          <a class="button" href="curso-2-agentes-verificables/materiales/kit-equipo-1-revisor-ensayos.zip" download>Descargar kit</a>
+        </article>
+        <article class="team-row">
+          <span class="team-number">02</span>
+          <h3>Acompañante de expediente</h3>
+          <p>Identificar faltantes y orientar el siguiente paso; nunca rechazar automáticamente.</p>
+          <a class="button" href="curso-2-agentes-verificables/materiales/kit-equipo-2-acompanante-expediente.zip" download>Descargar kit</a>
+        </article>
+        <article class="team-row">
+          <span class="team-number">03</span>
+          <h3>Auditor de gobernanza</h3>
+          <p>Revisar finalidad, datos, permisos, trazabilidad, explicación, apelación y condiciones de alto.</p>
+          <a class="button" href="curso-2-agentes-verificables/materiales/kit-equipo-3-auditor-gobernanza.zip" download>Descargar kit</a>
+        </article>
+
+        <nav class="complete-kit" aria-label="Materiales generales del taller">
+          <a class="button" href="curso-2-agentes-verificables/materiales/kit-completo-agentes-verificables.zip" download>Descargar kit completo</a>
+          <a class="text-link" href="curso-2-agentes-verificables/discurso-edgar.md" download>Descargar discurso completo</a>
+          <a class="text-link" href="curso-2-agentes-verificables/guia-facilitador.md" download>Descargar guía del facilitador</a>
+        </nav>
+      </div>
     </section>
   </main>
 
