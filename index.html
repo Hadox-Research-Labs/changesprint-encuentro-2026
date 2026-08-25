@@ -78,6 +78,17 @@
     .route-intro h2 { max-width: 1000px; margin: 0; font-size: clamp(42px, 6vw, 86px); line-height: .92; letter-spacing: -.055em; }
     .route-intro p { max-width: 840px; margin: 20px 0 0; font-size: clamp(17px, 1.4vw, 21px); line-height: 1.5; }
 
+    .suggested-video { color: var(--white); background: var(--deep); padding: clamp(64px, 8vw, 112px) clamp(20px, 7vw, 112px); }
+    .suggested-video-inner { display: grid; grid-template-columns: minmax(250px, .42fr) minmax(0, 1fr); gap: clamp(36px, 7vw, 112px); align-items: end; max-width: 1500px; margin: 0 auto; }
+    .suggested-video-copy { align-self: stretch; display: flex; flex-direction: column; justify-content: space-between; padding-top: 15px; border-top: 6px solid var(--lime); }
+    .suggested-video .resource-type { color: var(--green); }
+    .suggested-video h2 { max-width: 570px; margin: 22px 0 0; font-size: clamp(42px, 5.4vw, 78px); line-height: .92; letter-spacing: -.052em; }
+    .suggested-video p { max-width: 560px; margin: 24px 0 0; color: rgba(255,255,255,.75); font-size: clamp(16px, 1.25vw, 19px); line-height: 1.5; }
+    .suggested-video .text-link { align-self: flex-start; margin-top: 34px; }
+    .video-frame { position: relative; margin: 0; background: #000; box-shadow: 20px 22px 0 var(--green); }
+    .video-frame::before { content: "VIDEO / 01"; position: absolute; z-index: 1; top: -29px; right: 0; color: var(--lime); font: 800 11px/1 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .14em; }
+    .video-frame iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
+
     .session { display: grid; grid-template-columns: minmax(0, .78fr) minmax(440px, 1.22fr); min-height: 650px; color: var(--white); background: var(--ink); border-top: 9px solid var(--lime); }
     .session:nth-of-type(even) { grid-template-columns: minmax(440px, 1.22fr) minmax(0, .78fr); color: var(--ink); background: var(--white); border-top-color: var(--green); }
     .session:nth-of-type(even) .session-visual { order: -1; background: var(--violet); }
@@ -156,9 +167,11 @@
       .brandbar { grid-template-columns: auto 1fr; gap: 10px 16px; }
       .edition { display: none; }
       .partners { grid-column: 1 / -1; justify-self: start; max-width: 310px; object-position: left center; }
-      .hero-inner, .route-intro, .session, .session:nth-of-type(even), .assignment, .packets-head, .workbench-head, .applied-inner { grid-template-columns: 1fr; }
+      .hero-inner, .route-intro, .suggested-video-inner, .session, .session:nth-of-type(even), .assignment, .packets-head, .workbench-head, .applied-inner { grid-template-columns: 1fr; }
       .hero-inner { min-height: 590px; align-content: end; }
       .hero-note { max-width: 600px; }
+      .suggested-video-copy { min-height: 0; }
+      .suggested-video .text-link { margin-top: 24px; }
       .session:nth-of-type(even) .session-visual { order: 0; }
       .session-visual { min-height: 390px; }
       .assignment { align-items: start; }
@@ -181,6 +194,7 @@
       .session h2 { font-size: clamp(46px, 13vw, 70px); }
       .session-visual { min-height: 270px; padding: 42px 24px; }
       .session-visual img, .session:nth-of-type(even) .session-visual img { box-shadow: -10px 12px 0 var(--deep); }
+      .video-frame { box-shadow: 10px 12px 0 var(--green); }
       .actions, .button { width: 100%; }
       .assignment .button { width: 100%; }
       .team-row { grid-template-columns: 52px 1fr; }
@@ -220,6 +234,22 @@
         <p class="resource-type">Ruta completa · Presentaciones narradas y taller</p>
         <h2 id="route-title">De la decisión pública al agente que sabe detenerse.</h2>
         <p>La primera sesión construye el criterio. La segunda lo vuelve comportamiento observable: contexto delimitado, instrucciones persistentes, especialización, permisos, evidencia y corrección.</p>
+      </div>
+    </section>
+
+    <section class="suggested-video" aria-labelledby="suggested-video-title">
+      <div class="suggested-video-inner">
+        <div class="suggested-video-copy">
+          <div>
+            <p class="resource-type">Pausa audiovisual · DW Español</p>
+            <h2 id="suggested-video-title">Video sugerido por Daniel Núñez, José Carlos y Sergio Texaj</h2>
+            <p>Una introducción breve a la pregunta que atraviesa toda la ruta: cómo aprovechar la inteligencia artificial sin renunciar a la privacidad, la supervisión y el beneficio colectivo.</p>
+          </div>
+          <a class="text-link" href="https://www.youtube.com/watch?v=QWFUaDfg0Ks" target="_blank" rel="noopener">Ver directamente en YouTube ↗</a>
+        </div>
+        <figure class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/QWFUaDfg0Ks" title="La ética en la inteligencia artificial — DW Español" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </figure>
       </div>
     </section>
 
