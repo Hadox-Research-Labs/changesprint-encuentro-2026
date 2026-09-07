@@ -34,7 +34,7 @@ Este es un modelo operativo propuesto y pendiente de validación empírica. Su i
 
 ## 9. El Espejo: devolución creativa
 
-El reproductor muestra por ahora una demo de 32 segundos con seis dibujos sintéticos. No representa participantes reales, sus opiniones ni resultados del encuentro. En la sesión se sustituirá por el video revisado del ejercicio, si está disponible y autorizado. Observemos qué mantuvo la interpretación, qué añadió y qué falta preguntar. Una película terminada es un producto; no demuestra impacto público ni apoyo representativo. Si falla el video, utilicemos las escenas estáticas para continuar la deliberación.
+El reproductor presenta Un camino, tres miradas, un piloto de 4 minutos con 21 segundos construido con veinte ejemplos ficticios generados con IA. El montaje recorre los dibujos, una síntesis audiovisual y una interpretación generativa. Ningún material procede de participantes reales ni representa resultados del encuentro. Observemos qué conservó la interpretación, qué añadió y qué falta preguntar. Una película terminada es un producto; no demuestra impacto público ni apoyo representativo.
 
 ## 10. Construcción del problema y diagnóstico
 

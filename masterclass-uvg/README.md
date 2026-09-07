@@ -3,11 +3,11 @@
 Edición web de 15 láminas visuales, con notas, PDF y PowerPoint descargables.
 Las ilustraciones y el texto original del deck se conservan como imágenes. Los logos y pies de página del PPTX son objetos separados; no se ofrece editabilidad de cada palabra de la ilustración.
 
-## Sustituir el video
+## Video integrado
 
-Reemplazar `assets/video/el-espejo.mp4` por el video final revisado. Actualizar `video.json` (`label`, `provisional: false` y, si cambia, `poster`) y la nota de la lámina 9 en `slides.json`. El reproductor consulta este archivo sin caché. Si cambia el nombre, actualizar `src`.
+La lámina 9 reproduce `assets/video/el-espejo.mp4`: la versión final aprobada de *Un camino, tres miradas*, con duración de 4 minutos y 21 segundos. El reproductor consulta `video.json` sin caché y utiliza `assets/video/poster.png` como portada.
 
-El video actual dura 32 segundos y procede de una demo local con seis dibujos sintéticos. No contiene aportaciones de participantes reales. No se publican archivos de recepción, consentimientos ni bitácoras del laboratorio.
+El montaje contiene veinte ejemplos ficticios generados con IA. No incorpora aportaciones de participantes reales. No se publican archivos de recepción, consentimientos ni bitácoras del laboratorio.
 
 ## Reconstrucción
 
