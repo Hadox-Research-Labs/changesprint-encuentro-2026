@@ -1,5 +1,9 @@
 # Guion de apoyo · Master class UVG
 
+## Portada · Uso ético y responsable de la IA en política pública
+
+Bienvenidas y bienvenidos. Esta master class propone recorrer el ciclo de política pública mediante un ejemplo guiado: una activación visual, una devolución generativa y una conversación sobre dónde puede intervenir la inteligencia artificial sin desplazar la evidencia, la deliberación ni la responsabilidad humana. El objetivo no es automatizar la política pública, sino aprender a diseñar apoyos agénticos verificables y gobernables.
+
 ## 1. Imagina un camino más agradable
 
 Abrimos con una invitación voluntaria: imaginar un camino cotidiano más agradable con figuras geométricas. No escribimos nombres, direcciones ni recorridos identificables. Se puede participar sin entregar un dibujo. Los trazos que vemos son ejemplos hipotéticos. La IA puede acompañar cada fase de una política pública, pero nunca reemplaza evidencia empírica, legitimidad, deliberación ni responsabilidad. El video del ejercicio será una devolución creativa, no un diagnóstico de Guatemala.

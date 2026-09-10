@@ -1,6 +1,6 @@
 # Master class UVG · Diálogos · 10 septiembre 2026
 
-Edición web de 15 láminas visuales, con notas, PDF y PowerPoint descargables.
+Edición web con portada y 15 láminas visuales, notas, PDF y PowerPoint descargables.
 Las ilustraciones y el texto original del deck se conservan como imágenes. Los logos y pies de página del PPTX son objetos separados; no se ofrece editabilidad de cada palabra de la ilustración.
 
 ## Video integrado

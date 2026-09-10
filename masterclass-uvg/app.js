@@ -1,27 +1,27 @@
 'use strict';
 (async function(){
  const $=id=>document.getElementById(id), status=$('status'), video=$('video');
- const release='video-final-20260906';
+ const release='cover-20260909';
  let slides=[],current=0,media=null;
  function stop(){if('speechSynthesis' in window)window.speechSynthesis.cancel();}
  function go(index,update=true){
   stop();video.pause();current=Math.max(0,Math.min(slides.length-1,index));
-  const s=slides[current],src=`assets/slides/slide-${String(current+1).padStart(2,'0')}.webp?v=${release}`;
+  const s=slides[current],src=`assets/slides/${s.file}?v=${release}`;
   $('slide-image').src=src;$('slide-image').alt=s.title;$('zoom').href=src;
   $('slide-title').textContent=s.title;$('notes').textContent=s.notes;$('slide-select').value=String(current);
   $('previous').disabled=current===0;$('next').disabled=current===slides.length-1;
   video.hidden=!s.video||!media;$('video-label').hidden=!s.video;
   if(s.video&&media){video.src=`${media.src}?v=${release}`;video.poster=media.poster?`${media.poster}?v=${release}`:'';video.setAttribute('aria-label',media.label);$('video-label').textContent=media.label;}
   if(s.video&&!media)$('video-label').textContent='El video no está disponible. Podemos continuar con las escenas y las notas.';
-  status.textContent=`Lámina ${current+1} de ${slides.length} · ${s.title}`;
-  if(update)history.replaceState(null,'',`#${current+1}`);
-  if(slides[current+1]){const preload=new Image();preload.src=`assets/slides/slide-${String(current+2).padStart(2,'0')}.webp`;}
+  status.textContent=s.cover?`Portada · ${s.title}`:`Lámina ${s.index} de 15 · ${s.title}`;
+  if(update)history.replaceState(null,'',s.cover?'#portada':`#${s.index}`);
+  if(slides[current+1]){const preload=new Image();preload.src=`assets/slides/${slides[current+1].file}`;}
  }
  async function fullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else if($('presentation').requestFullscreen)await $('presentation').requestFullscreen();else status.textContent='Usa Ampliar para abrir la lámina.';}catch{status.textContent='Pantalla completa no disponible. Usa Ampliar.'}}
  try{const r=await fetch(`slides.json?v=${release}`,{cache:'no-store'});if(!r.ok)throw new Error();slides=await r.json();}catch{status.textContent='No se pudo cargar la presentación. Puedes descargar el PDF o PowerPoint.';return;}
  try{const r=await fetch(`video.json?v=${release}`,{cache:'no-store'});if(r.ok)media=await r.json();}catch{}
- $('slide-select').replaceChildren(...slides.map((s,i)=>{const option=document.createElement('option');option.value=String(i);option.textContent=`${i+1} · ${s.title}`;return option;}));
- const hashIndex=()=>{const n=Number(location.hash.slice(1));return Number.isInteger(n)&&n>0?n-1:0;};
+ $('slide-select').replaceChildren(...slides.map((s,i)=>{const option=document.createElement('option');option.value=String(i);option.textContent=s.cover?`Portada · ${s.title}`:`${s.index} · ${s.title}`;return option;}));
+ const hashIndex=()=>{if(!location.hash||location.hash==='#portada')return 0;const n=Number(location.hash.slice(1));const found=slides.findIndex(s=>s.index===n&&!s.cover);return found>=0?found:0;};
  go(hashIndex(),false);
  $('previous').onclick=()=>go(current-1);$('next').onclick=()=>go(current+1);
  $('slide-select').onchange=e=>go(Number(e.target.value));$('fullscreen').onclick=fullscreen;
