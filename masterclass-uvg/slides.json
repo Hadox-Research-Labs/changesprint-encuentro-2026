@@ -142,5 +142,17 @@
     "video": false,
     "cover": false,
     "file": "slide-15.webp"
+  },
+  {
+    "index": 16,
+    "title": "Preguntas del público",
+    "notes": "Esta es la pantalla final de conversación. En la edición web aparecen aquí las preguntas del público en tiempo real. Para participar, el público puede escanear el código QR o escribir tinyurl.com/24x7orzr. La participación es anónima y no requiere aprobación previa. Pantalla pública: https://changesprint-registro-evidencias.ekaropolus.chatgpt.site/preguntas/pantalla?s=masterclass-uvg",
+    "asset": null,
+    "video": false,
+    "questions": true,
+    "cover": false,
+    "file": "slide-16.webp",
+    "screenUrl": "https://changesprint-registro-evidencias.ekaropolus.chatgpt.site/preguntas/pantalla?s=masterclass-uvg",
+    "shortUrl": "https://tinyurl.com/24x7orzr"
   }
 ]

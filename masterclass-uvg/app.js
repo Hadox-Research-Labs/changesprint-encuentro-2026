@@ -1,19 +1,22 @@
 'use strict';
 (async function(){
- const $=id=>document.getElementById(id), status=$('status'), video=$('video');
- const release='questions-qr-20260910';
+ const $=id=>document.getElementById(id), status=$('status'), video=$('video'),questionsScreen=$('questions-screen'),questionsEntry=$('questions-entry');
+ const release='live-questions-final-20260910';
  let slides=[],current=0,media=null;
  function stop(){if('speechSynthesis' in window)window.speechSynthesis.cancel();}
  function go(index,update=true){
   stop();video.pause();current=Math.max(0,Math.min(slides.length-1,index));
   const s=slides[current],src=`assets/slides/${s.file}?v=${release}`;
-  $('slide-image').src=src;$('slide-image').alt=s.title;$('zoom').href=src;
+  $('slide-image').src=src;$('slide-image').alt=s.title;$('slide-image').hidden=!!s.questions;
+  questionsScreen.hidden=!s.questions;questionsEntry.hidden=!s.questions;
+  if(s.questions){if(questionsScreen.src!==s.screenUrl)questionsScreen.src=s.screenUrl;$('zoom').href=s.screenUrl;$('zoom').textContent='Abrir pantalla';}
+  else{$('zoom').href=src;$('zoom').textContent='Ampliar';}
   $('slide-title').textContent=s.title;$('notes').textContent=s.notes;$('slide-select').value=String(current);
   $('previous').disabled=current===0;$('next').disabled=current===slides.length-1;
   video.hidden=!s.video||!media;$('video-label').hidden=!s.video;
   if(s.video&&media){video.src=`${media.src}?v=${release}`;video.poster=media.poster?`${media.poster}?v=${release}`:'';video.setAttribute('aria-label',media.label);$('video-label').textContent=media.label;}
   if(s.video&&!media)$('video-label').textContent='El video no está disponible. Podemos continuar con las escenas y las notas.';
-  status.textContent=s.cover?`Portada · ${s.title}`:`Lámina ${s.index} de 15 · ${s.title}`;
+  status.textContent=s.cover?`Portada · ${s.title}`:`Lámina ${s.index} de ${slides.length-1} · ${s.title}`;
   if(update)history.replaceState(null,'',s.cover?'#portada':`#${s.index}`);
   if(slides[current+1]){const preload=new Image();preload.src=`assets/slides/${slides[current+1].file}`;}
  }

@@ -63,3 +63,7 @@ Distingamos el video terminado de un efecto público como la caminabilidad. Nues
 ## 15. Responsabilidad y deliberación
 
 La IA puede apoyar interpretación, documentación y coordinación, dentro de límites verificables. No garantiza mejores decisiones ni trazabilidad completa por sí sola. El sentido de una política, la distribución de valor y la responsabilidad final dependen de personas e instituciones. Volvamos al dibujo inicial: qué pudimos ver, qué inferimos y qué tendríamos que investigar antes de actuar. Cerremos con preguntas y con una decisión concreta que cada participante quisiera poder explicar y revisar.
+
+## 16. Preguntas del público
+
+Esta es la pantalla final de conversación. En la edición web aparecen aquí las preguntas del público en tiempo real. Para participar, el público puede escanear el código QR o escribir tinyurl.com/24x7orzr. La participación es anónima y no requiere aprobación previa. Pantalla pública: https://changesprint-registro-evidencias.ekaropolus.chatgpt.site/preguntas/pantalla?s=masterclass-uvg
