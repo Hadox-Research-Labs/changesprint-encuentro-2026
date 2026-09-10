@@ -1,7 +1,7 @@
 'use strict';
 (async function(){
  const $=id=>document.getElementById(id), status=$('status'), video=$('video');
- const release='activation-app-20260909';
+ const release='questions-qr-20260910';
  let slides=[],current=0,media=null;
  function stop(){if('speechSynthesis' in window)window.speechSynthesis.cancel();}
  function go(index,update=true){

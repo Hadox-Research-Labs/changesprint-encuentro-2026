@@ -3,7 +3,7 @@
 Edición web con portada y 15 láminas visuales, notas, PDF y PowerPoint descargables.
 Las ilustraciones y el texto original del deck se conservan como imágenes. Los logos y pies de página del PPTX son objetos separados; no se ofrece editabilidad de cada palabra de la ilustración.
 
-Cada lámina incorpora un QR que abre la app de participación de ChangeSprint en la sesión de ejemplo. La participación es voluntaria y las instrucciones solicitan no incluir nombres ni datos personales.
+Cada lámina incorpora un QR para enviar preguntas anónimas durante la master class. Las preguntas aparecen directamente en la pantalla pública; la vista móvil solicita no incluir nombres ni datos personales.
 
 ## Video integrado
 
