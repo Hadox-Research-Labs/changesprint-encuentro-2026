@@ -3,6 +3,8 @@
 Edición web con portada y 15 láminas visuales, notas, PDF y PowerPoint descargables.
 Las ilustraciones y el texto original del deck se conservan como imágenes. Los logos y pies de página del PPTX son objetos separados; no se ofrece editabilidad de cada palabra de la ilustración.
 
+Cada lámina incorpora un QR que abre la activación pública en la lámina 1. El QR no abre un formulario ni recopila datos.
+
 ## Video integrado
 
 La lámina 9 reproduce `assets/video/el-espejo.mp4`: la versión final aprobada de *Un camino, tres miradas*, con duración de 4 minutos y 21 segundos. El reproductor consulta `video.json` sin caché y utiliza `assets/video/poster.png` como portada.
