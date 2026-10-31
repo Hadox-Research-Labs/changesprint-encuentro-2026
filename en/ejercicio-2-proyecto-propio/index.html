@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#032833">
+  <title>Exercise 2: from canvas to agent — ChangeSprint 2026</title>
+  <meta name="description" content="An applied exercise turning ChangeSprint teams&#x27; canvases into bounded, verifiable and correctable agent prototypes.">
+  <link rel="stylesheet" href="../../ejercicio-2-proyecto-propio/ejercicio.css">
+<style>.course-languagebar{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:5px;padding:8px 4vw;background:#fff;color:#063848;border-bottom:1px solid #d4dfdf;font:600 14px/1.5 "Segoe UI",Arial,sans-serif}.course-languagebar a{display:inline-flex;align-items:center;min-height:44px;padding:6px 14px;text-decoration:none}.course-languagebar a[aria-current]{background:#032833;color:#fff;border-radius:4px}.course-languagebar a:focus-visible{outline:3px solid #067355;outline-offset:2px}</style>
+<link rel="stylesheet" href="../../assets/full-course.css"><script id="full-course-ui" type="application/json">{"language": "Language", "notes": "Complete slide notes", "images": "Slide artwork and original PDF/PPTX files remain in Spanish. All page text and speaker notes are translated in full.", "draft": "", "pause": "Pause", "resume": "Resume", "ready": "Ready", "stopped": "Stopped", "speaking": "Narrating slide", "noVoice": "No English narration voice is available in this browser. The complete notes are shown below.", "noNotes": "This slide has no notes.", "spanish": "Spanish original", "openScreen": "Open screen", "cover": "Cover", "slide": "Slide", "of": "of", "fullscreenFallback": "Use Enlarge to open the slide.", "fullscreenUnavailable": "Fullscreen is unavailable. Use Enlarge.", "loadError": "The presentation could not be loaded. You can download the PDF or PowerPoint.", "noVideo": "The video is unavailable. Continue with the scenes and notes.", "narrationEnd": "Narration finished.", "narrationError": "Narration stopped or unavailable.", "videoError": "The video could not play. Continue with the slide and notes."}</script><script src="../../assets/full-course.js" defer></script></head>
+<body><nav class="course-languagebar" data-course-languages aria-label="Language"><a href="../../ejercicio-2-proyecto-propio/index.html" lang="es" hreflang="es">Español</a><a href="index.html" lang="en" hreflang="en" aria-current="page">English</a><a href="../../hy/ejercicio-2-proyecto-propio/index.html" lang="hy" hreflang="hy">Հայերեն</a></nav><aside class="translation-context"><p>Slide artwork and original PDF/PPTX files remain in Spanish. All page text and speaker notes are translated in full.</p></aside>
+
+  <header class="brandbar">
+    <a class="back" href="../">← Complete pathway</a>
+    <img src="../../assets/changesprint-logo.png" alt="ChangeSprint">
+    <span>Guatemala gathering · 2026</span>
+    <img class="partners" src="../../assets/partner-logos.png" alt="Diálogos, Blombos Lab and Universidad del Valle de Guatemala">
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-number" aria-hidden="true">02</div>
+      <div class="hero-copy">
+        <p class="eyebrow">Applied exercise · After the guided laboratory</p>
+        <h1>From canvas<br>to agent.</h1>
+        <p class="lede">You have already practised Codex's functions. Now demonstrate judgement: question the diagnosis, narrow the scope and build a configuration that can be explained, tested and corrected.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="../../output/pdf/Ejercicio_2_Del_Lienzo_Al_Agente_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Open PDF instructions <span class="original-language">(Spanish original)</span></a>
+          <a class="button primary" href="../../ejercicio-2-proyecto-propio/materiales/ejercicio-2-proyecto-propio.zip" download>Download complete workbook <span class="original-language">(Spanish original)</span></a>
+          <a class="button ghost" href="#instrucciones">Start on screen</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="progression" aria-labelledby="progress-title">
+      <div class="section-label">The complete sequence</div>
+      <div>
+        <h2 id="progress-title">We do not repeat the lesson. We remove the scaffolding.</h2>
+        <ol class="route">
+          <li><span>Lesson</span><strong>Learn</strong><p>Chat, Work, Codex, folders, instructions, skills, tools, permissions and tests.</p></li>
+          <li><span>Exercise 1</span><strong>Operate</strong><p>Follow a prepared problem with rules, fictional data, formats and five predefined cases.</p></li>
+          <li class="current"><span>Exercise 2</span><strong>Design</strong><p>Use your own canvas to choose the task, justify the boundaries and create the tests.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="brief" id="instrucciones" aria-labelledby="brief-title">
+      <header>
+        <p class="eyebrow">The assignment</p>
+        <h2 id="brief-title">Configure a small agent addressing one evidenced task in your project.</h2>
+      </header>
+      <div class="brief-rule">
+        <strong>Do not begin by creating a skill.</strong>
+        <p>First demonstrate that you understand the process. The agent follows from that understanding; it does not replace it.</p>
+      </div>
+    </section>
+
+    <section class="workbook" aria-labelledby="workbook-title">
+      <header class="workbook-head">
+        <div class="section-label">Workbook</div>
+        <div>
+          <h2 id="workbook-title">Six pieces of evidence. One defensible proposal.</h2>
+          <p>Each step produces a reviewable file. A demonstration existing only in the conversation with the AI is not accepted.</p>
+        </div>
+      </header>
+
+      <ol class="deliverables">
+        <li>
+          <span class="step">01</span>
+          <div><h3>Canvas audit</h3><p>Classify statements as verified facts, hypotheses, team decisions and open questions.</p></div>
+          <a href="../../ejercicio-2-proyecto-propio/materiales/cuaderno/01-auditoria-lienzo.md" download>MD template <span class="original-language">(Spanish original)</span></a>
+        </li>
+        <li>
+          <span class="step">02</span>
+          <div><h3>Current process map</h3><p>Reconstruct input, intervention, transformation, output, human decision, record and correction.</p></div>
+          <a href="../../ejercicio-2-proyecto-propio/materiales/cuaderno/02-mapa-proceso.md" download>MD template <span class="original-language">(Spanish original)</span></a>
+        </li>
+        <li>
+          <span class="step">03</span>
+          <div><h3>Bounded task</h3><p>Select one user, one task and one artifact. Explicitly exclude what you will not solve.</p></div>
+          <a href="../../ejercicio-2-proyecto-propio/materiales/cuaderno/03-contrato-agente.md" download>MD contract <span class="original-language">(Spanish original)</span></a>
+        </li>
+        <li>
+          <span class="step">04</span>
+          <div><h3>Prototype in Codex</h3><p>Organise sources, persistent rules, a skill, fictional inputs, results and a log.</p></div>
+          <a href="../../ejercicio-2-proyecto-propio/materiales/proyecto-base/AGENTS.md" download>Starter AGENTS.md <span class="original-language">(Spanish original)</span></a>
+        </li>
+        <li>
+          <span class="step">05</span>
+          <div><h3>Self-designed tests</h3><p>Design normal, incomplete, adversarial, linguistically diverse and borderline cases; correct at least one failure.</p></div>
+          <a href="../../ejercicio-2-proyecto-propio/materiales/cuaderno/04-bitacora-pruebas.md" download>MD test log <span class="original-language">(Spanish original)</span></a>
+        </li>
+        <li>
+          <span class="step">06</span>
+          <div><h3>Maturity reflection</h3><p>Explain what changed from the canvas, what still needs validation and which decision must remain human.</p></div>
+          <a href="../../ejercicio-2-proyecto-propio/materiales/cuaderno/05-reflexion-madurez.md" download>MD reflection <span class="original-language">(Spanish original)</span></a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="teams" aria-labelledby="teams-title">
+      <header>
+        <p class="eyebrow">Starting points derived from the canvases</p>
+        <h2 id="teams-title">These are not answers. They are tensions each team must resolve.</h2>
+      </header>
+      <article>
+        <span>Team 01</span>
+        <h3>Discretion and essays</h3>
+        <p>The canvas points to discretion, but you still need to verify what Gemini does, what the prompt does, who assesses and who authorises. The guided exercise's reviewer is a possibility, not a conclusion.</p>
+        <a href="../../ejercicio-2-proyecto-propio/materiales/equipos/equipo-1-discrecionalidad.md" download>Download team guide <span class="original-language">(Spanish original)</span></a>
+      </article>
+      <article>
+        <span>Team 02</span>
+        <h3>The gap in the second phase</h3>
+        <p>The operational problem seems clearer, but the proposal combines too many solutions. Choose one bottleneck and one useful artifact before configuring the agent.</p>
+        <a href="../../ejercicio-2-proyecto-propio/materiales/equipos/equipo-2-expediente.md" download>Download team guide <span class="original-language">(Spanish original)</span></a>
+      </article>
+      <article>
+        <span>Team 03</span>
+        <h3>Governance and traceability</h3>
+        <p>The concern is relevant but still needs a concrete use case. Before building the auditor, identify the system, process, decision, record and accountable person you are examining.</p>
+        <a href="../../ejercicio-2-proyecto-propio/materiales/equipos/equipo-3-gobernanza.md" download>Download team guide <span class="original-language">(Spanish original)</span></a>
+      </article>
+    </section>
+
+    <section class="timing" aria-labelledby="timing-title">
+      <div>
+        <p class="eyebrow">Suggested follow-up session · 120 minutes</p>
+        <h2 id="timing-title">Spend the time making decisions, not touring buttons.</h2>
+      </div>
+      <ol>
+        <li><time>00–20</time><span>Audit the canvas and classify facts, hypotheses and questions.</span></li>
+        <li><time>20–40</time><span>Map the process and locate the human decision.</span></li>
+        <li><time>40–60</time><span>Choose the task and complete the agent contract.</span></li>
+        <li><time>60–90</time><span>Configure the Codex prototype using fictional data.</span></li>
+        <li><time>90–110</time><span>Design tests, provoke a failure and correct it.</span></li>
+        <li><time>110–120</time><span>Present changed judgement, evidence and residual risk.</span></li>
+      </ol>
+    </section>
+
+    <section class="criteria" aria-labelledby="criteria-title">
+      <div class="criteria-title">
+        <p class="eyebrow">Passing criterion</p>
+        <h2 id="criteria-title">The most impressive agent does not win.</h2>
+      </div>
+      <blockquote>The winning team can demonstrate what it knows, what it still assumes, what it delegated, what it prohibited, how it tested and who retains the decision.</blockquote>
+      <div class="final-actions">
+        <a class="button primary" href="../../output/pdf/Ejercicio_2_Del_Lienzo_Al_Agente_ChangeSprint_2026.pdf" target="_blank" rel="noopener">Open PDF instructions <span class="original-language">(Spanish original)</span></a>
+        <a class="button primary" href="../../ejercicio-2-proyecto-propio/materiales/ejercicio-2-proyecto-propio.zip" download>Download all materials <span class="original-language">(Spanish original)</span></a>
+        <a class="button ghost" href="../curso-2-agentes-verificables/">Return to session 02</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Edgar Valdés · Nodo Guanajuato A.C. · Red Global MX</span>
+    <span>ChangeSprint Encuentro 2026</span>
+  </footer>
+<script src="../../assets/course-language-switch.js" defer></script>
+</body>
+</html>

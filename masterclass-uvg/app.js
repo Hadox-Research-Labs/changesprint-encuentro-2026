@@ -18,6 +18,7 @@
   if(s.video&&!media)$('video-label').textContent='El video no está disponible. Podemos continuar con las escenas y las notas.';
   status.textContent=s.cover?`Portada · ${s.title}`:`Lámina ${s.index} de ${slides.length-1} · ${s.title}`;
   if(update)history.replaceState(null,'',s.cover?'#portada':`#${s.index}`);
+  window.syncCourseLanguageLinks?.();
   if(slides[current+1]){const preload=new Image();preload.src=`assets/slides/${slides[current+1].file}`;}
  }
  async function fullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else if($('presentation').requestFullscreen)await $('presentation').requestFullscreen();else status.textContent='Usa Ampliar para abrir la lámina.';}catch{status.textContent='Pantalla completa no disponible. Usa Ampliar.'}}

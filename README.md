@@ -33,16 +33,16 @@ Abrir `http://localhost:8088/`.
 
 GitHub Pages publica el repositorio desde la raíz de la rama `main`.
 
-## Ediciones de lectura en inglés y armenio
+## Traducciones completas del sitio original
 
-- [English](en/): las dos sesiones (27 + 12 temas), cuaderno práctico y kits descargables.
-- [Հայերեն](hy/): el mismo recorrido en armenio, como traducción asistida por IA pendiente de revisión de un especialista armeniohablante.
+- [English](en/): la misma página principal, master class, dos presentaciones y ejercicio aplicado que el original.
+- [Հայերեն](hy/): las mismas cinco páginas en armenio, como traducción asistida por IA pendiente de revisión de un especialista armeniohablante.
 
-Las ediciones de lectura trasladan las notas docentes a HTML accesible, con adaptación editorial ligera para estudio autónomo. Incluyen preparación, reglas de trabajo, los tres kits con cinco casos ficticios por equipo y plantillas para el ejercicio aplicado. Los casos de variación lingüística se adaptan al idioma de lectura. Se conserva el contexto original de Guatemala/FONABE; no se presenta como normativa de Armenia.
+Se conserva la estructura HTML, las secciones, las imágenes y los destinos de navegación del sitio español. Cada texto y atributo accesible de las páginas tiene una traducción explícita; el constructor falla si falta una. Se traducen íntegramente las 39 notas de las dos sesiones y las 17 notas de la master class por idioma. Las notas aparecen debajo de cada lámina, se sincronizan con la navegación y pueden narrarse en el idioma seleccionado si el navegador ofrece una voz adecuada. Cambiar de idioma conserva la lámina actual.
 
-Los originales visuales, la master class adicional y los PDF/PPTX continúan en español y están identificados como tales. Las descargas traducidas son Markdown y ZIP; el lector permite imprimir o guardar como PDF desde el navegador. La narración sólo utiliza una voz del idioma seleccionado si el navegador dispone de ella; nunca sustituye una voz inglesa para leer armenio.
+Las imágenes de las láminas y los archivos originales PDF/PPTX siguen en español. Las descargas que conservan el original se identifican como tales; los guiones íntegros y la guía de facilitación están traducidos. Los materiales de práctica de la primera edición de lectura permanecen disponibles en `en/downloads/` y `hy/downloads/`, pero no sustituyen los originales ni las traducciones completas. Los enlaces anteriores `session-1.html`, `session-2.html` y `workshop.html` redirigen ahora a las páginas completas. No hay una portada resumida alternativa por idioma.
 
-Fuentes de traducción: `i18n/en/` e `i18n/hy/`. Regenerar las ocho páginas y los ocho paquetes ZIP con:
+Fuentes activas: `i18n/full-ui-source.json`, `i18n/full-ui.tsv`, `i18n/en/notes-full.md`, `i18n/hy/notes-full.md`, `i18n/masterclass-full.tsv` e `i18n/full-docs/`. Regenerar y comprobar las diez páginas completas con:
 
 ```bash
 python tools/build_languages.py

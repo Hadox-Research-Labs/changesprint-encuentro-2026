@@ -1,0 +1,18 @@
+/* Language editions share the original pages and artwork. */
+@font-face{font-family:"Noto Sans Armenian";src:url("fonts/NotoSansArmenian.ttf") format("truetype");font-weight:100 900;font-display:swap}
+html[lang=hy] body,html[lang=hy] h1,html[lang=hy] h2,html[lang=hy] h3,html[lang=hy] .full-notes,html[lang=hy] .course-languagebar,html[lang=hy] .translation-context{font-family:"Noto Sans Armenian","Segoe UI",Arial,sans-serif!important}
+html{overflow-x:clip}h1,h2,h3,p{overflow-wrap:anywhere}
+.course-languagebar{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:5px;padding:8px 4vw;background:#fff;color:#063848;border-bottom:1px solid #d4dfdf;font:600 14px/1.5 "Segoe UI",Arial,sans-serif}
+.course-languagebar a{display:inline-flex;align-items:center;min-height:44px;padding:6px 14px;text-decoration:none}.course-languagebar a[aria-current]{background:#032833;color:#fff;border-radius:4px}.course-languagebar a:focus-visible{outline:3px solid #00bd62;outline-offset:2px}
+.translation-context{padding:12px max(20px,4vw);margin:0;background:#f0f5f3;color:#063848;font:14px/1.65 "Segoe UI",Arial,sans-serif}.translation-context p{margin:0}.translation-context p+p{margin-top:6px}
+html.full-deck,html.full-deck body{height:auto!important;overflow-y:auto!important;overflow-x:hidden!important}
+.full-deck .reveal{height:76vh;min-height:280px;max-height:1000px;width:100%;margin-top:72px}
+.full-deck .narration-controls{flex-wrap:wrap;width:max-content;max-width:calc(100vw - 20px);top:6px}
+.full-deck [data-course-languages]{display:flex;gap:4px}
+.full-deck .course-languagebar{padding:0;border:0;background:transparent}.full-deck .course-languagebar a{min-height:30px;padding:3px 8px}
+.full-notes{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:30px 30px 55px;color:#07394b;background:#fff;font:18px/1.8 Inter,"Segoe UI",Arial,sans-serif;overflow-wrap:anywhere}
+.full-notes h2{font-size:clamp(25px,3vw,38px);line-height:1.3;margin:0 0 22px}.full-notes p{margin:0 0 18px}.full-notes .note-label{font-size:12px;font-weight:700;letter-spacing:.08em}.full-deck .keyboard-help{position:static;padding:12px 25px}.full-deck .reveal .controls{position:absolute}
+html[lang=hy] h1,html[lang=hy] h2,html[lang=hy] h3{font-family:"Segoe UI",Arial,sans-serif;line-height:1.3!important;letter-spacing:0!important}html[lang=hy] body{font-family:"Segoe UI",Arial,sans-serif}html[lang=hy] .hero-inner h1{font-size:clamp(45px,6.5vw,105px)}html[lang=hy] .hero-copy h1{font-size:clamp(40px,6vw,88px)}html[lang=hy] .hero-number{font-family:Inter,Arial,sans-serif}html[lang=hy] .full-notes{line-height:1.9}
+@media(max-width:760px){.full-deck .reveal{margin-top:128px;height:42vh;min-height:220px}.full-notes{padding:24px 6vw 35px;font-size:17px}.full-deck .narration-controls{position:absolute;top:8px}.translation-context{font-size:13px}.course-languagebar{justify-content:center}.full-deck .narration-controls select{max-width:130px}.full-deck .narration-controls input[type=range]{width:60px}}
+@media(max-width:760px){html[lang=hy] .session h2{font-size:clamp(30px,7vw,44px)}html[lang=hy] .eyebrow,html[lang=hy] .resource-type{letter-spacing:.06em}}
+@media print{.full-deck .narration-controls,.course-languagebar,.full-deck .keyboard-help{display:none}.full-deck .reveal{height:45vh;margin:0}.full-notes{max-width:none;padding:20px 0}.translation-context{padding:10px 0}}
