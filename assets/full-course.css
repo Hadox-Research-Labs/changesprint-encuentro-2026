@@ -7,7 +7,7 @@ html{overflow-x:clip}h1,h2,h3,p{overflow-wrap:anywhere}
 .translation-context{padding:12px max(20px,4vw);margin:0;background:#f0f5f3;color:#063848;font:14px/1.65 "Segoe UI",Arial,sans-serif}.translation-context p{margin:0}.translation-context p+p{margin-top:6px}
 html.full-deck,html.full-deck body{height:auto!important;overflow-y:auto!important;overflow-x:hidden!important}
 .full-deck .reveal{height:76vh;min-height:280px;max-height:1000px;width:100%;margin-top:72px}
-.full-deck .narration-controls{flex-wrap:wrap;width:max-content;max-width:calc(100vw - 20px);top:6px}
+.full-deck .narration-controls{box-sizing:border-box;flex-wrap:wrap;width:max-content;max-width:calc(100% - 20px);top:6px}
 .full-deck [data-course-languages]{display:flex;gap:4px}
 .full-deck .course-languagebar{padding:0;border:0;background:transparent}.full-deck .course-languagebar a{min-height:30px;padding:3px 8px}
 .full-notes{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:30px 30px 55px;color:#07394b;background:#fff;font:18px/1.8 Inter,"Segoe UI",Arial,sans-serif;overflow-wrap:anywhere}

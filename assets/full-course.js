@@ -17,6 +17,12 @@
   const panelTitle=document.querySelector('[data-full-slide-title]');
   const panelNotes=document.querySelector('[data-full-slide-notes]');
   const pause=controls.querySelector('[data-narration-pause]');
+  function fitToolbar(){
+    document.querySelector('.reveal').style.marginTop=(controls.getBoundingClientRect().height+20)+'px';
+    if(Reveal.isReady())Reveal.layout();
+  }
+  if('ResizeObserver'in window)new ResizeObserver(fitToolbar).observe(controls);
+  window.addEventListener('resize',fitToolbar);fitToolbar();
   let run=0,auto=false,paused=false;
   let speech;
   const setStatus=text=>{status.textContent=text;};
