@@ -32,3 +32,19 @@ python -m http.server 8088
 Abrir `http://localhost:8088/`.
 
 GitHub Pages publica el repositorio desde la raíz de la rama `main`.
+
+## Ediciones de lectura en inglés y armenio
+
+- [English](en/): las dos sesiones (27 + 12 temas), cuaderno práctico y kits descargables.
+- [Հայերեն](hy/): el mismo recorrido en armenio, como traducción asistida por IA pendiente de revisión de un especialista armeniohablante.
+
+Las ediciones de lectura trasladan las notas docentes a HTML accesible, con adaptación editorial ligera para estudio autónomo. Incluyen preparación, reglas de trabajo, los tres kits con cinco casos ficticios por equipo y plantillas para el ejercicio aplicado. Los casos de variación lingüística se adaptan al idioma de lectura. Se conserva el contexto original de Guatemala/FONABE; no se presenta como normativa de Armenia.
+
+Los originales visuales, la master class adicional y los PDF/PPTX continúan en español y están identificados como tales. Las descargas traducidas son Markdown y ZIP; el lector permite imprimir o guardar como PDF desde el navegador. La narración sólo utiliza una voz del idioma seleccionado si el navegador dispone de ella; nunca sustituye una voz inglesa para leer armenio.
+
+Fuentes de traducción: `i18n/en/` e `i18n/hy/`. Regenerar las ocho páginas y los ocho paquetes ZIP con:
+
+```bash
+python tools/build_languages.py
+python tools/check_languages.py
+```
